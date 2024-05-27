@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function MacbookScrollDemo() {
     return (
-        <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full -z-10">
+        <div className="overflow-hidden bg-slate-900 bg-white w-full -z-10">
             <MacbookScroll
                 title={
                     <span>

@@ -62,7 +62,7 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
         <>
             <div
                 ref={ref}
-                className="min-h-[200vh] bg-gradient-to-r from-zinc-950 to-zinc-900  md:flex flex-col items-center py-0 md:py-20 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50 overflow-hidden  hidden"
+                className="min-h-[200vh] bg-slate-950 md:flex flex-col items-center py-0 md:py-20 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50 overflow-hidden  hidden"
             >
                 <motion.h2
                     style={{
@@ -153,7 +153,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
             >
                 <div className="absolute inset-0 bg-[#272729] rounded-lg" />
                 <Image
-                    src={"/mac.jpg"}
+                    src={"/about.jpeg"}
                     alt="aceternity logo"
                     fill
                     className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
