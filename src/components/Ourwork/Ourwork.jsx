@@ -59,7 +59,7 @@ export default function App() {
             </div>
             <Swiper
                 onSwiper={setSwiperRef}
-                slidesPerView={3}
+                slidesPerView={5}
                 centeredSlides={true}
                 spaceBetween={30}
                 // pagination={{
