@@ -70,13 +70,117 @@ export default function App() {
                 className="mySwiper bg-slate-950"
             >
 
-                <SwiperSlide><Image src="/client1.jpg" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client2.png" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client3.jpg" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client4.jpg" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client5.webp" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client6.jpg" width={600} height={600} className='ourwork' /></SwiperSlide>
-                <SwiperSlide><Image src="/client7.jpg" width={600} height={600} className='ourwork' /></SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client1.jpg" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client2.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client3.jpg" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client4.jpg" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client5.webp" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client1.jpg" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/client6.jpg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client7.jpg" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                            </div>
+                            <p className="text-white text-center">this is description.</p>
+                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+
+
+
+
+
 
 
             </Swiper>

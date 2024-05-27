@@ -154,3 +154,16 @@ body {
 .swiper-button-next:after {
   font-size: 20px !important;
 }
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+  height: 100%;
+}
+
+.transition-opacity {
+  transition: opacity 0.3s;
+}
+
+.bg-opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
