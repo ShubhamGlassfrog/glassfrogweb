@@ -47,6 +47,16 @@ export default function App() {
 
     return (
         <>
+            <div className="  w-full h-full flex flex-col items-center justify-center bg-slate-950 ">
+                <div className="container relative flex flex-col  justify-center h-full bg-slate-950">
+                    <h5 className="text-white owhead font-bold mb-4">
+                        OUR LATEST WORK                    </h5>
+                    <p className="text-white pt-5 pb-5">
+                        Pioneering change across technology, marketing and social.
+                    </p>
+
+                </div>
+            </div>
             <Swiper
                 onSwiper={setSwiperRef}
                 slidesPerView={3}

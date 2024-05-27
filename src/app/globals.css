@@ -58,6 +58,10 @@ body {
   font-size: 5rem;
 }
 
+.owhead {
+  font-size: 3rem;
+}
+
 .marquee {
   display: flex;
   animation: marquee 20s linear infinite;
