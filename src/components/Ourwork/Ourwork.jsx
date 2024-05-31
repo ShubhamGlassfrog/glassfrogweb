@@ -69,11 +69,25 @@ export default function App() {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper bg-slate-950"
+                breakpoints={{
+                    320: { // Mobile
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    640: { // Tablets
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    1024: { // Desktop
+                        slidesPerView: 5,
+                        spaceBetween: 30,
+                    },
+                }}
             >
 
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client1.jpg" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client1.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
@@ -103,7 +117,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client3.jpg" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client3.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
@@ -118,7 +132,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client4.jpg" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client4.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
@@ -133,7 +147,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client5.webp" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client5.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
@@ -148,7 +162,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client1.jpg" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client6.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
@@ -163,7 +177,7 @@ export default function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
-                        <Image src="/client7.jpg" width={600} height={600} className='w-full h-full object-cover' />
+                        <Image src="/client7.png" width={600} height={600} className='w-full h-full object-cover' />
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">

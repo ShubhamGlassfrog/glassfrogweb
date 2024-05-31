@@ -9,6 +9,7 @@ import Marquee from "@/components/Marquee/Marquee";
 import "../../node_modules/swiper/swiper-bundle.min.css"
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Letsgo from "@/components/Letsgo/Letsgo";
+import Footer from "@/components/Footer/Footer";
 export default function Home() {
   return (
     <>
@@ -20,6 +21,7 @@ export default function Home() {
       <Ourwork />
       <Letsgo />
       {/* <Testimonial /> */}
+      <Footer />
     </>
   );
 }

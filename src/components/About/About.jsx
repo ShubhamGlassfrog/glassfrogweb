@@ -21,15 +21,13 @@ const AboutUs = () => {
                     </div>
 
                     {/* Second Column */}
-                    <div className="flex space-y-8 justify-center gap-8 pt-10">
+                    <div className="flex space-y-8 justify-center gap-16 pt-14 items-center">
+
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/a1.webp" alt="Logo 1" width={200} height={100} />
+                            <Image className='alogo' src="/a2.png" alt="Logo 2" width={200} height={100} />
                         </div>
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/a2.svg" alt="Logo 2" width={200} height={100} />
-                        </div>
-                        <div className="flex justify-center">
-                            <Image className='alogo' src="/a3.svg" alt="Logo 3" width={200} height={100} />
+                            <Image className='alogo' src="/a3.png" alt="Logo 3" width={200} height={100} />
                         </div>
                     </div>
                 </div>
