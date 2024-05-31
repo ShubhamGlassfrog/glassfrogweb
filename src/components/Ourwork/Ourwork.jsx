@@ -50,9 +50,10 @@ export default function App() {
             <div className="  w-full h-full flex flex-col items-center justify-center bg-slate-950 ">
                 <div className="container relative flex flex-col  justify-center h-full bg-slate-950">
                     <h5 className="text-white owhead font-bold mb-4">
-                        OUR LATEST WORK                    </h5>
-                    <p className="text-white pt-5 pb-5">
-                        Pioneering change across technology, marketing and social.
+                        OUR PORTFOLIO
+                    </h5>
+                    <p className="text-white  pb-5">
+                        Bridging the Gap between Audiences and Brands in the most innovative way!
                     </p>
 
                 </div>

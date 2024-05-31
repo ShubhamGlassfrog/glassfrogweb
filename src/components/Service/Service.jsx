@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <div className='flex flex-row justify-center py-20 items-center bg-slate-950'>
             <div className=" flex flex-col md:flex-row sm:flex-row justify-center items-center container gap-10">
-                <div className="relative w-1/2">
+                <div className="relative w-full md:w-1/2 sm:w-1/2">
                     <video autoPlay loop muted className="w-full">
                         <source src="/Marketing.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
@@ -13,7 +13,7 @@ const Service = () => {
                         Digital Marketing
                     </button>
                 </div>
-                <div className="relative w-1/2">
+                <div className="relative w-full md:w-1/2 sm:w-1/2">
                     <video autoPlay loop muted className="w-full">
                         <source src="/Website.mp4" type="video/mp4" />
                         Your browser does not support the video tag.

@@ -24,20 +24,18 @@ const VideoSection = () => {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-70">
                 <div className="container relative flex flex-col  justify-center h-full">
                     <h1 className="text-white vhead font-bold mb-4">
-                        DIGITAL AGENCY WITH A PASSION FOR MARKETING
+                        THRIVING BUSINESSES WITH TECHNICAL EXCELLENCE
                     </h1>
-                    <p className="text-white">
-                        We're glad to have you here. Explore and enjoy!
-                    </p>
+
                     <div className="flex gap-5">
-                        <button className="servicebutton mt-5 text-black p-4 rounded">Marketing/ Social</button>
-                        <button className="servicebutton mt-5 text-black p-4 rounded">Technology/Website</button>
+                        <button className="servicebutton1  ">Marketing/Social</button>
+                        <button className="servicebutton">Technology/Website</button>
                     </div>
                 </div>
             </div>
 
             <button
-                className="absolute bottom-5 left-5 bg-white text-black p-3 rounded-full shadow-lg"
+                className="absolute bottom-20 left-5 bg-white text-black p-3 rounded-full shadow-lg"
                 onClick={handlePlayButtonClick}
             >
                 ▶
