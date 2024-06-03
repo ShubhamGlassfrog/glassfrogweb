@@ -6,7 +6,7 @@ const Footer = () => {
 
 
 
-            <footer className="bg-white ">
+            <footer className="bg-white pt-16 pb-16">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0 w-2/4">
@@ -18,13 +18,15 @@ const Footer = () => {
                         </div>
                         <div className="flex w-2/4">
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Location</h2>
-                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                                <h2 className="mb-3 text-sm font-semibold text-gray-900 uppercase ">Location</h2>
+                                <ul className="text-gray-500  font-medium">
                                     <li className="mb-4">
-                                        <a href="https://flowbite.com/" className="hover:underline">​​Jumpstart Tower, 2nd floor, Haridwar Bypass Rd, opp. Nilaya Hills, Saraswati Vihar, Ajabpur Kalan, Dehradun, Uttarakhand 248001.</a>
+                                        <a >​​Jumpstart Tower, 2nd floor, Haridwar Bypass Rd, opp. Nilaya Hills, Saraswati Vihar, Ajabpur Kalan, Dehradun, Uttarakhand 248001.</a>
                                     </li>
+                                    <h2 className="mb-3 mt-6 text-sm font-semibold text-gray-900 uppercase ">Phone</h2>
+
                                     <li>
-                                        <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                                        <a >+91 9084712335, +91 9084712325</a>
                                     </li>
                                 </ul>
                             </div>

@@ -27,7 +27,7 @@ const Header = () => {
                                 <Link href="/about" className="text-white hover:text-white">
                                     About
                                 </Link>
-                                <Link href="/contact" className="text-white hover:text-white">
+                                <Link href="/services" className="text-white hover:text-white">
                                     Services
                                 </Link>
                                 <button className="hidden md:inline-flex items-center px-3 py-2 ml-4 border border-transparent roundedcustom shadow-sm text-sm font-medium text-black bg-white hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">

@@ -1,179 +1,88 @@
-'use strict'
-import React from "react";
+"use client"
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
-const Testimonial = () => {
-    // vars
+// import required modules
+import { Pagination, Autoplay } from 'swiper/modules';
 
-    var testim = document.getElementById("testim"),
-        testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-        testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-        testimLeftArrow = document.getElementById("left-arrow"),
-        testimRightArrow = document.getElementById("right-arrow"),
-        testimSpeed = 4500,
-        currentSlide = 0,
-        currentActive = 0,
-        testimTimer,
-        touchStartPos,
-        touchEndPos,
-        touchPosDiff,
-        ignoreTouch = 30;
-    ;
-
-    window.onload = function () {
-
-        // Testim Script
-        function playSlide(slide) {
-            for (var k = 0; k < testimDots.length; k++) {
-                testimContent[k].classList.remove("active");
-                testimContent[k].classList.remove("inactive");
-                testimDots[k].classList.remove("active");
-            }
-
-            if (slide < 0) {
-                slide = currentSlide = testimContent.length - 1;
-            }
-
-            if (slide > testimContent.length - 1) {
-                slide = currentSlide = 0;
-            }
-
-            if (currentActive != currentSlide) {
-                testimContent[currentActive].classList.add("inactive");
-            }
-            testimContent[slide].classList.add("active");
-            testimDots[slide].classList.add("active");
-
-            currentActive = currentSlide;
-
-            clearTimeout(testimTimer);
-            testimTimer = setTimeout(function () {
-                playSlide(currentSlide += 1);
-            }, testimSpeed)
-        }
-
-        testimLeftArrow.addEventListener("click", function () {
-            playSlide(currentSlide -= 1);
-        })
-
-        testimRightArrow.addEventListener("click", function () {
-            playSlide(currentSlide += 1);
-        })
-
-        for (var l = 0; l < testimDots.length; l++) {
-            testimDots[l].addEventListener("click", function () {
-                playSlide(currentSlide = testimDots.indexOf(this));
-            })
-        }
-
-        playSlide(currentSlide);
-
-        // keyboard shortcuts
-        document.addEventListener("keyup", function (e) {
-            switch (e.keyCode) {
-                case 37:
-                    testimLeftArrow.click();
-                    break;
-
-                case 39:
-                    testimRightArrow.click();
-                    break;
-
-                case 39:
-                    testimRightArrow.click();
-                    break;
-
-                default:
-                    break;
-            }
-        })
-
-        testim.addEventListener("touchstart", function (e) {
-            touchStartPos = e.changedTouches[0].clientX;
-        })
-
-        testim.addEventListener("touchend", function (e) {
-            touchEndPos = e.changedTouches[0].clientX;
-
-            touchPosDiff = touchStartPos - touchEndPos;
-
-            console.log(touchPosDiff);
-            console.log(touchStartPos);
-            console.log(touchEndPos);
-
-
-            if (touchPosDiff > 0 + ignoreTouch) {
-                testimLeftArrow.click();
-            } else if (touchPosDiff < 0 - ignoreTouch) {
-                testimRightArrow.click();
-            } else {
-                return;
-            }
-
-        })
-    }
+export default function App() {
     return (
-
-
-        <section id="testim" class="testim">
-            <div class="testim-cover">
-                <div class="wrap">
-
-                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-                    <ul id="testim-dots" class="dots">
-                        <li class="dot active"></li>
-                        <li class="dot"></li>
-                        <li class="dot"></li>
-                        <li class="dot"></li>
-                        <li class="dot"></li>
-                    </ul>
-                    <div id="testim-content" class="cont">
-
-                        <div class="active">
-                            <div class="img"><img src="" />
-                                <h2>Lorem P. Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                            </div>
-
-                            <div>
-                                <div class="img"><img src="" />
-                                    <h2>Mr. Lorem Ipsum</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                </div>
-
-                                <div>
-                                    <div class="img"><img src="" />
-                                        <h2>Lorem Ipsum</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <>
+            <div className='bg-slate-950'>
+                <Swiper
+                    spaceBetween={30}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    }}
+                    modules={[Pagination, Autoplay]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><section className="bg-slate-950 pt-48">
+                        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                            <figure className="max-w-screen-md mx-auto">
+                                <svg className="h-12 mx-auto mb-3 text-white " viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor" />
+                                </svg>
+                                <blockquote>
+                                    <p className="text-2xl font-medium text-white ">"The advanced technology solutions have significantly enhanced our academy's efficiency and educational quality. Their impact is truly transformative."</p>
+                                </blockquote>
+                                <figcaption className="flex items-center justify-center mt-6 space-x-3">
+                                    <div className="flex items-center divide-x-2 divide-gray-500 ">
+                                        <div className="pr-3 font-medium text-white ">Col Praneet Dangwal</div>
+                                        <div className="pl-3 text-sm font-light text-white ">Founder @Rantraacademy</div>
                                     </div>
-
-                                    <div>
-                                        <div class="img">
-                                            <img src="" />
-                                            <h2>Lorem De Ipsum</h2>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                        </div>
-
-                                        <div>
-                                            <div class="img">
-                                                <img src="" />
-                                                <h2>Ms. Lorem R. Ipsum</h2>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
+                                </figcaption>
+                            </figure>
                         </div>
-                    </div>
-                </div>
+                    </section></SwiperSlide>
+                    <SwiperSlide><section className="bg-slate-950 pt-48">
+                        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                            <figure className="max-w-screen-md mx-auto">
+                                <svg className="h-12 mx-auto mb-3 text-white " viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor" />
+                                </svg>
+                                <blockquote>
+                                    <p className="text-2xl font-medium text-white ">"Working with Glassfrog Technologies has been an absolute pleasure. Their attention to detail, professionalism, and commitment to delivering high-quality results have exceeded our expectations. We really appreciate Glassfrog Technologies for their outstanding work and looking forward to future collaborations."</p>
+                                </blockquote>
+                                <figcaption className="flex items-center justify-center mt-6 space-x-3">
+                                    <div className="flex items-center divide-x-2 divide-gray-500 ">
+                                        <div className="pr-3 font-medium text-white ">Khalil Kothlani</div>
+                                        <div className="pl-3 text-sm font-light text-white ">Founder @moaiconsulting</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section></SwiperSlide>
+                    <SwiperSlide><section className="bg-slate-950 pt-48">
+                        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                            <figure className="max-w-screen-md mx-auto">
+                                <svg className="h-12 mx-auto mb-3 text-white " viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor" />
+                                </svg>
+                                <blockquote>
+                                    <p className="text-2xl font-medium text-white ">"The CRM system you built for us is fantastic! It's streamlined our customer interactions and made our processes much more efficient. We love how intuitive and effective it is. Thank you for transforming our business operations."</p>
+                                </blockquote>
+                                <figcaption className="flex items-center justify-center mt-6 space-x-3">
+                                    <div className="flex items-center divide-x-2 divide-gray-500 ">
+                                        <div className="pr-3 font-medium text-white ">Carmari</div>
+                                        <div className="pl-3 text-sm font-light text-white ">Core Member @thefieldsports</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section></SwiperSlide>
+                </Swiper>
             </div>
-        </section>
-
+        </>
     );
-};
-
-export default Testimonial;
+}

@@ -6,7 +6,7 @@ const Letsgo = () => {
     return (
         <>
 
-            <section className="bg-slate-950 py-16 pt-32">
+            <section className="bg-slate-950 py-16 pt-48 pb-48">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="">
                         {/* First Column */}

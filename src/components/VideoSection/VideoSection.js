@@ -27,19 +27,20 @@ const VideoSection = () => {
                         THRIVING BUSINESSES WITH TECHNICAL EXCELLENCE
                     </h1>
 
-                    <div className="flex gap-5">
+                    <div className="flex flex-col md:flex-row sm:flex-row gap-5">
                         <button className="servicebutton1  ">Marketing/Social</button>
                         <button className="servicebutton">Technology/Website</button>
+                        <button
+                            className="  left-5 bg-white text-black p-3 rounded-full shadow-lg"
+                            onClick={handlePlayButtonClick}
+                        >
+                            ▶
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <button
-                className="absolute bottom-20 left-5 bg-white text-black p-3 rounded-full shadow-lg"
-                onClick={handlePlayButtonClick}
-            >
-                ▶
-            </button>
+
 
             {isModalOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">

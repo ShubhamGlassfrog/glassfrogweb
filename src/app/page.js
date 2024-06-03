@@ -19,8 +19,9 @@ export default function Home() {
       <AboutUs />
       <Service />
       <Ourwork />
+      <Testimonial />
       <Letsgo />
-      {/* <Testimonial /> */}
+
       <Footer />
     </>
   );
