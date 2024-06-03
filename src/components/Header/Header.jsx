@@ -85,7 +85,7 @@ const Header = () => {
                         About
 
                     </Link>
-                    <Link href="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
+                    <Link href="/services" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
 
                         Services
 
