@@ -31,7 +31,7 @@ const Header = () => {
                                     Services
                                 </Link>
                                 <button className="hidden md:inline-flex items-center px-3 py-2 ml-4 border border-transparent roundedcustom shadow-sm text-sm font-medium text-black bg-white hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-                                    Contact Us
+                                      <Link href="/contact" >Contact Us</Link>
                                 </button>
                             </nav>
                         </div>
@@ -91,7 +91,7 @@ const Header = () => {
 
                     </Link>
                     <button className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-black bg-white hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-                        Contact Us
+                       <Link href="/contact" >Contact Us</Link> 
                     </button>
                 </nav>
             </div>

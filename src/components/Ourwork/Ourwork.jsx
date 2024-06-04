@@ -91,12 +91,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo1.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -106,12 +106,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo2.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -121,12 +121,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo3.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -136,12 +136,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo4.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -151,12 +151,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo5.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -166,12 +166,12 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/client6.jpg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo6.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -181,12 +181,57 @@ export default function App() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <div className="mb-2">
-                                <Image src="/ser1.svg" width={50} height={50} alt="Logo" />
+                                <Image src="/clogo7.png" width={150} height={150} alt="Logo" />
                             </div>
-                            <p className="text-white text-center">this is description.</p>
-                            <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
                                 hello
-                            </button>
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
+<SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client8.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo8.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
+<SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client9.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo9.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client10.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo10.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
                         </div>
                     </div>
                 </SwiperSlide>
