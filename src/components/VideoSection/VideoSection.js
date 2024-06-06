@@ -24,7 +24,7 @@ const VideoSection = () => {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-70">
                 <div className="container relative flex flex-col  justify-center h-full">
                     <h1 className="text-white vhead font-bold mb-4">
-                        THRIVING BUSINESSES WITH TECHNICAL EXCELLENCE
+                       DIGITAL LANGUAGE THAT COMMUNICATES YOUR BUSINESS
                     </h1>
 
                     <div className="flex flex-col md:flex-row sm:flex-row gap-5">

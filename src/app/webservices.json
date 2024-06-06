@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Websites",
+    "title": "Websites",
+    "description": "Description of Service 1"
+  },
+  {
+    "name": "Full stack development",
+    "title": "Full stack development",
+    "description": "Description of Service 2"
+  },
+  {
+    "name": "AI Services",
+    "title": "AI Services",
+    "description": "Description of Service 3"
+  },
+  {
+    "name": "System integrations",
+    "title": "System integrations",
+    "description": "Description of Service 4"
+  },
+  {
+    "name": "Automated & manual QA",
+    "title": "Automated & manual QA",
+    "description": "Description of Service 5"
+  },
+  {
+    "name": "Solution & hosting architecture",
+    "title": "Solution & hosting architecture",
+    "description": "Description of Service 6"
+  },
+  {
+    "name": "Cloud hosting",
+    "title": "Cloud hosting",
+    "description": "Description of Service 6"
+  },
+  {
+    "name": "CRM",
+    "title": "CRM",
+    "description": "Description of Service 6"
+  },
+  {
+    "name": "Analytics",
+    "title": "Analytics",
+    "description": "Description of Service 6"
+  }
+]
