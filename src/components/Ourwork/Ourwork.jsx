@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation,Autoplay } from 'swiper/modules';
 
 export default function App() {
     const [swiperRef, setSwiperRef] = useState(null);
@@ -67,7 +67,11 @@ export default function App() {
                 //     type: 'fraction',
                 // }}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
+                modules={[Pagination, Navigation,Autoplay]}
                 className="mySwiper bg-slate-950"
                 breakpoints={{
                     320: { // Mobile
