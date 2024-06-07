@@ -27,12 +27,10 @@ const page = () => {
                         {/* First Column */}
                         <div className="flex flex-col justify-center text-center items-center">
                             <h2 className="about font-extrabold text-white mb-4">
-                                EXPLORE MARKETING AND TECHNICAL EXCELLENCE WITH
-                                ARTIFICIAL INTELLEGENCE EXPERTISE
+                                BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-white mb-6">
-                                Create your own channel of online presence on different platforms with meticulous attention to website trends, digital strategies, technical ease, graphic elegance, and much more. Our adept team of market professionals is equipped with the latest skills to hep you navigate through technical differences and devise a personalized approach to marketing strategies.
-                            </p>
+Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
 
                         </div>
 
@@ -61,9 +59,10 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>IT STARTED</h1>
                             <p className="text-white mb-6">
-                                In 2014, Anthony and Tom decided to start their own agency – Make. Despite having no budget, the two friends were full of ambition and determined to make their agency a success, by delivering cutting edge, digital-first creative services.<br></br><br></br>
+                                The journey of Glassfrog Technologies began in the year 2021. Fueled by a passion for technical excellence, the Founder, Mr. Amit Bajaj exuded his experience to lay the foundation of a website development and design firm that assisted clients to find the aptly designed platform to market their businesses. <br></br><br></br>
 
-                                They worked tirelessly to secure their first few clients, often putting in long hours to provide top-quality work. As word spread, more and more clients began to hire them, and the business began to grow.                            </p>
+With time, the digital marketing industry induced into the sustaining passion of technology as innovation was explored beyond the limitations of traditional website marketing. With growing trends in social media platforms and digital channels, the team developed strategies with an urge to deliver branding outlooks to businesses, big and small. 
+</p>
 
                         </div>
 
