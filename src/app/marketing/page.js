@@ -56,12 +56,12 @@ const page = () => {
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href=''>Social Media</a></li>
-                              <li className=' serli'><a href=''>Creative Studio</a></li>
-                              <li className=' serli'><a href=''>Paid Social</a></li>
-                              <li className=' serli'><a href=''>Paid Search</a></li>
-                              <li className=' serli'><a href=''>Influencer</a></li>
-                              <li className=' serli'><a href=''>Community Management</a></li>
+                              <li className=' serli' ><a href='/social-media-advertising'>Social Media Advertising</a></li>
+                              <li className=' serli'><a href='/pay-per-click-ads'>Pay Per Click Ads</a></li>
+                            <li className=' serli'><a href='/search-engine-optimisation'>Search Engine Optimisation</a></li>
+                                                          <li className=' serli'><a href='/email-marketing'>Email Marketing</a></li>
+
+                              
                                                            
 
 

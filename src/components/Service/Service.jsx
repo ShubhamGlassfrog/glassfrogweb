@@ -49,12 +49,12 @@ const Service = () => {
                              TECHNOLOGY
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href=''>UX/Ui Design</a></li>
-                              <li className=' serli'><a href=''>Mobile Application</a></li>
-                              <li className=' serli'><a href=''>Web Application</a></li>
-                              <li className=' serli'><a href=''>AI Application</a></li>
-                              <li className=' serli'><a href=''>Security Services</a></li>
-                              <li className=' serli'><a href=''>IOT & Embedded</a></li>
+                              <li className=' serli' ><a href='/ux-ui-design'>UX/Ui Design</a></li>
+                              <li className=' serli'><a href='/mobile-application'>Mobile Application</a></li>
+                              <li className=' serli'><a href='/web-application'>Web Application</a></li>
+                              <li className=' serli'><a href='/ai-application'>AI Application</a></li>
+                              <li className=' serli'><a href='/security-services'>Security Services</a></li>
+                              <li className=' serli'><a href='/iot-embedded'>IOT & Embedded</a></li>
                                                             
 
 
