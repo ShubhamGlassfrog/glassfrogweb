@@ -79,7 +79,7 @@ const Footer = () => {
       {success && <p className="mt-4 text-green-500">{success}</p>}
                                 </div>
                                 </div>
-                            <img src="/logo.svg" class="h-32 me-3" alt="Glassfrog Logo" />
+                            <img src="/logo.svg" className="h-32 me-3" alt="Glassfrog Logo" />
                         </div>
                         <div className="flex w-full md:w-2/4 sm:w-2/4">
                             <div>

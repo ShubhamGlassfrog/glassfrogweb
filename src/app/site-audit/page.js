@@ -28,7 +28,7 @@ const page = () => {
                                 performing?</h3>
                             <p className='text-white' >Get an extensive audit finished within
 2 days for free. No strings attached.</p>
-                            <form action="#" class="space-y-8">
+                            <form action="#" className="space-y-8">
                                 <div>
                                     <label htmlFor="name" className="block mb-2 text-sm font-medium text-white">Your Name</label>
         <input
@@ -41,8 +41,8 @@ const page = () => {
         />
                                 </div>
           <div>
-              <label for="email" class="block mb-2 text-sm font-medium text-white ">Your email</label>
-              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="name@flowbite.com" required/>
+              <label for="email" className="block mb-2 text-sm font-medium text-white ">Your email</label>
+              <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="name@flowbite.com" required/>
                                 </div>
                                 <div>
                                    
@@ -57,11 +57,11 @@ const page = () => {
         />
                                 </div>
           <div>
-              <label for="subject" class="block mb-2 text-sm font-medium text-white ">Website</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Let us know how we can help you" required/>
+              <label for="subject" className="block mb-2 text-sm font-medium text-white ">Website</label>
+              <input type="text" id="subject" className="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Let us know how we can help you" required/>
           </div>
           
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+          <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
       </form>
   
 </div>
