@@ -1,8 +1,25 @@
 "use client"
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Header = () => {
+     const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -10,7 +27,11 @@ const Header = () => {
     };
 
     return (
-        <header className="fixed w-full bg-slate-950 shadow-md header">
+         <header
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-slate-950 shadow-md' : 'bg-transparent'
+      }`}
+    >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
