@@ -56,7 +56,7 @@ const page = () => {
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/social-media-advertising'>Social Media Advertising<svg
+                              <li className=' serli' ><a href='/social-media-advertising'>01. Social Media Advertising<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -70,7 +70,7 @@ const page = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/pay-per-click-ads'>Pay Per Click Ads<svg
+                              <li className=' serli'><a href='/pay-per-click-ads'>02. Pay Per Click Ads<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ const page = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                            <li className=' serli'><a href='/search-engine-optimisation'>Search Engine Optimisation<svg
+                            <li className=' serli'><a href='/search-engine-optimisation'>03. Search Engine Optimisation<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -98,7 +98,7 @@ const page = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                                                          <li className=' serli'><a href='/email-marketing'>Email Marketing<svg
+                                                          <li className=' serli'><a href='/email-marketing'>04. Email Marketing<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

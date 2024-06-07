@@ -18,7 +18,7 @@ const Letsgo = () => {
                             <p className="text-white mb-6">
                                 Let’s discuss your goals and challenges over a quick email or call.<br></br>
                                 Enter your details and we’ll be in touch!                            </p>
-                            <button className="enquire ">Enquire Now!</button>
+                            <button className="enquire hover:text-white hover:bg-[#ed2998]">Enquire Now!</button>
 
                         </div>
 

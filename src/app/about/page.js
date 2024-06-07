@@ -134,8 +134,24 @@ With time, the digital marketing industry induced into the sustaining passion of
                               WANT TO LEARN MORE<br></br>
 ABOUT WHAT WE DO?
                             </h2>
-                            <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
-OUR SERVICES                           <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
+                            <p className="text-white mb-6 flex items-center">
+  <a className='flex items-center gap-5 group' href='/services'>
+    OUR SERVICES
+    <svg
+      className="transform transition-transform duration-300 group-hover:translate-x-2"
+      width="160"
+      height="14"
+      viewBox="0 0 160 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z"
+        fill="#ffffff"
+      ></path>
+    </svg>
+  </a>
+</p>
 
                         </div>
 

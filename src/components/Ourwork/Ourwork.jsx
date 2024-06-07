@@ -83,7 +83,51 @@ export default function App() {
                         spaceBetween: 30,
                     },
                 }}
-            >
+            ><SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client8.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo8.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
+<SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client9.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo9.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="relative group w-full h-full">
+                        <Image src="/client10.png" width={600} height={600} className='w-full h-full object-cover' />
+
+                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="mb-2">
+                                <Image src="/clogo10.png" width={150} height={150} alt="Logo" />
+                            </div>
+                            
+                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
+                                hello
+                            </button> */}
+                        </div>
+                    </div>
+                </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="relative group w-full h-full">
@@ -190,51 +234,7 @@ export default function App() {
                         </div>
                     </div>
                 </SwiperSlide>
-<SwiperSlide>
-                    <div className="relative group w-full h-full">
-                        <Image src="/client8.png" width={600} height={600} className='w-full h-full object-cover' />
 
-                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div className="mb-2">
-                                <Image src="/clogo8.png" width={150} height={150} alt="Logo" />
-                            </div>
-                            
-                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
-                                hello
-                            </button> */}
-                        </div>
-                    </div>
-                </SwiperSlide>
-<SwiperSlide>
-                    <div className="relative group w-full h-full">
-                        <Image src="/client9.png" width={600} height={600} className='w-full h-full object-cover' />
-
-                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div className="mb-2">
-                                <Image src="/clogo9.png" width={150} height={150} alt="Logo" />
-                            </div>
-                            
-                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
-                                hello
-                            </button> */}
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="relative group w-full h-full">
-                        <Image src="/client10.png" width={600} height={600} className='w-full h-full object-cover' />
-
-                        <div className="absolute bottom-0 left-0 right-0 p-4 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div className="mb-2">
-                                <Image src="/clogo10.png" width={150} height={150} alt="Logo" />
-                            </div>
-                            
-                            {/* <button className="mt-2 px-4 py-2 bg-white text-black rounded-full">
-                                hello
-                            </button> */}
-                        </div>
-                    </div>
-                </SwiperSlide>
 
 
 

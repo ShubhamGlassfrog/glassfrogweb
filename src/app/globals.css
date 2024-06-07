@@ -415,8 +415,9 @@ body {
 }
 
 .enquire:hover {
-  background-color: #ffffff;
-  color: #151515;
+  background-color: #ed2998;
+  color: #ffffff;
+    border: 2px solid #ed2998;
 }
 .lines{
   border-top: 1px solid #ffffff;
@@ -522,4 +523,8 @@ body {
 
 .serli:hover a {
   color: #ed2998;
+}
+.group-hover\\:translate-x-2:hover {
+  transform: translateX(0.5rem);
+  /* Adjust the value as needed */
 }

@@ -21,7 +21,7 @@ const AboutUs = () => {
                     </div>
 
                     {/* Second Column */}
-                   <div className="flex flex-col md:flex-row sm:flex-row space-y-8 justify-center gap-16 pt-14 items-center">
+                   <div className="flex flex-col md:flex-row sm:flex-row space-y-8 justify-center gap-16 pt-14 items-center ">
 
                         <div className="flex justify-center">
                             <Image className='alogo' src="/a2.png" alt="Logo 2" width={200} height={100} />

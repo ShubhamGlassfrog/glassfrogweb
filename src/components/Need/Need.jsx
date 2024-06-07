@@ -8,7 +8,6 @@ const Need = () => {
     email: '',
     phone: '',
     company: '',
-    subject: '',
     message: '',
   });
 
@@ -28,7 +27,6 @@ const Need = () => {
     if (!/\S+@\S+\.\S+/.test(formData.email)) tempErrors.email = 'Email is invalid';
     if (!formData.phone) tempErrors.phone = 'Phone number is required';
     if (!formData.company) tempErrors.company = 'Company name is required';
-    if (!formData.subject) tempErrors.subject = 'Subject is required';
     if (!formData.message) tempErrors.message = 'Message is required';
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -50,7 +48,7 @@ const Need = () => {
             email: '',
             phone: '',
             company: '',
-            subject: '',
+            
             message: '',
           });
         }
@@ -76,7 +74,7 @@ const Need = () => {
 
           {/* Second Column */}
           <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
-            <form onSubmit={handleSubmit} className="space-y-8 w-full">
+            <form onSubmit={handleSubmit} className="space-y-6 w-full">
               <div>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium text-white">Your Name</label>
                 <input
@@ -129,19 +127,7 @@ const Need = () => {
                 />
                 {errors.company && <p className="text-red-500 text-sm">{errors.company}</p>}
               </div>
-              <div>
-                <label htmlFor="subject" className="block mb-2 text-sm font-medium text-white">Subject</label>
-                <input
-                  type="text"
-                  id="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
-                  placeholder="Let us know how we can help you"
-                  required
-                />
-                {errors.subject && <p className="text-red-500 text-sm">{errors.subject}</p>}
-              </div>
+              
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Your Message</label>
                 <textarea
