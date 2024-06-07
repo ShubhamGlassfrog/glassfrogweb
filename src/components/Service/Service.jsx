@@ -18,12 +18,12 @@ const Service = () => {
                              MARKETING
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href=''>Social Media</a></li>
-                              <li className=' serli'><a href=''>Creative Studio</a></li>
-                              <li className=' serli'><a href=''>Paid Social</a></li>
-                              <li className=' serli'><a href=''>Paid Search</a></li>
-                              <li className=' serli'><a href=''>Influencer</a></li>
-                              <li className=' serli'><a href=''>Community Management</a></li>
+                              <li className=' serli' ><a href=''>Social Media Advertising</a></li>
+                              <li className=' serli'><a href=''>Pay Per Click Ads</a></li>
+                            <li className=' serli'><a href=''>Search Engine Optimisation</a></li>
+                                                          <li className=' serli'><a href=''>Email Marketing</a></li>
+
+                              
                                                            
 
 
@@ -49,15 +49,13 @@ const Service = () => {
                              TECHNOLOGY
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href=''>Websites</a></li>
-                              <li className=' serli'><a href=''>Full stack development</a></li>
-                              <li className=' serli'><a href=''>AI Services</a></li>
-                              <li className=' serli'><a href=''>System integrations</a></li>
-                              <li className=' serli'><a href=''>Automated & manual QA</a></li>
-                              <li className=' serli'><a href=''>Solution & hosting architecture</a></li>
-                                                            <li className=' serli'><a href=''>Cloud hosting</a></li>
-                              <li className=' serli'><a href=''>CRM</a></li>
-                              <li className=' serli'><a href=''>Analytics</a></li>
+                              <li className=' serli' ><a href=''>UX/Ui Design</a></li>
+                              <li className=' serli'><a href=''>Mobile Application</a></li>
+                              <li className=' serli'><a href=''>Web Application</a></li>
+                              <li className=' serli'><a href=''>AI Application</a></li>
+                              <li className=' serli'><a href=''>Security Services</a></li>
+                              <li className=' serli'><a href=''>IOT & Embedded</a></li>
+                                                            
 
 
                       </ul>
