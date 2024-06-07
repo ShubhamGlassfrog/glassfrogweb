@@ -120,7 +120,7 @@ body {
 .servicebutton1 {
   font-weight: 800;
   font-size: 16px;
-  background-color: #020617;
+  background-color: #ed2998;
   color: #f4f4f4;
   padding: 12px 37px;
   border-radius: 32px;
@@ -501,4 +501,25 @@ body {
   font-size: 14px;
   color: #777;
   line-height: 1.4;
+}
+
+.serli a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.serli a svg {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.serli a:hover svg {
+  transform: translateX(0.50rem);
+}
+
+.serli:hover a {
+  color: #ed2998;
 }

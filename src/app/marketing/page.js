@@ -56,10 +56,62 @@ const page = () => {
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/social-media-advertising'>Social Media Advertising</a></li>
-                              <li className=' serli'><a href='/pay-per-click-ads'>Pay Per Click Ads</a></li>
-                            <li className=' serli'><a href='/search-engine-optimisation'>Search Engine Optimisation</a></li>
-                                                          <li className=' serli'><a href='/email-marketing'>Email Marketing</a></li>
+                              <li className=' serli' ><a href='/social-media-advertising'>Social Media Advertising<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/pay-per-click-ads'>Pay Per Click Ads<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                            <li className=' serli'><a href='/search-engine-optimisation'>Search Engine Optimisation<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                                                          <li className=' serli'><a href='/email-marketing'>Email Marketing<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
 
                               
                                                            

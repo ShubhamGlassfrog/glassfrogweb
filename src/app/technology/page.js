@@ -54,12 +54,90 @@ const page = () => {
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             
                          <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/ux-ui-design'>UX/Ui Design</a></li>
-                              <li className=' serli'><a href='/mobile-application'>Mobile Application</a></li>
-                              <li className=' serli'><a href='/web-application'>Web Application</a></li>
-                              <li className=' serli'><a href='/ai-application'>AI Application</a></li>
-                              <li className=' serli'><a href='/security-services'>Security Services</a></li>
-                              <li className=' serli'><a href='/iot-embedded'>IOT & Embedded</a></li>
+                              <li className=' serli' ><a href='/ux-ui-design'>UX/Ui Design<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/mobile-application'>Mobile Application<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/web-application'>Web Application<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/ai-application'>AI Application<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/security-services'>Security Services<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
+                              <li className=' serli'><a href='/iot-embedded'>IOT & Embedded<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg></a></li>
                                                             
 
 
