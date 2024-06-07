@@ -19,9 +19,9 @@ const Service = () => {
                           </h2>
                           <ul className='flex flex-col gap-5'>
                               <li className=' serli' ><a href='/social-media-advertising'>Social Media Advertising</a></li>
-                              <li className=' serli'><a href=''>Pay Per Click Ads</a></li>
-                            <li className=' serli'><a href=''>Search Engine Optimisation</a></li>
-                                                          <li className=' serli'><a href=''>Email Marketing</a></li>
+                              <li className=' serli'><a href='/pay-per-click-ads'>Pay Per Click Ads</a></li>
+                            <li className=' serli'><a href='/search-engine-optimisation'>Search Engine Optimisation</a></li>
+                                                          <li className=' serli'><a href='/email-marketing'>Email Marketing</a></li>
 
                               
                                                            
