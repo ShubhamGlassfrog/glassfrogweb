@@ -4,8 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import Ourwork from "@/components/Ourwork/Ourwork";
 import Need from '@/components/Need/Need';
-import Digital from '@/components/digiservice/digital';
-
+import Tech from '@/components/techservice/tech';
 
 const page = () => {
     const cardsData = [
@@ -89,7 +88,7 @@ Our approach to businesses is very simple. We combine our passion for technicali
           </div>
           </section>
           
-        <Digital/>
+        <Tech/>
          
           <Need/>
           <Footer/>

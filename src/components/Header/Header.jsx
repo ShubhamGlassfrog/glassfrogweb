@@ -15,7 +15,8 @@ const Header = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="text-2xl font-bold text-white hover:text-white">
-                            Glassfrog
+                                                        <img src="/whitelogo.png" class="h-44 me-3" alt="Glassfrog Logo" />
+
                         </Link>
                     </div>
                     <div className="flex items-center">
