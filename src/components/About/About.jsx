@@ -9,12 +9,13 @@ const AboutUs = () => {
                     {/* First Column */}
                     <div className="flex flex-col justify-center text-center items-center">
                         <h2 className="about font-extrabold text-white mb-4">
-                            EXPLORE MARKETING AND TECHNICAL EXCELLENCE WITH
-                            ARTIFICIAL INTELLEGENCE EXPERTISE
+                            
+EXPLORE MARKETING AND TECHNICAL EXCELLENCE WITH
+ARTIFICIAL INTELLIGENCE EXPERTISE 
+
                         </h2>
                         <p className="text-white mb-6">
-                            Create your own channel of online presence on different platforms with meticulous attention to website trends, digital strategies, technical ease, graphic elegance, and much more. Our adept team of market professionals is equipped with the latest skills to hep you navigate through technical differences and devise a personalized approach to marketing strategies.
-                        </p>
+Create your own channel of online presence on different platforms with meticulous attention to website trends, digital strategies, technical ease, graphic elegance, and much more. Our adept team of market professionals is equipped with the latest skills to help you navigate through technical differences and devise a personalised approach to marketing strategies.                         </p>
                         <button className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white ">
                           <a className='flex items-center' href='/about'> ABOUT GLASSFROG <FaArrowRight className="ml-2" /></a> 
                         </button>

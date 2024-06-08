@@ -30,7 +30,8 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-white mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations. 
+                            </p>
 
                         </div>
 
@@ -61,7 +62,8 @@ Our approach to businesses is very simple. We combine our passion for technicali
                             <p className="text-white mb-6">
                                 The journey of Glassfrog Technologies began in the year 2021. Fueled by a passion for technical excellence, the Founder, Mr. Amit Bajaj exuded his experience to lay the foundation of a website development and design firm that assisted clients to find the aptly designed platform to market their businesses. <br></br><br></br>
 
-With time, the digital marketing industry induced into the sustaining passion of technology as innovation was explored beyond the limitations of traditional website marketing. With growing trends in social media platforms and digital channels, the team developed strategies with an urge to deliver branding outlooks to businesses, big and small. 
+With time, the digital marketing industry induced the sustaining passion for technology as innovation was explored beyond the limitations of traditional website marketing. With growing trends in social media platforms and digital channels, the team developed strategies with an urge to deliver branding outlooks to businesses, big and small. 
+
 </p>
 
                         </div>
@@ -95,9 +97,12 @@ With time, the digital marketing industry induced into the sustaining passion of
                             </h1><br></br>
                             <h1 className='glassfrog'>IT'S GOING</h1>
                             <p className="text-white mb-6">
-                                In 2014, Anthony and Tom decided to start their own agency – Make. Despite having no budget, the two friends were full of ambition and determined to make their agency a success, by delivering cutting edge, digital-first creative services.<br></br><br></br>
+                            
+Presently, Glassfrog Technologies works in two directions. The first and foremost is Website Development and Design. With the growing employability of Artificial intelligence, the team has developed their adaptability to come up with very innovative solutions to integrate AI to produce promising results. <br></br><br></br>
 
-                                They worked tirelessly to secure their first few clients, often putting in long hours to provide top-quality work. As word spread, more and more clients began to hire them, and the business began to grow.                            </p>
+The second and very creative side of Glassfrog deals with the Virtual Marketing domain. The marketing team deals with Social Media Management, Marketing, Search Engine Optimisation, and Advertising, and works in the Graphic Design arena. One of the notable things about the marketing team is the ability to understand and personalise the strategies according to the suitability of the trends and the brand identities. This significant understanding has been a pivotal point in the sustained growth of the company. 
+   
+                            </p>
 
                         </div>
 
