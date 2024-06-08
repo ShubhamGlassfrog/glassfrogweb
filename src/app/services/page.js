@@ -22,7 +22,12 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>SERVICES</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                          Glassfrog Technologies offers businesses comprehensive digital and technical solutions. Our skilled and passionate team creates websites tailored to your brand identity.<br></br><br></br>
+We develop innovative and creative marketing strategies to drive traffic, engagement, and leads across various channels like Search Engine Optimization (SEO), Paid Advertising (Pay-Per-Click - PPC), Social Media Marketing, Email Marketing and Display Advertising.<br></br><br></br>
+We focus on delivering results that resonate with your specific brand and business goals and our focus is on the numbers which play a crucial role in your business.
+     
+                          
+                          </p>
 
                         </div>
 
@@ -40,13 +45,15 @@ const page = () => {
           </section>
           <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 ">
-                    <div className="flex flex-col md:flex-row sm:flex-row gap-10">
+                    <div className="flex flex-col md:flex-row sm:flex-row gap-10 items-center">
                         {/* First Column */}
                         <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             <h2 className="about font-extrabold text-white mb-4">
                              TECHNOLOGY
                           </h2>
-                          <p className='text-white mb-6 flex items-center'>Our in-house tech team work as a fully integrated department within your team to discover, design, develop and deliver bespoke and best-in-class digital products.</p>
+                          <p className='text-white mb-6 flex items-center'>Our belief is to bring your visions to life. We combine technical expertise with digital marketing to craft engaging online experiences. Our result-driven approach is to design, develop, and optimize your website to drive traffic, engagement, and conversions. <br></br><br></br>
+We provide a full range of services including website design & development, advertising, SEO, content marketing, social media management, and graphic design, all customized to your needs. Our team prioritizes understanding your brand identity to ensure every aspect of your online presence resonates with your target audience. We work collaboratively to deliver exceptional results.
+</p>
                             <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
                                WEB SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
 
@@ -153,13 +160,13 @@ const page = () => {
           <Ourwork />
           <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 ">
-                    <div className="flex flex-col md:flex-row sm:flex-row gap-10">
+                    <div className="flex flex-col md:flex-row sm:flex-row gap-10 items-center">
                         {/* First Column */}
                         <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             <h2 className="about font-extrabold text-white mb-4">
                              MARKETING
                           </h2>
-                          <p className='text-white mb-6 flex items-center'>Our digital marketing team is highly skilled in data-driven strategies for creative campaigns across PPC, social media, and influencer marketing. They constantly explore new trends and deliver high-quality results to drive business growth for clients.</p>
+                          <p className='text-white mb-6 flex items-center'>Glassfrog explores marketing and technical excellence. We are committed to both the creative and technical aspects of marketing. By incorporating AI, we offer advanced marketing solutions that wouldn't be possible with traditional methods. With AI we analyze vast amounts of data to gain deep insights into your target audience. We believe that personalized and relevant marketing messages lead to improved customer engagement and satisfaction.</p>
                             <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
                                MARKETING SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
 

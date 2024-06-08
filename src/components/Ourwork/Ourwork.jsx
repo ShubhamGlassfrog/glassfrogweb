@@ -53,7 +53,9 @@ export default function App() {
                         OUR PORTFOLIO
                     </h5>
                     <p className="text-white  pb-5">
-Bridging the Gap between Audiences and Brands in the most innovative way!                     </p>
+Bridging the Gap between Audiences and Brands in the most innovative way!<br></br><br></br>
+Businesses often miss the mark with customers. Glassfrog Technologies bridges the gap with innovative marketing that resonates with your audience. By tracking user behaviour and campaign performance, we tend to refine the strategies and optimize results.
+ </p>
 
                 </div>
             </div>

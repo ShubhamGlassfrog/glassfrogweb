@@ -14,7 +14,7 @@ const page = () => {
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
+                    <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10 items-center">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
                             <h1 className="   we">OUR
@@ -22,7 +22,9 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>SERVICES</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+              Glassfrog explores marketing and technical excellence. We are committed to both the creative and technical aspects of marketing. By incorporating AI, we offer advanced marketing solutions that wouldn't be possible with traditional methods. With AI we analyze vast amounts of data to gain deep insights into your target audience. We believe that personalized and relevant marketing messages lead to improved customer engagement and satisfaction.                
+              
+              </p>
 
                         </div>
 

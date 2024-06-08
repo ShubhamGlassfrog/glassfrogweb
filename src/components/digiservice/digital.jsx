@@ -1,21 +1,35 @@
 import React from 'react'
+import sma from "../../../public/socialmediaadvertising.png"
+import ppc from "../../../public/payperclickads.png"
+import seo from "../../../public/searchengineoptimization.png"
+import em from "../../../public/emailmarketing.png"
+import Image from 'next/image';
+
+
+
+
+
 
 const digital = () => {
     const cardsData = [
   {
-    title: 'Social Media Advertising',
+        title: 'Social Media Advertising',
+    image:sma,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
   },
   {
     title: 'Pay Per Click Ads',
+    image:ppc,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
   },
   {
     title: 'Search Engine Optimisation',
+    image:seo,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
       },
   {
     title: 'Email Marketing',
+    image:em,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
   },
 ];
@@ -33,9 +47,7 @@ const digital = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {cardsData.map((card, index) => (
           <div key={index} className="card bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 p-4 gap-4 rounded-lg shadow-md">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 mb-4">
-              <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-            </svg>
+            <Image className='cardimg' src={card.image}/>
             <div className="card__content">
               <p className="card__title text-lg font-bold mb-2">{card.title}</p>
               <p className="card__description">{card.description}</p>
