@@ -43,9 +43,9 @@ const Footer = () => {
                         <div className="mb-6 md:mb-0 w-full md:w-2/4 sm:w-2/4">
                          
                             
-                             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 pl-0 md:pl-8 sm:pl-8">
+                             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1 pl-0 md:pl-8 sm:pl-8">
           <div className="max-w-xl lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">SUBSCRIBE NOW!</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl ">SUBSCRIBE NOW!</h2>
             <p className="mt-4 text-lg leading-8 text-slate-950">
              Subscribe to our newsletter to stay in touch with the latest.
             </p>

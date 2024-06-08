@@ -375,6 +375,11 @@ body {
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   font-weight: 900;
 }
+.letsgos {
+  -webkit-text-stroke: 2px #020617;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  font-weight: 900;
+}
 
 .we {
 
@@ -428,6 +433,7 @@ body {
   padding-bottom: 10px;
   color: #ffffff;
 }
+
 .serli:hover {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 10px;
