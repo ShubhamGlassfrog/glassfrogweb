@@ -3,6 +3,11 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Header = () => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
      const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -49,9 +54,30 @@ const Header = () => {
                                 <Link href="/about" className="text-white hover:text-white">
                                     About
                                 </Link>
-                                <Link href="/services" className="text-white hover:text-white">
-                                    Services
-                                </Link>
+                                <div className="relative">
+          <button
+            onClick={handleDropdownToggle}
+            className="text-white hover:text-gray-300"
+          >
+            Services
+          </button>
+          {isDropdownOpen && (
+            <div className="absolute mt-2 w-48 bg-white shadow-lg rounded-md py-2">
+              <Link
+                href="/marketing"
+                className="block px-4 py-2 text-black hover:bg-gray-100"
+              >
+                Marketing
+              </Link>
+              <Link
+                href="/technology"
+                className="block px-4 py-2 text-black hover:bg-gray-100"
+              >
+                Technical
+              </Link>
+            </div>
+          )}
+        </div>
                                 <button className="hidden md:inline-flex items-center px-3 py-2 ml-4 border border-transparent roundedcustom shadow-sm text-sm font-medium text-white hover:text-black bg-[#ed2998] hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
                                       <Link href="/contact" >Contact Us</Link>
                                 </button>
