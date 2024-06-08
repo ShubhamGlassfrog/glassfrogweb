@@ -528,3 +528,6 @@ body {
   transform: translateX(0.5rem);
   /* Adjust the value as needed */
 }
+.cardimg{
+height: -webkit-fill-available;
+  width: -webkit-fill-available;}
