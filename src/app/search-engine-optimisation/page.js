@@ -10,16 +10,16 @@ import Digital from '@/components/digiservice/digital';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'On-Page SEO',
+    description: 'We make sure your website gets seen by the right people. We optimize every aspect of your website to enhance its appeal to search engines like Google. This includes selecting appropriate keywords, refining titles, and headings, and ensuring that your content is easy to read and understand.',
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Off-Page SEO',
+    description: "Our team of experts makes your website noticed beyond its pages. Off-page SEO builds your website's reputation and authority across the internet. We specialize in building a website's reputation and authority across the internet by creating quality backlinks, writing guest posts and articles, and engaging with your audience on social media and other online platforms.  This makes your website climb higher in search engine rankings and attract more visitors.",
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Technical SEO',
+    description: "We ensure your website runs smoothly throughout. We'll optimize your website for lightning speed and a flawless user experience, ensuring a happy dance for both visitors and search engines.  With this, the searchers will see your website in a higher position and will see what you offer for their needs. ",
   },
 ];
 
@@ -37,7 +37,8 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Optimisation</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               We specialise in SEO which will help your website show up higher in search results when people look for things related to your business. This will lead to more customers for you. We use smart techniques like choosing the right keywords, making your website easy to navigate, and getting other websites to link to yours. 
+</p>
 
                         </div>
 

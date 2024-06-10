@@ -62,7 +62,10 @@ const Header = () => {
             Services
           </button>
           {isDropdownOpen && (
-            <div className="absolute mt-2 w-48 bg-white shadow-lg rounded-md py-2">
+                                        <div className="absolute mt-2 w-48 bg-white shadow-lg rounded-md py-2">
+                                             <Link href="/services" className="block px-4 py-2 text-black hover:bg-gray-100">
+                                    All Services
+                                </Link>
               <Link
                 href="/marketing"
                 className="block px-4 py-2 text-black hover:bg-gray-100"

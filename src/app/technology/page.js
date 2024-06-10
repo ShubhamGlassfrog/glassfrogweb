@@ -17,7 +17,7 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">OUR
+                            <h1 className="   we">Technical
 
                             </h1><br></br>
                             <h1 className='glassfrog'>SERVICES</h1>

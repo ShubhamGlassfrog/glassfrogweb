@@ -10,16 +10,16 @@ import Digital from '@/components/digiservice/digital';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'STRATEGIC PLANNING',
+    description: 'We work as a trusted partner and an extension of your team, turning your goals into a clear plan. We build on what youve already achieved and find new ways to add creativity and drive success.',
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'CONTENT MARKETING',
+    description: 'We make content marketing simple and effective. We create engaging articles, videos, and social media posts that capture your audiences attention. We believe in working closely with you to understand your brand and goals and drive real results.',
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'ADVERTISING',
+    description: 'We make advertising easy and effective by designing eye-catching ads that grab attention and get your message across. Our team uses smart strategies to reach the right audience, helping your business grow. Let us handle your advertising so you can see real results and attract more customers.',
   },
 ];
 
@@ -37,7 +37,9 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Advertising</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               
+              Social media is the ultimate platform for real-time engagement with your target audience. We craft strategic campaigns that instantly get you seen, heard, and connected. Our team implement strategies to boost web traffic, engagement, and lead conversion rates.
+              </p>
 
                         </div>
 
@@ -57,10 +59,12 @@ const page = () => {
               <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                    <div className="flex flex-col justify-center text-center items-center">
                             <h2 className="about font-extrabold text-slate-950 mb-4">
-                                BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
-                            </h2>
+BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE                            </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+
+Our business approach is different. Imagine a website that amazes your visitors and social media that buzzes with excitement. We're a team of passionate tech experts and digital marketing pros who work together to create captivating online experiences for your business.
+
+            </p>
 
                         </div>
           <div className="flex justify-center py-10  ">

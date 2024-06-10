@@ -10,16 +10,16 @@ import Digital from '@/components/digiservice/digital';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Lead Generation',
+    description: 'Lead generation is all about finding potential customers for your business. We employ smart strategies to attract potential customers by creating engaging content, running targeted ads, and optimizing your website. Once we capture their contact information, we help you follow up and turn them into paying customers.',
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Display Ads',
+    description: 'We specialize in Displaying Ads, a powerful way to get your business noticed online. We create eye-catching ads of images, text or animations for websites across the internet, to grab the attention of potential clients while they browse the web.  We ensure that your message reaches the right people at the right time by analyzing their interests and behaviors.',
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Budget',
+    description: 'Understanding the importance of budgeting for clients’ marketing needs is ensured by us. we work closely with you to determine your goals and objectives and then create a customized marketing plan that fits within your budget. We try to provide our services to meet your needs and help you achieve your marketing goals with the minimum budget possible.',
   },
 ];
 
@@ -38,7 +38,10 @@ Pay Per
                             </h1><br></br>
                             <h1 className='glassfrog'>Click Ads</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               
+              Our marketing agency makes Pay-Per-Click ads easy and effective. We create ads that attract potential customers to your website when they search for products or services like yours. We ensure you get the best results for your money, helping you attract new customers fast.
+              
+              </p>
 
                         </div>
 

@@ -10,16 +10,16 @@ import Digital from '@/components/digiservice/digital';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Transactional Emails',
+    description: "The messages that get sent automatically after a customer takes an action, like making a purchase or signing up for a service are called transactional emails. These emails are informative, engaging, and on-brand, so you can keep your customers coming back for more.",
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Promotional Emails ',
+    description: 'We are all about helping you spread the word about your business through promotional emails. These emails shout about your latest deals, discounts, or special offers to your customers. We create eye-catching, attention-grabbing messages that get people excited to open and click. We craft the perfect email campaign to drive sales and grow your business. ',
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Retention Emails',
+    description: 'We understand the importance of keeping your customers coming back for more. The emails we send to your existing customers to keep them engaged and loyal to your brand. A thank-you email, a special offer for their loyalty, or personalized recommendations we make, the customers feel valued and appreciated. ',
   },
 ];
 
@@ -37,7 +37,8 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Marketing</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+              Email marketing is a super effective way to connect with your customers. We send out emails to people who are interested in your business, telling them about your latest products, promotions, or news. It's like having a direct line to your customers' inboxes. We create compelling email campaigns that delight the audience and encourage them to take action, whether it's making a purchase, subscribing to a service, or simply keeping in touch.                 
+              </p>
 
                         </div>
 
