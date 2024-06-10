@@ -10,16 +10,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Back-End Development  ',
+    description: "With an inclined understanding of Application Programming Interface, Logic, Databases, Servers, and much more, our Back-End Team is fully equipped to handle all that is needed for accurate website performance. ",
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Front-End Development ',
+    description: "Having a proficiency in technical languages such as HTML, CSS, JavaScript, and many others, the Front-End Team at the Glassfrog Technologies is conditioned to build smooth design elements. ",
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Full-Stack Development ',
+    description: "By amalgamating logics in both front-end development and back-end development, we ensure that the Web application development process at Glassfrog is concluded with dexterity.  ",
   },
 ];
 
@@ -37,7 +37,8 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Application</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+              Connect with your customers conveniently and securely by delivering the information and services remotely in the most opportunely way possible with Glassfrog’s proficient Web Development Solutions.                 
+              </p>
 
                         </div>
 
@@ -60,7 +61,9 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+
+            Web application development is one of the most sought-after services in the technical domain at Glassfrog Technologies. Our expertise in front-end, back-end, and full-stack development has generated commendable results for our clients over the years. We curate the websites as per the envisage that you hold for your business’s branding and turn it into a virtual reality. 
+            </p>
 
                         </div>
           <div className="flex justify-center py-10  ">

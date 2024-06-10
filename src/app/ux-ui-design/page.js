@@ -10,16 +10,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: ' Navigation',
+    description: "We create an easy-to-navigate User Interface and User Experience to build a very refreshing and useful website experience that in turn benefits businesses in establishing connections with their audience",
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Equitability',
+    description: "Curating designs that suit your customers' requirements is one of our prime objectives at Glassfrog. We help you communicate the brand story exactly the way your users want to perceive it. ",
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Engagement ',
+    description: "A User Interface design that can get imprinted in the perception of the users is exactly what your brand needs and at Glassfrog Technologies, we are dedicated to delivering the same. ",
   },
 ];
 
@@ -37,7 +37,9 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Design</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               
+              Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients! 
+              </p>
 
                         </div>
 
@@ -60,7 +62,8 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+Specialising in a varied technical domain, what sets us apart in the market is our understanding of the distinctive backgrounds of consumers. This assists us in constructing a very personalised and brand-centric User Interface that is highly engrossing and refined. Your website has to be easy to navigate and we execute that. 
+            </p>
 
                         </div>
           <div className="flex justify-center py-10  ">

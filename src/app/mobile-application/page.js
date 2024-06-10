@@ -10,16 +10,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Planning ',
+    description: "We try to comprehend your mobile application requirements and after a thorough analysis of the user expectations and anticipations, we create a plan to act on! ",
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Execution ',
+    description: "The most important part of the Mobile Application process is the creation and deployment. Clearing the technical complications with adeptness is exactly what we deal with. ",
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Maintenance ',
+    description: "We won’t leave you because the job’s not done! We help you with maintenance and ensure that your brand’s target audience is able to navigate through the application bug-free. ",
   },
 ];
 
@@ -37,7 +37,8 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Application</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+              Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.                  
+              </p>
 
                         </div>
 
@@ -60,7 +61,8 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+The accessibility of the virtual platforms of a brand grows a step further when we develop a mobile application for it. We specialise in the comprehension of operating systems to assist our client’s application needs and come up with solutions that are easily accessible and engaging to drive good user interaction numbers
+            </p>
 
                         </div>
           <div className="flex justify-center py-10  ">

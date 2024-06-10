@@ -15,22 +15,22 @@ const digital = () => {
   {
         title: 'Social Media Advertising',
     image:sma,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: "Social media is the ultimate platform for real-time engagement with your target audience. We craft strategic campaigns that instantly get you seen, heard, and connected. Our team implement strategies to boost web traffic, engagement, and lead conversion rates.",
   },
   {
     title: 'Pay Per Click Ads',
     image:ppc,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: "Our marketing agency makes Pay-Per-Click ads easy and effective. We create ads that attract potential customers to your website when they search for products or services like yours. We ensure you get the best results for your money, helping you attract new customers fast.",
   },
   {
     title: 'Search Engine Optimisation',
     image:seo,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: "We specialise in SEO which will help your website show up higher in search results when people look for things related to your business. This will lead to more customers for you. We use smart techniques like choosing the right keywords, making your website easy to navigate, and getting other websites to link to yours. ",
       },
   {
     title: 'Email Marketing',
     image:em,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description:"Email marketing is a super effective way to connect with your customers. We send out emails to people who are interested in your business, telling them about your latest products, promotions, or news. It's like having a direct line to your customers' inboxes. We create compelling email campaigns that delight the audience and encourage them to take action, whether it's making a purchase, subscribing to a service, or simply keeping in touch.",
   },
 ];
   return (

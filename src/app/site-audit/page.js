@@ -1,17 +1,106 @@
 "use client"
 import Footer from '@/components/Footer/Footer'
-import Header2 from '@/components/Header2/Header2'
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Header from '@/components/Header/Header';
+import axios from "axios";
+
 
 
 const page = () => {
+     const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    website: "",
+    
+  });
+
+  const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+
+    if (id === "name") {
+      if (/^[a-zA-Z\s]*$/.test(value)) {
+        setFormData({ ...formData, [id]: value });
+      }
+    } else if (id === "phone") {
+      if (/^\d*$/.test(value)) {
+        setFormData({ ...formData, [id]: value });
+      }
+    } else {
+      setFormData({ ...formData, [id]: value });
+    }
+  };
+
+  const validate = () => {
+    let tempErrors = {};
+    if (!formData.name) {
+      tempErrors.name = "Name is required";
+    } else if (!/^[a-zA-Z\s]*$/.test(formData.name)) {
+      tempErrors.name = "Name can only contain alphabets";
+    }
+
+    if (!formData.email) {
+      tempErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      tempErrors.email = "Email is invalid";
+    }
+
+    if (!formData.phone) {
+      tempErrors.phone = "Phone number is required";
+    } else if (!/^\d+$/.test(formData.phone)) {
+      tempErrors.phone = "Phone number can only contain numbers";
+    }
+
+    if (!formData.website) {
+      tempErrors.company = "website url is required";
+    }
+
+   
+
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (validate()) {
+      setIsSubmitting(true);
+      try {
+        const response = await axios.post(
+          "https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/glassfrog",
+          formData
+        );
+        if (response.status === 200) {
+          setSuccessMessage("Message sent successfully!");
+          setErrorMessage("");
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            website: "",
+            
+          });
+        }
+      } catch (error) {
+        setErrorMessage("Failed to send message. Please try again later.");
+        setSuccessMessage("");
+      } finally {
+        setIsSubmitting(false);
+      }
+    }
+  };
 
     return (
         <>
-            <Header2 />
+            <Header />
              
-            <div className="relative w-full h-screen overflow-hidden">
+            <div className="relative w-full h-screen overflow-hidden pt-5">
             <img
                 className="absolute top-0 left-0 w-full h-full object-cover"
                 src="/siteaudit.png"
@@ -28,41 +117,125 @@ const page = () => {
                                 performing?</h3>
                             <p className='text-white' >Get an extensive audit finished within
 2 days for free. No strings attached.</p>
-                            <form action="#" className="space-y-8">
-                                <div>
-                                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-white">Your Name</label>
-        <input
-          type="text"
-          id="name"
-          
-          className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-          placeholder="John Doe"
-          required
-        />
-                                </div>
-          <div>
-              <label for="email" className="block mb-2 text-sm font-medium text-white ">Your email</label>
-              <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="name@flowbite.com" required/>
-                                </div>
-                                <div>
-                                   
-        <label htmlFor="phone" className="block mb-2 text-sm font-medium text-white">Phone Number</label>
-        <input
-          type="tel"
-          id="phone"
-         
-          className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-          placeholder="+1234567890"
-          required
-        />
-                                </div>
-          <div>
-              <label for="subject" className="block mb-2 text-sm font-medium text-white ">Website</label>
-              <input type="text" id="subject" className="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Let us know how we can help you" required/>
-          </div>
-          
-          <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
-      </form>
+                            <form onSubmit={handleSubmit} className="space-y-6 w-full">
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block mb-2 text-sm font-medium text-white"
+                >
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  placeholder="John Doe"
+                  required
+                />
+                {errors.name && (
+                  <p className="text-red-500 text-sm">{errors.name}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block mb-2 text-sm font-medium text-white"
+                >
+                  Your Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  placeholder="name@flowbite.com"
+                  required
+                />
+                {errors.email && (
+                  <p className="text-red-500 text-sm">{errors.email}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="phone"
+                  className="block mb-2 text-sm font-medium text-white"
+                >
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  placeholder="+1234567890"
+                  required
+                />
+                {errors.phone && (
+                  <p className="text-red-500 text-sm">{errors.phone}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="company"
+                  className="block mb-2 text-sm font-medium text-white"
+                >
+                  Company Name
+                </label>
+                <input
+                  type="text"
+                  id="website"
+                  value={formData.website}
+                  onChange={handleChange}
+                  className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  placeholder="www.example.com"
+                  required
+                />
+                {errors.website && (
+                  <p className="text-red-500 text-sm">{errors.website}</p>
+                )}
+              </div>
+
+              
+              <button
+                type="submit"
+                className="enquire text-white p-3 rounded-lg flex items-center justify-center"
+              >
+                {isSubmitting ? (
+                  <svg
+                    className="animate-spin h-5 w-5 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                    ></circle>
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.963 7.963 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    ></path>
+                  </svg>
+                ) : (
+                  "Send Message"
+                )}
+              </button>
+              {successMessage && (
+                <p className="text-green-500 text-sm mt-2">{successMessage}</p>
+              )}
+              {errorMessage && (
+                <p className="text-red-500 text-sm mt-2">{errorMessage}</p>
+              )}
+            </form>
   
 </div>
                     

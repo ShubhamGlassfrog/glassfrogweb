@@ -54,6 +54,10 @@ const Header = () => {
                                 <Link href="/about" className="text-white hover:text-white">
                                     About
                                 </Link>
+                                <Link href="/site-audit" className="text-white hover:text-white">
+                                    Site Audit
+                                </Link>
+                                
                                 <div className="relative">
           <button
             onClick={handleDropdownToggle}
