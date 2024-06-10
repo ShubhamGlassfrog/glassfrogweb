@@ -183,7 +183,7 @@ const page = () => {
                   htmlFor="company"
                   className="block mb-2 text-sm font-medium text-white"
                 >
-                  Company Name
+                 Website URL
                 </label>
                 <input
                   type="text"
