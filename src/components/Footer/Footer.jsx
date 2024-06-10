@@ -38,7 +38,7 @@ const Footer = () => {
 
 
             <footer className="bg-white pt-16 pb-16">
-                <div className=" w-full max-w-7xl mx-auto ">
+                <div className=" w-full max-w-7xl mx-auto px-4">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0 w-full md:w-2/4 sm:w-2/4">
                          

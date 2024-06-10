@@ -37,7 +37,7 @@ const Header = () => {
         isScrolled ? 'bg-slate-950 shadow-md' : 'bg-transparent'
       }`}
     >
-            <div className="max-w-7xl mx-auto ">
+            <div className="max-w-7xl mx-auto px-4">
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="text-2xl font-bold text-white hover:text-white">
@@ -140,7 +140,7 @@ const Header = () => {
                         About
 
                     </Link>
-                     <Link href="/site-audit" className="text-white hover:text-white">
+                     <Link href="/site-audit" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
                                     Site Audit
                                 </Link>
                     <Link href="/services" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
