@@ -226,7 +226,7 @@ const page = () => {
                     ></path>
                   </svg>
                 ) : (
-                  "Send Message"
+                  "Submit"
                 )}
               </button>
               {successMessage && (
