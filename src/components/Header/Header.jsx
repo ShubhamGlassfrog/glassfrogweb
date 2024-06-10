@@ -148,7 +148,7 @@ const Header = () => {
                         Services
 
                     </Link>
-                    <button className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-black bg-[#ed2998] hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
+                    <button className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#ed2998] hover:text-black hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
                        <Link href="/contact" >Contact Us</Link> 
                     </button>
                 </nav>
