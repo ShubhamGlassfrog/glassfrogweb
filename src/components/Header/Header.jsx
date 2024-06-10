@@ -41,7 +41,7 @@ const Header = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="text-2xl font-bold text-white hover:text-white">
-                                                        <img src="/whitelogo.png" className="h-44 me-3 overflow-hidden" alt="Glassfrog Logo" style={{marginLeft:"-30px !important"}}/>
+                                                        <img src="/whitelogo.png" className="h-44 me-3 overflow-hidden" alt="Glassfrog Logo" style={{marginLeft:"-7px !important"}}/>
 
                         </Link>
                     </div>
@@ -140,6 +140,9 @@ const Header = () => {
                         About
 
                     </Link>
+                     <Link href="/site-audit" className="text-white hover:text-white">
+                                    Site Audit
+                                </Link>
                     <Link href="/services" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
 
                         Services
