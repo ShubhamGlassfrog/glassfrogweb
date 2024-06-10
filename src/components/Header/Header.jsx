@@ -37,11 +37,11 @@ const Header = () => {
         isScrolled ? 'bg-slate-950 shadow-md' : 'bg-transparent'
       }`}
     >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto ">
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="text-2xl font-bold text-white hover:text-white">
-                                                        <img src="/whitelogo.png" className="h-44 me-3" alt="Glassfrog Logo" />
+                                                        <img src="/whitelogo.png" className="h-44 me-3 overflow-hidden" alt="Glassfrog Logo" style={{marginLeft:"-30px !important"}}/>
 
                         </Link>
                     </div>

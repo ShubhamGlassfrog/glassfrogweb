@@ -18,7 +18,7 @@ const Service = () => {
                              MARKETING
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/social-media-advertising'>01.Social Media Advertising <svg
+                              <li className=' serli' ><b><a href='/social-media-advertising'>01. Social Media Advertising <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
+              </svg></a></b></li>
                               <li className=' serli'><a href='/pay-per-click-ads'>02. Pay Per Click Ads<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
