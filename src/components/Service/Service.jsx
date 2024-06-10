@@ -32,7 +32,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><a href='/pay-per-click-ads'>02. Pay Per Click Ads<svg
+                              <li className=' serli'><b><a href='/pay-per-click-ads'>02. Pay Per Click Ads<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -45,7 +45,7 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
+              </svg></a></b></li>
                             <li className=' serli'><a href='/search-engine-optimisation'>03. Search Engine Optimisation<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -60,7 +60,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                                                          <li className=' serli'><a href='/email-marketing'>04. Email Marketing<svg
+                                                          <li className=' serli'><b><a href='/email-marketing'>04. Email Marketing<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -73,7 +73,7 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
+              </svg></a></b></li>
 
                               
                                                            
@@ -94,7 +94,7 @@ const Service = () => {
                              TECHNOLOGY
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/ux-ui-design'>01. UX/Ui Design<svg
+                              <li className=' serli' ><b><a href='/ux-ui-design'>01. UX/Ui Design<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -107,8 +107,8 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
-                              <li className=' serli'><a href='/mobile-application'>02. Mobile Application<svg
+              </svg></a></b></li>
+                              <li className=' serli'><b><a href='/mobile-application'>02. Mobile Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -121,8 +121,8 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
-                              <li className=' serli'><a href='/web-application'>03. Web Application<svg
+              </svg></a></b></li>
+                              <li className=' serli'><b><a href='/web-application'>03. Web Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -135,8 +135,8 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
-                              <li className=' serli'><a href='/ai-application'>04. AI Application<svg
+              </svg></a></b></li>
+                              <li className=' serli'><b><a href='/ai-application'>04. AI Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -149,8 +149,8 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
-                              <li className=' serli'><a href='/security-services'>05. Security Services<svg
+              </svg></a></b></li>
+                              <li className=' serli'><b><a href='/security-services'>05. Security Services<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -163,8 +163,8 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
-                              <li className=' serli'><a href='/iot-embedded'>06. IOT & Embedded<svg
+              </svg></a></b></li>
+                              <li className=' serli'><b><a href='/iot-embedded'>06. IOT & Embedded<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -177,7 +177,7 @@ const Service = () => {
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
+              </svg></a></b></li>
                                                             
 
 
