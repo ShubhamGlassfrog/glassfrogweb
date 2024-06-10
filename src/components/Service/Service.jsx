@@ -24,7 +24,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -38,7 +38,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -46,27 +46,27 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                            <li className=' serli'><a href='/search-engine-optimisation'>03.&nbsp;&nbsp; Search Engine Optimisation<svg
+                            <li className=' serli'><b><a href='/search-engine-optimisation'>03.&nbsp;&nbsp; Search Engine Optimisation<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
-              </svg></a></li>
+              </svg></a></b></li>
                                                           <li className=' serli'><b><a href='/email-marketing'>04. &nbsp;&nbsp;Email Marketing<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -100,7 +100,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -114,7 +114,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -128,7 +128,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -142,7 +142,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -156,7 +156,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
@@ -170,7 +170,7 @@ const Service = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="2"
                 stroke="currentColor"
-                className="ml-2 h-4 w-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                className="ml-2 h-8 w-8 transition-transform duration-300 transform group-hover:translate-x-1"
               >
                 <path
                   strokeLinecap="round"
