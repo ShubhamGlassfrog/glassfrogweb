@@ -16,26 +16,26 @@ const tech = () => {
   {
         title: 'UX/Ui Design',
     image:uxui,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: 'Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients! ',
   },
   {
     title: 'Mobile Application',
     image:mobileapplication,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: 'Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.',
   },
   {
     title: 'Web Application',
     image:webapplication,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: 'Connect with your customers conveniently and securely by delivering the information and services remotely in the most opportunely way possible with Glassfrog’s proficient Web Development Solutions. ',
         },
    {
      title: 'AI Application',
      image:aiapplication,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: 'In order to ensure perfect execution, team at Glassfrog Technologies is much well versed with Artificial Intelligence. We induce AI algorithm to inspire automation in myriad of domains, resulting in unending success. ',
   }, {
      title: 'Security Services',
      image:securityservices,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+    description: 'Create servers and technical infrastructure that is ecure, encrypted, and dependable with Glassfrog with complete trust and understanding supopported by thorough assistance.',
   }, {
      title: 'IOT & Embedded',
     image:iot,

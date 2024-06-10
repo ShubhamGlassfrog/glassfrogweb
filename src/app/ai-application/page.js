@@ -9,16 +9,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Autonomous Systems',
+    description: "Moving a step ahead from the adaptability of the Artificial Intellegence, our comprehension of Autonomous Systems is highly complex that assists our application on AS in developing solutions. ",
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Natural Language Processing',
+    description: "Employing Natural Language Processing NLP in variety of systems is an arena that the team at Glassfrog has conquered. Our understanding of such languages is vast and updated which results in our proficiency",
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Machine Learning',
+    description: "To build systems that can adapt existent data, identify habits, and construct logical judgments, we employ Machne Learning in its complete entirety. This helps us curate systems that are flawless. ",
   },
 ];
 
@@ -36,7 +36,9 @@ const page = () => {
                             </h1><br></br>
                             <h1 className='glassfrog'>Application</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               
+              In order to ensure perfect execution, team at Glassfrog Technologies is much well versed with Artificial Intelligence. We induce AI algorithm to inspire automation in myriad of domains, resulting in unending success. 
+              </p>
 
                         </div>
 
@@ -59,7 +61,7 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+AI Appication is a leading field in the present scenario. For mos of the cluients, automation is one of the prime demands. This has led us to gain proficiency in Artficial Intelligence algorithms and develop a thorough understanding of languages and AI elements such as Machine Learning, Autonomous Systems, Natural Language Processing, and many more! </p>
 
                         </div>
           <div className="flex justify-center py-10  ">
