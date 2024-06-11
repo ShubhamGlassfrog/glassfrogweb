@@ -19,7 +19,7 @@ const Footer = () => {
       const response = await axios.post('https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/glassfrog', { email });
 
       if (response.status === 200) {
-        setSuccess('Subscription successful!');
+        setSuccess('Thank You for Subscribing! ');
         setEmail('');
         setError('');
       } else {
