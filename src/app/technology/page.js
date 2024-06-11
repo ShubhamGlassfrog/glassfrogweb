@@ -50,7 +50,7 @@ const page = () => {
 We provide a full range of services including website design & development, advertising, SEO, content marketing, social media management, and graphic design, all customized to your needs. Our team prioritizes understanding your brand identity to ensure every aspect of your online presence resonates with your target audience. We work collaboratively to deliver exceptional results.
 </p>
                             <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
-                               WEB SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
+                               All SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
 
                       </div>
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
