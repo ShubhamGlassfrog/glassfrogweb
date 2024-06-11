@@ -1,5 +1,5 @@
-"use client"
-import Footer from '@/components/Footer/Footer'
+"use client";
+import Footer from '@/components/Footer/Footer';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Header from '@/components/Header/Header';
@@ -80,6 +80,7 @@ const Page = () => {
             phone: "",
             website: "",
           });
+          gtag_report_conversion(); // Call the conversion tracking function
         }
       } catch (error) {
         setErrorMessage("Failed to send message. Please try again later.");
@@ -90,24 +91,38 @@ const Page = () => {
     }
   };
 
+  // Add the conversion tracking function
+  const gtag_report_conversion = (url) => {
+    var callback = function () {
+      if (typeof (url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-16525280496/bNLlCK6HmKUZEPCJ78c9',
+      'event_callback': callback
+    });
+    return false;
+  };
+
   return (
-      <>
-          <head>
-              <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=AW-16525280496"
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-16525280496');
-              `,
-            }}
-          ></script>
-          </head>
+    <>
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16525280496"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16525280496');
+            `,
+          }}
+        ></script>
+      </head>
       <Header />
       <div className="relative w-full min-h-screen overflow-hidden pt-20">
         <img
@@ -127,7 +142,7 @@ const Page = () => {
                 How are your websites really performing?
               </h3>
               <p className='text-white mb-4'>
-  Get an extensive audit finished within a few minutes for free. No strings attached.
+                Get an extensive audit finished within a few minutes for free. No strings attached.
               </p>
               <form onSubmit={handleSubmit} className="space-y-6 w-full">
                 <div>
@@ -213,6 +228,7 @@ const Page = () => {
                 <button
                   type="submit"
                   className="audit text-white p-3 rounded-lg flex items-center justify-center w-full md:w-auto"
+                  onClick={() => gtag_report_conversion()}
                 >
                   {isSubmitting ? (
                     <svg
