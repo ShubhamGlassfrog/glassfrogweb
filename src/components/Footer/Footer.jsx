@@ -86,11 +86,12 @@ const Footer = () => {
                                 <h2 className="mb-3 text-sm font-semibold text-gray-900 uppercase ">Location</h2>
                                 <ul className="text-gray-500  font-medium">
                                     <li className="mb-4">
-                                        <a ><b>India:-</b> ​​Jumpstart Tower, 2nd floor, Haridwar Bypass Rd, opp. Nilaya Hills, Saraswati Vihar, Ajabpur Kalan, Dehradun, Uttarakhand 248001.</a>
-                                    </li>
-                                    <li className="mb-4">
                                         <a ><b>United Kingdon :-</b> ​27 OLD Gloucester Street, London, United Kingdon WC1N 3AX</a>
                                     </li>
+                                    <li className="mb-4">
+                                        <a ><b>India:-</b> ​​Jumpstart Tower, 2nd floor, Haridwar Bypass Rd, opp. Nilaya Hills, Saraswati Vihar, Ajabpur Kalan, Dehradun, Uttarakhand 248001.</a>
+                                    </li>
+                                    
                                     <h2 className="mb-3 mt-6 text-sm font-semibold text-gray-900 uppercase ">Phone</h2>
 
                                     <li>
