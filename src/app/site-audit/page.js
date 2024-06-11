@@ -127,7 +127,7 @@ const Page = () => {
                 How are your websites really performing?
               </h3>
               <p className='text-white mb-4'>
-                Get an extensive audit finished within 2 days for free. No strings attached.
+  Get an extensive audit finished within a few minutes for free. No strings attached.
               </p>
               <form onSubmit={handleSubmit} className="space-y-6 w-full">
                 <div>
