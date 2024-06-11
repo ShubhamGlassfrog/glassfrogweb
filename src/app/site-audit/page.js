@@ -202,7 +202,7 @@ const page = () => {
               
               <button
                 type="submit"
-                className="enquire text-white p-3 rounded-lg flex items-center justify-center"
+                className="audit text-white p-3 rounded-lg flex items-center justify-center"
               >
                 {isSubmitting ? (
                   <svg
@@ -226,7 +226,7 @@ const page = () => {
                     ></path>
                   </svg>
                 ) : (
-                  "Submit"
+                  "Audit Site"
                 )}
               </button>
               {successMessage && (
