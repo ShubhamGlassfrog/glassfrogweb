@@ -56,7 +56,7 @@ We provide a full range of services including website design & development, adve
                        <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                             
                          <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><a href='/ux-ui-design'>01. UX/Ui Design<svg
+                              <li className=' serli' ><a href='/ux-ui-design'> UX/Ui Design<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -70,7 +70,7 @@ We provide a full range of services including website design & development, adve
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/mobile-application'>02. Mobile Application<svg
+                              <li className=' serli'><a href='/mobile-application'> Mobile Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ We provide a full range of services including website design & development, adve
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/web-application'>03. Web Application<svg
+                              <li className=' serli'><a href='/web-application'> Web Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -98,7 +98,7 @@ We provide a full range of services including website design & development, adve
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/ai-application'>04. AI Application<svg
+                              <li className=' serli'><a href='/ai-application'> AI Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -112,7 +112,7 @@ We provide a full range of services including website design & development, adve
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/security-services'>05. Security Services<svg
+                              <li className=' serli'><a href='/security-services'> Security Services<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ We provide a full range of services including website design & development, adve
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></li>
-                              <li className=' serli'><a href='/iot-embedded'>06. IOT & Embedded<svg
+                              <li className=' serli'><a href='/iot-embedded'> IOT & Embedded<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

@@ -18,7 +18,7 @@ const Service = () => {
                              MARKETING
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><b><a href='/social-media-advertising'>01.&nbsp;&nbsp; Social Media Advertising <svg
+                              <li className=' serli' ><b><a href='/social-media-advertising'> Social Media Advertising <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/pay-per-click-ads'>02.&nbsp;&nbsp; Pay Per Click Ads<svg
+                              <li className=' serli'><b><a href='/pay-per-click-ads'> Pay Per Click Ads<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -46,7 +46,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                            <li className=' serli'><b><a href='/search-engine-optimisation'>03.&nbsp;&nbsp; Search Engine Optimisation<svg
+                            <li className=' serli'><b><a href='/search-engine-optimisation'> Search Engine Optimisation<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                                                          <li className=' serli'><b><a href='/email-marketing'>04. &nbsp;&nbsp;Email Marketing<svg
+                                                          <li className=' serli'><b><a href='/email-marketing'>Email Marketing<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -94,7 +94,7 @@ const Service = () => {
                              TECHNOLOGY
                           </h2>
                           <ul className='flex flex-col gap-5'>
-                              <li className=' serli' ><b><a href='/ux-ui-design'>01.&nbsp;&nbsp; UX/Ui Design<svg
+                              <li className=' serli' ><b><a href='/ux-ui-design'> UX/Ui Design<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -108,7 +108,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/mobile-application'>02.&nbsp;&nbsp; Mobile Application<svg
+                              <li className=' serli'><b><a href='/mobile-application'> Mobile Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/web-application'>03.&nbsp;&nbsp; Web Application<svg
+                              <li className=' serli'><b><a href='/web-application'> Web Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -136,7 +136,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/ai-application'>04.&nbsp;&nbsp; AI Application<svg
+                              <li className=' serli'><b><a href='/ai-application'>AI Application<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -150,7 +150,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/security-services'>05.&nbsp;&nbsp; Security Services<svg
+                              <li className=' serli'><b><a href='/security-services'> Security Services<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -164,7 +164,7 @@ const Service = () => {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg></a></b></li>
-                              <li className=' serli'><b><a href='/iot-embedded'>06.&nbsp;&nbsp; IOT & Embedded<svg
+                              <li className=' serli'><b><a href='/iot-embedded'> IOT & Embedded<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
