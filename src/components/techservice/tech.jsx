@@ -51,7 +51,7 @@ Full spectrum of services, for all your needs.                            </h2>
            <div className="flex justify-center py-10 ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {cardsData.map((card, index) => (
-          <div key={index} className="card w-60 bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 p-4 gap-4 rounded-lg shadow-md">
+          <div key={index} className="card w-60 bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300  gap-4 rounded-lg shadow-md">
             <Image className='cardimg' src={card.image}/>
             <div className="card__content">
               <p className="card__title text-lg font-bold mb-2">{card.title}</p>

@@ -38,7 +38,11 @@ const page = () => {
                             <h1 className='glassfrog'>Application</h1>
                             <p className="text-white mb-6">
               Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.                  
-              </p>
+              </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
+                              BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8.09999 12.293L6.68999 13.707L0 6.99997L6.68999 0.292969L8.09999 1.70697L3.81799 5.99997H160V7.99997H3.81799L8.09999 12.293Z" fill="#ffffff"/>
+</svg>
+ </a></p>
 
                         </div>
 
@@ -68,15 +72,15 @@ The accessibility of the virtual platforms of a brand grows a step further when 
           <div className="flex justify-center py-10  ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {cardsData.map((card, index) => (
-          <div key={index} className="bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 p-4 gap-4 rounded-lg shadow-md">
-            <div className="col-span-2 text-lg font-bold capitalize rounded-md">
+          <div key={index} className="text-white bg-[#020617] border-slate-300 p-4 gap-4 rounded-lg shadow-md">
+            <div className="col-span-2 text-lg font-bold capitalize rounded-md pb-4">
               {card.title}
             </div>
-            <div className="col-span-2 rounded-md">
+            <div className="col-span-2 rounded-md pb-4">
               {card.description}
             </div>
             <div className="col-span-1">
-              <button className="rounded-md  bg-slate-300 hover:bg-slate-600 hover:text-slate-200 duration-300 p-2"><a className='flex' href='/contact'>
+              <button className="rounded-md   hover:text-slate-200 duration-300 p-2"><a className='flex' href='/contact'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                   <polyline points="15 3 21 3 21 9"></polyline>
