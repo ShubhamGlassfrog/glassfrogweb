@@ -43,7 +43,7 @@ const page = () => {
          
           
           <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 ">
+                <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row sm:flex-row gap-10">
                         {/* First Column */}
                         <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
