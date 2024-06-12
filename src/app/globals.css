@@ -552,3 +552,10 @@ body {
 .cardimg{
 height: -webkit-fill-available;
   width: -webkit-fill-available;}
+    .group:hover .group-hover\:block {
+      display: block;
+    }
+  
+    .group:hover .group-hover\:visible {
+      visibility: visible;
+    }
