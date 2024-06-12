@@ -107,7 +107,11 @@ const Page = () => {
 
   return (
     <>
+     
       <head>
+         <title>  Extensive Site Audit in No Time, for Free, with Us!  </title>
+<meta name="description" content="  Analyse all the factors affecting the traffic of your website and visibility with a thorough, rapid, and expert Site Audit, for free at Glassfrog Technologies. 
+ "/>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16525280496"

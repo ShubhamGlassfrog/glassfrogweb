@@ -10,6 +10,11 @@ const page = () => {
    
     return (
         <>
+            <head>
+        <title>Best Digital Marketing Services: About Us, Read Here </title>
+<meta name="description" content=" Expand your business with Digital Marketing and Technical Expertise based in London, UK. Click here to learn more about us and our services in all the domains. 
+ "/>
+      </head>
             <Header />
 
             <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/client1.avif')" }}>
