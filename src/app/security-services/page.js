@@ -44,13 +44,17 @@ const page = () => {
                             <p className="text-white mb-6">
                                We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
 
-                        </div>
+                        <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
+                              BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8.09999 12.293L6.68999 13.707L0 6.99997L6.68999 0.292969L8.09999 1.70697L3.81799 5.99997H160V7.99997H3.81799L8.09999 12.293Z" fill="#ffffff"/>
+</svg>
+ </a></p> </div>
 
                         {/* Second Column */}
                         <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
 
 
-                            <Image src="/service.webp" alt="Logo 2" width={1800} height={1800} />
+                            <Image src="/securityservices.png" alt="Logo 2" width={1800} height={1800} />
 
 
 
@@ -67,11 +71,7 @@ const page = () => {
                             <p className="text-slate-950 mb-6">
 Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
 
-                        <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
-                              BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M8.09999 12.293L6.68999 13.707L0 6.99997L6.68999 0.292969L8.09999 1.70697L3.81799 5.99997H160V7.99997H3.81799L8.09999 12.293Z" fill="#ffffff"/>
-</svg>
- </a></p></div>
+                       </div>
           <div className="flex justify-center py-10  ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {cardsData.map((card, index) => (
