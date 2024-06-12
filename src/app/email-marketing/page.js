@@ -27,6 +27,12 @@ const page = () => {
 
   return (
     <>
+      <head>
+        <title>Best emailing service in UK | Top Email Marketing</title>
+<meta name="description" content="Do email marketing with our e mail marketing service. We use software that allows users to create and customise campaigns, collect data, and send emails. "/>
+      </head>
+
+
       <Header />
       <section className="bg-slate-950 py-16 ">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

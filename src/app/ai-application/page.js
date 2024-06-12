@@ -23,7 +23,12 @@ const page = () => {
 ];
 
   return (
-      <>
+    <>
+      <head>
+        <title>Best AI Apps with Artificial Intellegence App Services  </title>
+<meta name="description" content=" We use the best AI app or artificial intelligence app to transform tasks. We work with the best AI apps for more productivity.
+ "/>
+      </head>
       
           <Header />
           <section className="bg-slate-950 py-16 ">

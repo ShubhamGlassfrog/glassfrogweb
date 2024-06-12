@@ -24,7 +24,12 @@ const page = () => {
 ];
 
   return (
-      <>
+    <>
+      <head>
+        <title>Crack the IOT Internet of Things Code for IOT Devices </title>
+<meta name="description" content="The IoT (Internet of Things) connects devices to the Internet, enabling data exchange. The Internet of All Things expands this concept, integrating more items. IoT devices include smart gadgets like sensors and appliances.
+ "/>
+      </head>
       
           <Header />
           <section className="bg-slate-950 py-16 ">

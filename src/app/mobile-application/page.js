@@ -25,7 +25,11 @@ const page = () => {
 
   return (
       <>
-      
+      <head>
+        <title> Mobile App Development   </title>
+<meta name="description" content=" We boost your product with innovative mobile applications and skilled mobile app development. Experience top mobile apps created by advanced app development.
+ "/>
+      </head>
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

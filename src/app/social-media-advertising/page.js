@@ -27,6 +27,11 @@ const page = () => {
 
   return (
     <>
+      <head>
+        <title>Best Social Media Ads for Stellar Social Network Advertising</title>
+<meta name="description" content="We work on Social media ads for social network advertising to target users. Know about Social media and advertising. Boost with social media advertising.
+ "/>
+      </head>
       <Header />
       <section className="bg-slate-950 py-16 ">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

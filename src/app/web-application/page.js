@@ -25,7 +25,11 @@ const page = () => {
 
   return (
       <>
-      
+      <head>
+        <title>Website Application Development Services | Web Application   </title>
+<meta name="description" content=" Using web applications we boost your business with web application development. Enhance functionality with website applications and website application development.
+ "/>
+      </head>
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
