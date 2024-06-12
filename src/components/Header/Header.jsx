@@ -156,12 +156,31 @@ const Header = () => {
           >
             Site Audit
           </Link>
-          <Link
-            href="/services"
-            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white"
-          >
-            Services
-          </Link>
+          <div className="relative group">
+      <button className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white">
+        Services
+      </button>
+      <div className="absolute  w-48 bg-white shadow-lg rounded-md py-2 hidden group-hover:block group-hover:visible">
+        <Link
+          href="/services"
+          className="block px-4 py-2 text-black hover:bg-gray-100"
+        >
+          All Services
+        </Link>
+        <Link
+          href="/digital-marketing"
+          className="block px-4 py-2 text-black hover:bg-gray-100"
+        >
+          Marketing
+        </Link>
+        <Link
+          href="/technology"
+          className="block px-4 py-2 text-black hover:bg-gray-100"
+        >
+          Technical
+        </Link>
+      </div>
+    </div>
           <button className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#ed2998] hover:text-black hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
             <Link href="/contact">Contact Us</Link>
           </button>
