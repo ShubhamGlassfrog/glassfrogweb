@@ -34,7 +34,7 @@ const page = () => {
             {/* First Column */}
             <div className="   w-full md:w-1/2 sm:w-1/2">
               <h1 className="   we">Pay Per</h1>
-              <br></br>
+             
               <h1 className="glassfrog">Click Ads</h1>
               <p className="text-white mb-6">
                 Our marketing agency makes Pay-Per-Click ads easy and effective.

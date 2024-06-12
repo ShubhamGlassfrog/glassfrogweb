@@ -34,7 +34,7 @@ const page = () => {
             {/* First Column */}
             <div className="   w-full md:w-1/2 sm:w-1/2">
               <h1 className="   we">Email</h1>
-              <br></br>
+              
               <h1 className="glassfrog">Marketing</h1>
               <p className="text-white mb-6">
                 Email marketing is a super effective way to connect with your

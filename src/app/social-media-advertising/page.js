@@ -34,7 +34,7 @@ const page = () => {
             {/* First Column */}
             <div className="   w-full md:w-1/2 sm:w-1/2">
               <h1 className="   we">Social Media</h1>
-              <br></br>
+              
               <h1 className="glassfrog">Advertising</h1>
               <p className="text-white mb-6">
                 Social media is the ultimate platform for real-time engagement

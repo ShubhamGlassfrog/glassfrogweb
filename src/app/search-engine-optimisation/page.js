@@ -34,7 +34,7 @@ const page = () => {
             {/* First Column */}
             <div className="   w-full md:w-1/2 sm:w-1/2">
               <h1 className="   we">Search Engine</h1>
-              <br></br>
+              
               <h1 className="glassfrog">Optimisation</h1>
               <p className="text-white mb-6">
                 We specialise in SEO which will help your website show up higher

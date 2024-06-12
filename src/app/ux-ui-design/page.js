@@ -34,7 +34,7 @@ const page = () => {
                         <div className="   w-full md:w-1/2 sm:w-1/2">
                             <h1 className="   we">UX/UI
 
-                            </h1><br></br>
+                            </h1>
                             <h1 className='glassfrog'>Design</h1>
                             <p className="text-white mb-6">
                                

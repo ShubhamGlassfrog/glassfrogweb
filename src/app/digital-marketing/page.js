@@ -19,7 +19,7 @@ const page = () => {
                         <div className="   w-full md:w-1/2 sm:w-1/2">
                             <h1 className="   we">Digital
 
-                            </h1><br></br>
+                            </h1>
                             <h1 className='glassfrog'>Marketing</h1>
                             <p className="text-white mb-6">
               Glassfrog explores marketing and technical excellence. We are committed to both the creative and technical aspects of marketing. By incorporating AI, we offer advanced marketing solutions that wouldn't be possible with traditional methods. With AI we analyze vast amounts of data to gain deep insights into your target audience. We believe that personalized and relevant marketing messages lead to improved customer engagement and satisfaction.                
