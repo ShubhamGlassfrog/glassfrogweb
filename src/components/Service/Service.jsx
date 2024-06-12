@@ -16,7 +16,7 @@ const Service = () => {
               className="w-full"
               style={{ height: "90%" }}
             >
-              <source src="/digital-marketing.mp4" type="video/mp4" />
+              <source src="/marketing.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
