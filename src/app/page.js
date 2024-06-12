@@ -13,6 +13,10 @@ import Footer from "@/components/Footer/Footer";
 export default function Home() {
   return (
     <>
+      <head>
+         <title>  Glassfrog Technologies | Your Technical and Digital Partner  </title>
+<meta name="description" content="   Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! 
+ "/></head>
       <Header />
       <VideoSection />
       <Marquee />
