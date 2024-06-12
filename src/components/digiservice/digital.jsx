@@ -1,7 +1,7 @@
 import React from 'react'
 import sma from "../../../public/socialmediaadvertising.png"
 import ppc from "../../../public/payperclickads.png"
-import emm from "../../../public/emailmarketing.png"
+import emm from "../../../public/em.png"
 
 import seo from "../../../public/searchengineoptimization.png"
 import Image from 'next/image';

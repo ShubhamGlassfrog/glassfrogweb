@@ -5,7 +5,7 @@ import mobileapplication from "../../../public/mobileapplication.png"
 import webapplication from "../../../public/webapplication.png"
 import aiapplication from "../../../public/aiapplication.png"
 import securityservices from "../../../public/securityservices.png"
-import iot from "../../../public/iot.png"
+import iot from "../../../public/iott.png"
 
 
 
