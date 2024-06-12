@@ -1,8 +1,9 @@
 import React from 'react'
 import sma from "../../../public/socialmediaadvertising.png"
 import ppc from "../../../public/payperclickads.png"
+import emm from "../../../public/emailmarketing.png"
+
 import seo from "../../../public/searchengineoptimization.png"
-import em from "../../../public/emailmarketing.png"
 import Image from 'next/image';
 
 
@@ -29,9 +30,10 @@ const digital = () => {
       },
   {
     title: 'Email Marketing',
-    image:em,
+    image:emm,
     description:"Email marketing is a super effective way to connect with your customers. We send out emails to people who are interested in your business, telling them about your latest products, promotions, or news. It's like having a direct line to your customers' inboxes. We create compelling email campaigns that delight the audience and encourage them to take action, whether it's making a purchase, subscribing to a service, or simply keeping in touch.",
-  },
+      },
+  
 ];
   return (
       <>
