@@ -10,16 +10,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Cloud Security',
+    description: 'To ensure that your cloud-based infrastructure is completely secure and accomplished, our comprehensive cloud security solutions will hold the fort for you at all times. ',
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'DevSecOps',
+    description: 'We ensure the application of Development, Security and Operations to integrate security and relative measures at every phase of your software development for a seamlessly encrypted system. ',
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Security Code Review',
+    description: 'A very prominent part of the Software Development Life Cycle SDLC, our Security Code Review shall ensure that all the security vulnerabilities in your software are completely scrapped out. ',
   },
 ];
 
@@ -42,7 +42,7 @@ const page = () => {
                             </h1>
                             <h1 className='glassfrog'>Services</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               Create servers and technical infrastructure that is secure, encrypted, and dependable with Glassfrog with complete trust and understanding supported by thorough assistance.    </p>
 
                         <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
                               BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +69,7 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
-
+Building systems and having security threats have been a common apprehension. But, with services that are encrypted and fully secure, the trust multiplies. This has been and is our prime objective as we deliver services in the technical domain. We ensure network, data, and software security with our seamless solutions that are executed with sheer command.  </p>
                        </div>
           <div className="flex justify-center py-10  ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

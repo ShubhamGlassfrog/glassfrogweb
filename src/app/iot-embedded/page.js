@@ -10,16 +10,16 @@ import Tech from '@/components/techservice/tech';
 const page = () => {
     const cardsData = [
   {
-    title: 'Card Title 1',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Embedded Systems Development',
+    description: 'To build systems that are embedded with IoT, we construct a plan that is balanced with thorough comprehension and customisation to cater to the requirements of the client. ',
   },
   {
-    title: 'Card Title 2',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Real-Time Application Development',
+    description: 'We provide Real-Time Operating Systems RTOS by inculcating responsive and reliable technologies. This is the key to the seamless sensing, analysing, and acting on streaming data. ',
   },
   {
-    title: 'Card Title 3',
-    description: 'Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the earliest examples of the Lorem ipsum placeholder text on 1960s advertising...',
+    title: 'Security and Data Privacy',
+    description: 'Our smooth processes ensure multiplied security and data privacy with the devices that are installed with the Internet of Things embedded technologies resulting in competent compliance. ',
   },
 ];
 
@@ -42,7 +42,8 @@ const page = () => {
                             </h1>
                             <h1 className='glassfrog'>Embedded</h1>
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               Proficient in myriad languages required for IOT Internet of Things Embedded, our Team puts their best foot forward in the technical domain. For flawless development of IOT Devices, we leave no stone unturned. 
+  </p>
 
                        <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
                               BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +70,7 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-Our approach to businesses is very simple. We combine our passion for technicalities with digital marketing to create a virtual experience that drives engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.                            </p>
+As there is rapid growth and development in the technical arena, the future of the Internet of All Things looks supremely promising. With an amalgamation of conceptual and application skills, we construct devices that are incorporated with intelligence to empower systems. Be it Prototyping, Cloud-Based Data Management, Connectivity and Communications, or anything else, we deal in all.     </p>
 
                         </div>
           <div className="flex justify-center py-10  ">
