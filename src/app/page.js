@@ -17,6 +17,22 @@ export default function Home() {
          <title>  Glassfrog Technologies | Your Technical and Digital Partner  </title>
 <meta name="description" content="   Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! 
  "/>
+        <link rel="canonical" href="https://www.glassfrogtech.com/" />
+<meta property="og:url" content="https://www.glassfrogtech.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Glassfrog Technologies | Your Technical and Digital Partner"/>
+<meta property="og:description" content="Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! "/>
+<meta property="og:image" content="https://www.glassfrogtech.com/logo.svg"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="twitter:domain" content="glassfrogtech.com"/>
+<meta property="twitter:url" content="https://www.glassfrogtech.com/"/>
+<meta name="twitter:title" content="Glassfrog Technologies | Your Technical and Digital Partner"/>
+<meta name="twitter:description" content="Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! "/>
+<meta name="twitter:image" content="https://www.glassfrogtech.com/logo.svg"/>
+
+
        <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16573743263"
