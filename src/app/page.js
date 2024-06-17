@@ -16,7 +16,23 @@ export default function Home() {
       <head>
          <title>  Glassfrog Technologies | Your Technical and Digital Partner  </title>
 <meta name="description" content="   Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! 
- "/></head>
+ "/>
+       <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16573743263"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16573743263');
+            `,
+          }}
+        ></script>
+      
+      </head>
       <Header />
       <VideoSection />
       <Marquee />
