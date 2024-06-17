@@ -36,7 +36,7 @@ const page = () => {
                         <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
 
 
-                            <Image src="/service.webp" alt="Logo 2" width={1800} height={1800} />
+                            <Image src="/service.webp" alt="digital-marketing" width={1800} height={1800} />
 
 
 
@@ -47,7 +47,7 @@ const page = () => {
          
           
           <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row sm:flex-row gap-10">
                         {/* First Column */}
                         <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">

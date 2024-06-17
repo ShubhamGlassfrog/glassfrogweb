@@ -77,7 +77,7 @@ With time, the digital marketing industry induced the sustaining passion for tec
                         <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
 
 
-                            <Image src="/about.jpeg" alt="Logo 2" width={1800} height={1800} />
+                            <Image src="/about.jpeg" alt="Glassfrohtech" width={1800} height={1800} />
 
 
 
@@ -91,7 +91,7 @@ With time, the digital marketing industry induced the sustaining passion for tec
                         <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
 
 
-                            <Image src="/about.jpeg" alt="Logo 2" width={1800} height={1800} />
+                            <Image src="/about.jpeg" alt="Glassfrohtech" width={1800} height={1800} />
 
 
 
@@ -121,16 +121,16 @@ The second and very creative side of Glassfrog deals with the Virtual Marketing 
              <div className="flex flex-col md:flex-row sm:flex-row space-y-8 justify-center gap-16 pt-14 items-center">
 
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/a2.png" alt="Logo 2" width={200} height={100} />
+                            <Image className='alogo' src="/a2.png" alt="Glassfrohtech" width={200} height={100} />
                         </div>
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/Union.svg" alt="Logo 3" width={200} height={100} />
+                            <Image className='alogo' src="/Union.svg" alt="Glassfrohtech" width={200} height={100} />
                         </div>
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/awards.svg" alt="Logo 3" width={200} height={100} />
+                            <Image className='alogo' src="/awards.svg" alt="Glassfrohtech" width={200} height={100} />
                         </div>
                         <div className="flex justify-center">
-                            <Image className='alogo' src="/a3.png" alt="Logo 3" width={200} height={100} />
+                            <Image className='alogo' src="/a3.png" alt="Glassfrohtech" width={200} height={100} />
                         </div>
                     </div>
                 </div>

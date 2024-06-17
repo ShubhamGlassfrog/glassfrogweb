@@ -78,7 +78,7 @@ const page = () => {
             <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
               <Image
                 src="/em.png"
-                alt="Logo 2"
+                alt="email-marketing"
                 width={1800}
                 height={1800}
               />
