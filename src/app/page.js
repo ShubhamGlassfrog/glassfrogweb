@@ -33,7 +33,7 @@ export default function Home() {
 <meta name="twitter:image" content="https://www.glassfrogtech.com/logo.svg"/>
 
 
-       <script
+        <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16573743263"
         ></script>
