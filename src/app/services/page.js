@@ -9,9 +9,8 @@ const page = () => {
   return (
     <>
        <head>
-         <title>  Premium Website and Digital Marketing Services in UK    </title>
-<meta name="description" content="  Looking to revamp your website and grow your business beyond its general reach? Check out our services in Website Development and Digital Marketing based in UK. 
- "/></head>
+         <title>Premium Website and Digital Marketing Services in UK</title>
+<meta name="description" content="Looking to revamp your website and grow your business beyond its general reach? Check out our services in Website Development and Digital Marketing based in UK."/></head>
       <Header />
       <section className="bg-slate-950 py-16 ">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

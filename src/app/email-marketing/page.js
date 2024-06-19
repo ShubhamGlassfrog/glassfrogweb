@@ -29,7 +29,7 @@ const page = () => {
     <>
       <head>
         <title>Best emailing service in UK | Top Email Marketing</title>
-<meta name="description" content="Do email marketing with our e mail marketing service. We use software that allows users to create and customise campaigns, collect data, and send emails. "/>
+<meta name="description" content="Do email marketing with our e mail marketing service. We use software that allows users to create and customise campaigns, collect data, and send emails."/>
       </head>
 
 

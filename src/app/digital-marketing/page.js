@@ -11,9 +11,8 @@ const page = () => {
   return (
       <>
        <head>
-        <title>  Expert Digital Marketing Agency in London & Ads Agency   </title>
-<meta name="description" content="  Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London! 
- "/>
+        <title>Expert Digital Marketing Agency in London & Ads Agency</title>
+<meta name="description" content="Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London!"/>
         <meta property="og:url" content="https://www.glassfrogtech.com/digital-marketing"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>

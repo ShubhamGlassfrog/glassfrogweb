@@ -29,9 +29,7 @@ const page = () => {
     <>
        <head>
         <title>SEO Agency | Next Generation SEO & Marketing Company</title>
-<meta name="description" content="Our SEO Search Engine Optimization will work wonders for your site. Get a 
-search optimization service. SEO and Marketing for better ranking and customers
- "/>
+<meta name="description" content="Our SEO Search Engine Optimization will work wonders for your site. Get a search optimization service. SEO and Marketing for better ranking and customers"/>
       </head>
       <Header />
       <section className="bg-slate-950 py-16 ">

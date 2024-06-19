@@ -26,9 +26,8 @@ const page = () => {
   return (
     <>
       <head>
-        <title>Network Security in Networking | Cyber Security Companies </title>
-<meta name="description" content=" Network security in networking protects data integrity and access. Cybersecurity companies and computer security companies offer solutions. Cyber security in companies ensures corporate data safety.
- "/>
+        <title>Network Security in Networking | Cyber Security Companies</title>
+<meta name="description" content="Network security in networking protects data integrity and access. Cybersecurity companies and computer security companies offer solutions. Cyber security in companies ensures corporate data safety."/>
       </head>
       
           <Header />
