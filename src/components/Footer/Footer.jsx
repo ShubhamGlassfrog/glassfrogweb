@@ -120,6 +120,13 @@ const Footer = () => {
                   <li>
                     <p>+91 9084712335, +91 9084712325</p>
                   </li>
+                  <h2 className="mb-3 mt-6 text-sm font-semibold text-gray-900 uppercase ">
+                    Email us
+                  </h2>
+
+                  <li>
+                    <p>support@glassfrog.design</p>
+                  </li>
                 </ul>
               </div>
             </div>
