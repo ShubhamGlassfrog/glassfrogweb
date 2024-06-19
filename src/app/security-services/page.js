@@ -36,10 +36,10 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">Security
+                            <h1 className="   we">Security <span className='glassfrog'>Services</span>
 
                             </h1>
-                            <span className='glassfrog'>Services</span>
+                            
                             <p className="text-white mb-6">
                                Create servers and technical infrastructure that is secure, encrypted, and dependable with Glassfrog with complete trust and understanding supported by thorough assistance.    </p>
 

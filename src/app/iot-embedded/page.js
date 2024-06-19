@@ -36,10 +36,10 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">IOT & 
+                            <h1 className="   we">IOT &  <span className='glassfrog'>Embedded</span>
 
                             </h1>
-                            <span className='glassfrog'>Embedded</span>
+                            
                             <p className="text-white mb-6">
                                Proficient in myriad languages required for IOT Internet of Things Embedded, our Team puts their best foot forward in the technical domain. For flawless development of IOT Devices, we leave no stone unturned. 
   </p>

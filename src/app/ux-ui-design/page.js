@@ -35,10 +35,10 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">UX/UI
+                            <h1 className="   we">UX/UI                             <span className='glassfrog'>Design</span>
+
 
                             </h1>
-                            <span className='glassfrog'>Design</span>
                             <p className="text-white mb-6">
                                
               Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients! 

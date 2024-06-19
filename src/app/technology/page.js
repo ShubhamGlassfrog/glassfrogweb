@@ -19,10 +19,10 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">Technical
+                            <h1 className="   we">Technical <span className='glassfrog'>SERVICES</span>
 
                             </h1>
-                            <span className='glassfrog'>SERVICES</span>
+                            
                             <p className="text-white mb-6">
                                We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
 

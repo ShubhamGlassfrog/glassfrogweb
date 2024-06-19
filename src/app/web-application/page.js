@@ -35,10 +35,10 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">Web
+                            <h1 className="   we">Web                             <span className='glassfrog'>Application</span>
+
 
                             </h1>
-                            <span className='glassfrog'>Application</span>
                             <p className="text-white mb-6">
               Connect with your customers conveniently and securely by delivering the information and services remotely in the most opportunely way possible with Glassfrog’s proficient Web Development Solutions.                 
               </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>

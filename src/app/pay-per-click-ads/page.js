@@ -37,9 +37,9 @@ const page = () => {
           <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
             {/* First Column */}
             <div className="   w-full md:w-1/2 sm:w-1/2">
-              <h1 className="   we">Pay Per</h1>
+              <h1 className="   we">Pay Per <span className="glassfrog">Click Ads</span></h1>
              
-              <span className="glassfrog">Click Ads</span>
+              
               <p className="text-white mb-6">
                 Our marketing agency makes Pay-Per-Click ads easy and effective.
                 We create ads that attract potential customers to your website

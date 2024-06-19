@@ -19,9 +19,9 @@ const page = () => {
             <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/client1.avif')" }}>
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
                     <div className="text-center text-white">
-                        <h1 className="   we">WE'RE
+                        <h1 className="   we">WE'RE <span className='glassfrog'>GLASSFROG</span>
                         </h1>
-                        <span className='glassfrog'>GLASSFROG</span>
+                        
                     </div>
                 </div>
             </section>
