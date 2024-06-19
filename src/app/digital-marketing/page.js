@@ -26,7 +26,137 @@ const page = () => {
 <meta property="twitter:url" content="https://www.glassfrogtech.com/digital-marketing"/>
 <meta name="twitter:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>
 <meta name="twitter:description" content=" Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London! "/>
-<meta name="twitter:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75"/>
+        <meta name="twitter:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@type": "ImageObject",
+            "inLanguage": "en-GB",
+            "@id": "https://www.glassfrogtech.com/digital-marketing/#primaryimage",
+            "url": "https://www.glassfrogtech.com/logo.svg",
+            "contentUrl": "https://www.glassfrogtech.com/logo.svg",
+            "width": 1500,
+            "height": 1000
+          })
+        }} />
+        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@type": "Organization",
+            "@id": "https://www.glassfrogtech.com/digital-marketing/#organization",
+            "name": "Expert Digital Marketing Agency in London & Ads Agency",
+            "url": "https://www.glassfrogtech.com/digital-marketing",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-GB",
+              "@id": "https://www.glassfrogtech.com/digital-marketing/#/schema/logo/image/",
+              "url": "https://www.glassfrogtech.com/whitelogo.png",
+              "contentUrl": "https://www.glassfrogtech.com/whitelogo.png",
+              "caption": "Expert Digital Marketing Agency in London & Ads Agency"
+            },
+            "image": {
+              "@id": "https://www.glassfrogtech.com/digital-marketing#/schema/logo/image/"
+            }
+          })
+        }} />
+        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@type": "WebSite",
+            "@id": "https://www.glassfrogtech.com/digital-marketing#/schema/logo/image/#website",
+            "url": "https://www.glassfrogtech.com/digital-marketing",
+            "name": "Expert Digital Marketing Agency in London & Ads Agency",
+            "description": "Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London!",
+            "publisher": {
+              "@id": "https://www.glassfrogtech.com/digital-marketing#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.glassfrogtech.com/digital-marketing?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            ],
+            "inLanguage": "en-GB"
+          })
+        }} />
+        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@type": "WebSite",
+            "@id": "https://www.glassfrogtech.com/digital-marketing#website",
+            "url": "https://www.glassfrogtech.com/digital-marketing",
+            "name": "Expert Digital Marketing Agency in London & Ads Agency",
+            "description": "Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London!",
+            "publisher": {
+              "@id": "https://www.glassfrogtech.com/digital-marketing/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.glassfrogtech.com/digital-marketing?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            ],
+            "inLanguage": "en-GB"
+          })
+        }} />
+        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://www.glassfrogtech.com/search-engine-optimisation"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://www.glassfrogtech.com/social-media-advertising"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://www.glassfrogtech.com/pay-per-click-ads"
+              }
+            ]
+          })
+        }} />
+        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Pay Per Click Ads",
+                "item": "https://www.glassfrogtech.com/pay-per-click-ads"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Search Engine Optimisation",
+                "item": "https://www.glassfrogtech.com/search-engine-optimisation"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Social Media Advertising",
+                "item": "https://www.glassfrogtech.com/social-media-advertising"
+              }
+            ]
+          })
+        }} />
       </head>
           <Header />
           <section className="bg-slate-950 py-16 ">
