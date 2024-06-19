@@ -133,30 +133,7 @@ const page = () => {
           })
         }} />
         
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "url": "https://www.glassfrogtech.com/search-engine-optimisation"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "url": "https://www.glassfrogtech.com/social-media-advertising"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "url": "https://www.glassfrogtech.com/pay-per-click-ads"
-              }
-            ]
-          })
-        }} />
-        
+       
        
       </head>
           <Header />
