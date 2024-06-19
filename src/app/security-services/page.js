@@ -39,7 +39,7 @@ const page = () => {
                             <h1 className="   we">Security
 
                             </h1>
-                            <h1 className='glassfrog'>Services</h1>
+                            <span className='glassfrog'>Services</span>
                             <p className="text-white mb-6">
                                Create servers and technical infrastructure that is secure, encrypted, and dependable with Glassfrog with complete trust and understanding supported by thorough assistance.    </p>
 

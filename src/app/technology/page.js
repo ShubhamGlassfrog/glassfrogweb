@@ -22,7 +22,7 @@ const page = () => {
                             <h1 className="   we">Technical
 
                             </h1>
-                            <h1 className='glassfrog'>SERVICES</h1>
+                            <span className='glassfrog'>SERVICES</span>
                             <p className="text-white mb-6">
                                We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
 

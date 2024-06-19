@@ -38,7 +38,7 @@ const page = () => {
                             <h1 className="   we">AI
 
                             </h1>
-                            <h1 className='glassfrog'>Application</h1>
+                            <span className='glassfrog'>Application</span>
                             <p className="text-white mb-6">
                                
               In order to ensure perfect execution, team at Glassfrog Technologies is much well versed with Artificial Intelligence. We induce AI algorithm to inspire automation in myriad of domains, resulting in unending success. 

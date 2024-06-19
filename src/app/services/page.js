@@ -19,7 +19,7 @@ const page = () => {
             <div className="   w-full md:w-1/2 sm:w-1/2">
               <h1 className="   we">OUR</h1>
               
-              <h1 className="glassfrog">SERVICES</h1>
+              <span className="glassfrog">SERVICES</span>
               <p className="text-white mb-6">
                 Glassfrog Technologies offers businesses comprehensive digital
                 and technical solutions. Our skilled and passionate team creates

@@ -38,7 +38,7 @@ const page = () => {
                             <h1 className="   we">Web
 
                             </h1>
-                            <h1 className='glassfrog'>Application</h1>
+                            <span className='glassfrog'>Application</span>
                             <p className="text-white mb-6">
               Connect with your customers conveniently and securely by delivering the information and services remotely in the most opportunely way possible with Glassfrog’s proficient Web Development Solutions.                 
               </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>

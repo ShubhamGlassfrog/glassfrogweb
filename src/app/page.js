@@ -18,7 +18,7 @@ export default function Home() {
 <meta name="description" content="   Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO,Marketing, & more! 
  "/>
         <link rel="canonical" href="https://www.glassfrogtech.com/" />
-<meta property="og:url" content="https://www.glassfrogtech.com/"/>
+        <meta property="og:url" content="https://www.glassfrogtech.com/" />
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Glassfrog Technologies | Your Technical and Digital Partner"/>
 <meta property="og:description" content="Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO & Marketing, and more! "/>

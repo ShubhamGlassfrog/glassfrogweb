@@ -38,7 +38,7 @@ const page = () => {
                             <h1 className="   we">UX/UI
 
                             </h1>
-                            <h1 className='glassfrog'>Design</h1>
+                            <span className='glassfrog'>Design</span>
                             <p className="text-white mb-6">
                                
               Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients! 

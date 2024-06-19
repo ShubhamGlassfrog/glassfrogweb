@@ -21,7 +21,7 @@ const page = () => {
                     <div className="text-center text-white">
                         <h1 className="   we">WE'RE
                         </h1>
-                        <h1 className='glassfrog'>GLASSFROG</h1>
+                        <span className='glassfrog'>GLASSFROG</span>
                     </div>
                 </div>
             </section>

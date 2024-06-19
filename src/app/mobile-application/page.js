@@ -38,7 +38,7 @@ const page = () => {
                             <h1 className="   we">Mobile
 
                             </h1>
-                            <h1 className='glassfrog'>Application</h1>
+                            <span className='glassfrog'>Application</span>
                             <p className="text-white mb-6">
               Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.                  
               </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>

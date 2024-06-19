@@ -101,7 +101,8 @@ const Need = () => {
           <div className="w-full md:w-1/2 sm:w-1/2">
             <h1 className="we">Need Help?</h1>
             <br></br>
-            <h1 className="glassfrog">LET'S GO</h1>
+            <span className="glassfrog">LET'S GO</span>
+
             <p className="text-white mb-6">
               Let’s discuss your goals and challenges over a quick email or
               call. Enter your details and we’ll be in touch!
