@@ -14,6 +14,19 @@ const page = () => {
         <title>  Expert Digital Marketing Agency in London & Ads Agency   </title>
 <meta name="description" content="  Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London! 
  "/>
+        <meta property="og:url" content="https://www.glassfrogtech.com/digital-marketing"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>
+<meta property="og:description" content=" Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London! "/>
+<meta property="og:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="twitter:domain" content="glassfrogtech.com"/>
+<meta property="twitter:url" content="https://www.glassfrogtech.com/digital-marketing"/>
+<meta name="twitter:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>
+<meta name="twitter:description" content=" Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London! "/>
+<meta name="twitter:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75"/>
       </head>
           <Header />
           <section className="bg-slate-950 py-16 ">
