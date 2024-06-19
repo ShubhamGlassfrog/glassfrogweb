@@ -142,8 +142,8 @@ const page = () => {
                     <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10 ">
                         {/* First Column */}
                         <div className="   w-full md:w-1/2 sm:w-1/2">
-                            <h1 className="   we">Digital
-Marketing
+                            <h1 className="   we">Digital 
+<span className='glassfrog'>Marketing</span>
                             </h1>
                             
                             <p className="text-white mb-6">
