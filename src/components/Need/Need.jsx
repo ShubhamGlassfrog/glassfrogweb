@@ -99,7 +99,7 @@ const Need = () => {
         <div className="flex flex-col md:flex-row sm:flex-col gap-10">
           {/* First Column */}
           <div className="w-full md:w-1/2 sm:w-1/2">
-            <h1 className="we">Need Help?</h1>
+            <h3 className="we">Need Help?</h3>
             <br></br>
             <span className="glassfrog">LET'S GO</span>
 
