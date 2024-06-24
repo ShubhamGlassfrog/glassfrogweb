@@ -336,6 +336,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .posttitle {
+      font-size: 1.8rem !important;
+      line-height: 39px !important;
+    }
   .slide-track {
     width: calc(80px * 20);
   }
@@ -558,4 +562,9 @@ height: -webkit-fill-available;
   
     .group:hover .group-hover\:visible {
       visibility: visible;
+    }
+
+    .posttitle{
+      font-size: 3rem;
+        line-height: 60px;
     }
