@@ -4,8 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import posts from '../data/posts';
-import Header from '@/Components/Header/Header';
-import Footer from '@/Components/Footer/Footer';
+import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 import { slugify } from '@/utils';
 import parse from 'html-react-parser';
 
