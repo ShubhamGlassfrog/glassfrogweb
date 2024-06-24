@@ -65,7 +65,7 @@ Social media platforms have billions of users, making them goldmines for markete
 
 In digital marketing, content is the centre of attraction. We develop and share high-quality content that not only engages and educates your audience but also drives organic traffic to your website. Even with the rise of social media, email marketing is still powerful. Our personalised email campaigns nurture leads and convert prospects into loyal customers. Influencer endorsements can build trust and credibility for your brand. We connect you with influencers whose followers match your target audience, helping you extend your reach and amplify your brand.</br></br>
 
-<h2>Conclusion</h2></br></br>
+<h2><b>Conclusion</b></h2></br></br>
         <Image src="/gimg6.jpg" alt='Image Description' width={100} height={100}/></br></br>
         Step into the future of digital marketing with Glassfrog technologies. Elevate your business with our cutting-edge approach to advertising, designed to deliver exceptional results.</br></br>
 We utilize the power of the latest ad technology to ensure that your message reaches the right audience at the perfect moment. Our data-driven strategies provide valuable insights, empowering you to make informed decisions for maximum impact. Every campaign we craft is tailored to suit your unique business objectives, guaranteeing the most effective marketing strategy for your brand.</br></br>

@@ -17,9 +17,9 @@ const Bloglist = () => {
             <div className="flex  bg-slate-950 pt-32 flex-wrap py-8 px-0 md:px-12 sm:px-24 pr-0 items-center justify-center">
                 <div className='container flex flex-col md:flex-row sm:flex-row items-center'>
                     <div className="w-full  p-4">
-                        <h1 className="text-xl text-white text-center font-bold chancelorheading">Latest News and Knowledge Base</h1>
+                        <h1 className="posttitle text-white text-center font-bold chancelorheading">Latest News and Knowledge Base</h1>
                         <p className="mt-2 text-white text-center chancelorparagraph">
-                            Looking for more? Read our blogs and check the news updates to know more about the National Defence Academy, Combined Defence Services, Air Force Common Admission Test, and Merchant Navy Examination Preparation Courses.                        </p>
+                            Looking to enhance your knowledge of digital marketing? Dive into our collection of insightful blogs for expert advice and practical tips. Stay up to date with industry trends, discover effective strategies, and refine your approach using best practices. Explore topics such as SEO intricacies, maximizing social media marketing, and creating compelling content frameworks. </p>
                     </div>
                     
                 </div>
