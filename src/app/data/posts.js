@@ -8,10 +8,10 @@ const posts = [
 
   {
     id: 1,
-    html: '<title>NDA I 2024 Exam Date: Admit Card Out Soon and Check Exam Date</title><meta name="description" content="Eligible candidates will be able to download their NDA I admit card  2024 one week before the exam date."/><meta property="og:url" content="https://www.rantraacademy.com/nda-i-2024-exam-date-admit-card-out-soon-and-check-exam-date"/><meta property="og:type" content="website"/><meta property="og:title" content="NDA I 2024 Exam Date: Admit Card Out Soon and Check Exam Date"/><meta property="og:description" content="Eligible candidates will be able to download their NDA I admit card  2024 one week before the exam date."/><meta property="og:image" content="https://www.rantraacademy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FRANTRALOGO.d08dadad.png&w=1080&q=75"/><meta name="twitter:card" content="summary_large_image"/><meta property="twitter:domain" content="rantraacademy.com"/><meta property="twitter:url" content="https://www.rantraacademy.com/nda-i-2024-exam-date-admit-card-out-soon-and-check-exam-date"/><meta name="twitter:title" content="NDA I 2024 Exam Date: Admit Card Out Soon and Check Exam Date"/><meta name="twitter:description" content="Eligible candidates will be able to download their NDA I admit card  2024 one week before the exam date."/><meta name="twitter:image" content="https://www.rantraacademy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FRANTRALOGO.d08dadad.png&w=1080&q=75"/>',
+    html: '<title> Revolutionizing Digital Ads for Better Results</title><meta name="description" content=" Discover the future of digital advertising and learn how to achieve improved results and better outcomes for your campaigns."/>',
     title: "Unlock the Futute of Digital Ads and Better Results",
     metadescription:
-      "Eligible candidates will be able to download their NDA I admit card  2024 one week before the exam date. ",
+      " Discover the future of digital advertising and learn how to achieve improved results and better outcomes for your campaigns. ",
 
     href: "#",
     description: `
