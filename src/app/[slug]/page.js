@@ -34,7 +34,7 @@ const BlogDetail = () => {
             </div>
             <div className="flex bg-slate-950 flex-wrap py-8 px-0 md:px-12 sm:px-24 pr-0 items-center justify-center pt-32">
                 <div className="w-full p-4 container">
-                    <h2 className="posttitle  font-bold chancelorheading text-center">{post.title}</h2>
+                    <h2 className="posttitle text-white font-bold chancelorheading text-center">{post.title}</h2>
 
                     {/* <Image src={post.imageUrl} alt="Image Description" className="max-w-full h-auto w-full blogimg" /> */}
                 </div>
@@ -44,7 +44,7 @@ const BlogDetail = () => {
                     <div className="w-full p-4">
                         <div className="text-sm leading-6 flex justify-center items-center gap-4">
                             <Image src={post.author.authorimageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
-                            <p className="font-semibold ">
+                            <p className="font-semibold text-white">
                                 <span className="absolute inset-0" />
                                 {post.author.name}<br></br>
                                 {post.author.role}
