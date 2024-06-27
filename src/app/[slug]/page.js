@@ -56,7 +56,7 @@ const BlogDetail = () => {
             <div className="bg-white pb-16">
                 <div className="mx-auto max-w-7xl px-6 container">
                     <div className="mx-auto flex flex-col md:flex-row sm:flex-row max-w-2xl gap-x-8 gap-y-16 border-t border-gray-200 lg:mx-0 lg:max-w-none">
-                        <p className="mt-2 chancelorparagraph blogdesc w-full sm:w-3/4 md:3/4">
+                        <p className="mt-2 chancelorparagraph blogdesc text-black w-full sm:w-3/4 md:3/4">
                             {parse(post.description)}
                         </p>
                         <div className='w-full sm:w-1/4 md:1/4'>
@@ -66,12 +66,12 @@ const BlogDetail = () => {
                                 <Link key={recentPost.id} href={`/${slugify(recentPost.title)}`} passHref>
                                     <article className="flex max-w-xl flex-col items-start justify-between gap-5">
                                         <div className="flex items-center gap-x-4 text-xs">
-                                            <time dateTime={recentPost.datetime} className="text-gray-500">
+                                            <time dateTime={recentPost.datetime} className="text-black">
                                                 {recentPost.date}
                                             </time>
                                             <a
                                                 href={recentPost.category.href}
-                                                className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                                                className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-black hover:bg-gray-100"
                                             >
                                                 {recentPost.category.title}
                                             </a>
