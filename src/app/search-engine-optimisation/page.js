@@ -11,17 +11,17 @@ const page = () => {
     {
       title: "On-Page SEO",
       description:
-        "We make sure your website gets seen by the right people. We optimize every aspect of your website to enhance its appeal to search engines like Google. This includes selecting appropriate keywords, refining titles, and headings, and ensuring that your content is easy to read and understand.",
+        "We keep track of the right people seeing your website. We optimize your website in every way to make it more appealing to search engines such as Google. We will select the right keywords, refine titles and headings and make sure that your content is easily readable and understandable.",
     },
     {
       title: "Off-Page SEO",
       description:
-        "Our team of experts makes your website noticed beyond its pages. Off-page SEO builds your website's reputation and authority across the internet. We specialize in building a website's reputation and authority across the internet by creating quality backlinks, writing guest posts and articles, and engaging with your audience on social media and other online platforms.  This makes your website climb higher in search engine rankings and attract more visitors.",
+        "Off-page SEO is a powerful tool to promote your website beyond its pages. Off-page optimization builds the reputation and authority of your website across the Internet. Our team specializes in building the reputation and authority of a website across the Internet by writing quality articles and guest posts, engaging your audience through social media, and creating backlinks. This will help your website to climb higher on search engine results and attract more traffic. ",
     },
     {
       title: "Technical SEO",
       description:
-        "We ensure your website runs smoothly throughout. We'll optimize your website for lightning speed and a flawless user experience, ensuring a happy dance for both visitors and search engines.  With this, the searchers will see your website in a higher position and will see what you offer for their needs. ",
+        "We make sure your website is running smoothly. We will optimize your website to ensure lightning-fast performance and an excellent user experience. This will make both search engines and visitors happy. This will allow search engines to rank your site higher and show what you have to offer.",
     },
   ];
 
@@ -41,11 +41,9 @@ const page = () => {
               
               
               <p className="text-white mb-6">
-                We specialise in SEO which will help your website show up higher
-                in search results when people look for things related to your
-                business. This will lead to more customers for you. We use smart
-                techniques like choosing the right keywords, making your website
-                easy to navigate, and getting other websites to link to yours.
+               
+We are SEO experts and can help your website rank in search engines. We specialize in finding content that will bring customers straight to your website like neon signs. We can not only get you where you want to go, but we can also improve your website navigation so you can easily find your way. We can also build a path between your site and other good sites, give you confidence and help you stand out in searches. Get more websites, more leads and ultimately more customers for your business. We constantly monitor and improve your SEO strategy to keep you one step ahead and dominate your online presence. Remove the blinders and start taking risks to get your website to the top of the search results.
+
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a
@@ -89,12 +87,7 @@ const page = () => {
               INTELLIGENCE
             </h2>
             <p className="text-slate-950 mb-6">
-              Our approach to businesses is very simple. We combine our passion
-              for technicalities with digital marketing to create a virtual
-              experience that drives engagement for you. Our services in Website
-              Design, Development, Advertising, Search Engine Optimisation,
-              Content Marketing, Social Media Management, and Graphic Design are
-              intricately loomed to suit your expectations.{" "}
+             Our approach to businesses is very simple. Our expertise in technical know-how and digital marketing allows us to craft immersive virtual experiences that captivate and engage your audience. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.{" "}
             </p>
           </div>
           <div className="flex justify-center py-10  ">

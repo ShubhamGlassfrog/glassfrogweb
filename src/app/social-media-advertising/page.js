@@ -41,11 +41,7 @@ const page = () => {
               
               
               <p className="text-white mb-6">
-                Social media is the ultimate platform for real-time engagement
-                with your target audience. We craft strategic campaigns that
-                instantly get you seen, heard, and connected. Our team implement
-                strategies to boost web traffic, engagement, and lead conversion
-                rates.
+                Social media is the ultimate platform for real-time engagement with your target audience. Our team implement strategies to boost web traffic, engagement, and lead conversion rates.  Our business approach is different. Imagine a website that amazes your visitors and social media that buzzes with excitement. We're a team of passionate tech experts and digital marketing pros who work together to create captivating online experiences for your business. Social Media Advertising Social media is the ultimate platform for real-time engagement with your target audience. We create strategies for campaigns that will make your business more visible, heard and connected. Our team create strategies to boost web traffic, increase engagement and lead conversion rates. 
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a

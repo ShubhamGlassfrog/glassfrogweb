@@ -381,7 +381,7 @@ body {
 
 .we {
 
-  font-size: 115px;
+  font-size: 85px;
   -webkit-text-stroke: 2px #fff;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   font-weight: 900;
@@ -397,7 +397,7 @@ body {
 }
 
 .glassfrog {
-  font-size: 90px !important;
+  font-size: 58px !important;
   display: block !important;
   white-space: nowrap !important;
   color: #ffffff !important;

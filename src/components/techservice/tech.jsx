@@ -43,7 +43,7 @@ const tech = () => {
       title: "IOT & Embedded",
       image: iot,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+        "The Internet of Things and built-in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud practise. Let's discuss your goals and challenges over a quick email or phone call. Enter your information and we will contact you! Subscribe to our newsletter for details.",
     },
   ];
   return (

@@ -53,11 +53,15 @@ export default function App() {
             Bridging the Gap between Audiences and Brands in the most innovative
             way!<br></br>
             <br></br>
-            Businesses often miss the mark with customers. Glassfrog
-            Technologies bridges the gap with innovative marketing that
-            resonates with your audience. By tracking user behaviour and
-            campaign performance, we tend to refine the strategies and optimize
-            results.
+            Take your brand towards success with creativity and our thoughts! We
+            don't just shoot arrows into the darkness. We are committed to doing
+            smart business. We use data to understand your ideal customers,
+            their needs and online behaviour. But knowledge is only the first
+            component. We then express our creativity and organise events that
+            speak directly to them, encouraging true connection. Think about
+            blog posts that people will want to read. We produce useful,
+            informative and entertaining content that stops scrolling and
+            creates confusion in your target audience.
           </p>
         </div>
       </div>

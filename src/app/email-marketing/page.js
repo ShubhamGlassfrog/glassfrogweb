@@ -16,12 +16,12 @@ const page = () => {
     {
       title: "Promotional Emails ",
       description:
-        "We are all about helping you spread the word about your business through promotional emails. These emails shout about your latest deals, discounts, or special offers to your customers. We create eye-catching, attention-grabbing messages that get people excited to open and click. We craft the perfect email campaign to drive sales and grow your business. ",
+        "We are all about helping you spread the word about your business through promotional emails. These emails tell about the company’s latest deals, offers and discounts for the customers. We create eye-catching, attention-grabbing messages that get people excited to open and click. We craft the perfect email campaign to drive sales and grow your business",
     },
     {
       title: "Retention Emails",
       description:
-        "We understand the importance of keeping your customers coming back for more. The emails we send to your existing customers to keep them engaged and loyal to your brand. A thank-you email, a special offer for their loyalty, or personalized recommendations we make, the customers feel valued and appreciated. ",
+        "We know how important it is to keep your customers coming back. We use email as a way to maintain the loyalty and engagement of our existing customers with our brand. Whether it's a thank-you note, a loyalty offer, or personalized suggestions, customers will feel valued.",
     },
   ];
 
@@ -43,14 +43,9 @@ const page = () => {
               
              
               <p className="text-white mb-6">
-                Email marketing is a super effective way to connect with your
-                customers. We send out emails to people who are interested in
-                your business, telling them about your latest products,
-                promotions, or news. It's like having a direct line to your
-                customers' inboxes. We create compelling email campaigns that
-                delight the audience and encourage them to take action, whether
-                it's making a purchase, subscribing to a service, or simply
-                keeping in touch.
+               Email Marketing Email marketing is a super effective way to connect with your customers. 
+We approach people who are interested in your business through emails, explaining to them about your product properly. It acts like having a direct line to your customer's inboxes. We create compelling email campaigns that delight the audience and encourage them to take action, whether it is making a purchase, subscribing to a service, or simply keeping in touch. Connect with us and share your views with us.
+
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a
@@ -94,12 +89,7 @@ const page = () => {
               INTELLIGENCE
             </h2>
             <p className="text-slate-950 mb-6">
-              Our approach to businesses is very simple. We combine our passion
-              for technicalities with digital marketing to create a virtual
-              experience that drives engagement for you. Our services in Website
-              Design, Development, Advertising, Search Engine Optimisation,
-              Content Marketing, Social Media Management, and Graphic Design are
-              intricately loomed to suit your expectations.{" "}
+              Our approach to businesses is very simple. We merge our love for all things technical with digital marketing to craft a virtual experience that fosters engagement for you. Our services in Website Design, Development, Advertising, Search Engine Optimisation, Content Marketing, Social Media Management, and Graphic Design are intricately loomed to suit your expectations.{" "}
             </p>
           </div>
           <div className="flex justify-center py-10  ">

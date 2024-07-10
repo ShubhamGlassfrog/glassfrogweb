@@ -11,15 +11,15 @@ const page = () => {
     const cardsData = [
   {
     title: 'Planning ',
-    description: "We try to comprehend your mobile application requirements and after a thorough analysis of the user expectations and anticipations, we create a plan to act on! ",
+    description: "After thoroughly analysing and understanding your requirements, we have developed an action plan!",
   },
   {
     title: 'Execution ',
-    description: "The most important part of the Mobile Application process is the creation and deployment. Clearing the technical complications with adeptness is exactly what we deal with. ",
+    description: "Creating and deploying Mobile Applications is a crucial part of the process. We are experts at resolving technical issues.",
   },
   {
     title: 'Maintenance ',
-    description: "We won’t leave you because the job’s not done! We help you with maintenance and ensure that your brand’s target audience is able to navigate through the application bug-free. ",
+    description: "We will not leave you because we haven't finished the work! We assist you in maintaining and ensuring that your brand's target audience can navigate through the app without any bugs.",
   },
 ];
 
@@ -40,7 +40,7 @@ const page = () => {
                             </h1>
                             
                             <p className="text-white mb-6">
-              Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.                  
+              Mobile Application Grow your outreach to the fingertips of your brand’s target audience by building a competent mobile application with Glassfrog’s intelligent app solutions.                 
               </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
                               BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M8.09999 12.293L6.68999 13.707L0 6.99997L6.68999 0.292969L8.09999 1.70697L3.81799 5.99997H160V7.99997H3.81799L8.09999 12.293Z" fill="#ffffff"/>
@@ -68,7 +68,7 @@ const page = () => {
                                 BALANCING DIGITAL ACCESS AND TECHNICAL ABILITIES WITH ARTIFICIAL INTELLIGENCE  
                             </h2>
                             <p className="text-slate-950 mb-6">
-The accessibility of the virtual platforms of a brand grows a step further when we develop a mobile application for it. We specialise in the comprehension of operating systems to assist our client’s application needs and come up with solutions that are easily accessible and engaging to drive good user interaction numbers
+The virtual platforms of a company become more accessible when we create a mobile application. Our understanding of operating systems allows us to provide solutions that are easy to use and engage users.
             </p>
 
                         </div>

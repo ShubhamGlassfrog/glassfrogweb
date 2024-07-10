@@ -50,8 +50,8 @@ const Footer = () => {
                     SUBSCRIBE NOW!
                   </h2>
                   <p className="mt-4 text-lg leading-8 text-slate-950">
-                    Subscribe to our newsletter to stay in touch with the
-                    latest.
+                    Remember to subscribe to our newsletter to stay up to date
+                    with our latest news and updates!
                   </p>
                   <form
                     onSubmit={handleSubmit}

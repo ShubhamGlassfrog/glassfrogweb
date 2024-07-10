@@ -147,7 +147,9 @@ const page = () => {
                             </h1>
                             
                             <p className="text-white mb-6">
-              Glassfrog explores marketing and technical excellence. We are committed to both the creative and technical aspects of marketing. By incorporating AI, we offer advanced marketing solutions that wouldn't be possible with traditional methods. With AI we analyze vast amounts of data to gain deep insights into your target audience. We believe that personalized and relevant marketing messages lead to improved customer engagement and satisfaction.                
+Glassfrog is dedicated to entering the business and technology arenas. Our commitment extends to both creativity and marketing. We are transforming the industry by blending innovative technology and delivering the best solutions that break through the limitations of traditional systems. Using the power of artificial intelligence, we carefully analyze large amounts of data to uncover deeper insights about your target audience. This allows us to create personalised and relevant messages to maintain customer interest and satisfaction.
+
+
               
               </p>
 
@@ -175,7 +177,7 @@ const page = () => {
                             <h2 className="about font-extrabold text-white mb-4">
                              MARKETING
                           </h2>
-                          <p className='text-white mb-6 flex items-center'>Our digital marketing team is highly skilled in data-driven strategies for creative campaigns across PPC, social media, and influencer marketing. They constantly explore new trends and deliver high-quality results to drive business growth for clients.</p>
+                          <p className='text-white mb-6 flex items-center'>Our team of digital marketing experts is skilled at using a data-driven approach to create innovative campaigns in PPC, social media and influencer marketing. Their approach involves continuous research and focuses on creating unique results, thus contributing to the business growth of our valued clients.</p>
                             <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
                                ALL SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
 

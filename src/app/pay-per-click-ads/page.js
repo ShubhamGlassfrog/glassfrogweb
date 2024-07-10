@@ -11,7 +11,7 @@ const page = () => {
     {
       title: "Lead Generation",
       description:
-        "Lead generation is all about finding potential customers for your business. We employ smart strategies to attract potential customers by creating engaging content, running targeted ads, and optimizing your website. Once we capture their contact information, we help you follow up and turn them into paying customers.",
+        "Generation of leads is finding potential customers for your business. We employ smart strategies to attract potential customers by creating engaging content, running targeted ads, and optimizing your website. Once we capture their contact information, we help you follow up and turn them into paying customers.",
     },
     {
       title: "Display Ads",
@@ -41,11 +41,7 @@ const page = () => {
              
               
               <p className="text-white mb-6">
-                Our marketing agency makes Pay-Per-Click ads easy and effective.
-                We create ads that attract potential customers to your website
-                when they search for products or services like yours. We ensure
-                you get the best results for your money, helping you attract new
-                customers fast.
+                Our Pay-Per-Click advertising services are designed to maximise your investment. By gaining a deep understanding of your business message, we can analyze content to ensure your ads appear when customers search for your products. Instead of targeting everyone, we use laser-cut precision to reach your ideal audience so you keep coming back. We create titles and descriptions designed to encourage engagement and clicks. We constantly monitor and adjust your marketing plan to increase clicks and conversion rates, effectively converting clicks into real customers. Work with us to harness the power of PPC and increase your website's visibility and search engine rankings. Eliminate negative online advertising and use our magic of PPC to move your business forward.
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a

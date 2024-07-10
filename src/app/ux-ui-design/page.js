@@ -41,7 +41,7 @@ const page = () => {
                             </h1>
                             <p className="text-white mb-6">
                                
-              Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients! 
+             UX/UI Design Building personalised and highly consumer-centric experiences to create meaningful and uncomplicated User Experiences is what we strive for, for our clients!  
               </p><p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/technology'>
                               BACK TO SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M8.09999 12.293L6.68999 13.707L0 6.99997L6.68999 0.292969L8.09999 1.70697L3.81799 5.99997H160V7.99997H3.81799L8.09999 12.293Z" fill="#ffffff"/>

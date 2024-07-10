@@ -99,13 +99,15 @@ const Need = () => {
         <div className="flex flex-col md:flex-row sm:flex-col gap-10">
           {/* First Column */}
           <div className="w-full md:w-1/2 sm:w-1/2">
-            <h3 className="we">Need Help?</h3>
+            <h3 className="we">Looking for more</h3>
             <br></br>
-            <span className="glassfrog">LET'S GO</span>
+            <span className="glassfrog">Connect with us!</span>
 
             <p className="text-white mb-6">
-              Let’s discuss your goals and challenges over a quick email or
-              call. Enter your details and we’ll be in touch!
+              If you're interested in learning more about how we can assist you
+              in achieving your goals, feel free to respond to this message to
+              arrange a brief discussion about your requirements and any
+              challenges you may be encountering.
             </p>
           </div>
 

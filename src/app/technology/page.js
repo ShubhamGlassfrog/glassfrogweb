@@ -24,7 +24,7 @@ const page = () => {
                             </h1>
                             
                             <p className="text-white mb-6">
-                               We execute effective strategies that drive traffic, engagement and lead conversion across the web: from websites, organic search, paid media and social advertising to email marketing and display campaigns.   </p>
+                               Our results-driven approach involves designing, developing, and optimizing your website to increase traffic, engagement, conversions, and sales.</p>
 
                         </div>
 
@@ -48,8 +48,7 @@ const page = () => {
                             <h2 className="about font-extrabold text-white mb-4">
                              TECHNOLOGY
                           </h2>
-                          <p className='text-white mb-6 flex items-center'>Our belief is to bring your visions to life. We combine technical expertise with digital marketing to craft engaging online experiences. Our result-driven approach is to design, develop, and optimize your website to drive traffic, engagement, and conversions. <br></br><br></br>
-We provide a full range of services including website design & development, advertising, SEO, content marketing, social media management, and graphic design, all customized to your needs. Our team prioritizes understanding your brand identity to ensure every aspect of your online presence resonates with your target audience. We work collaboratively to deliver exceptional results.
+                          <p className='text-white mb-6 flex items-center'>We aim to make your vision true and lively. Our digital marketing and technical expertise combine to create engaging online experiences. Our services include website design and development, advertising, search engine optimization, content marketing, management of social media, graphic design, and more. These services are customized and will match your requirements. Our team focuses on understanding your brand to ensure that every aspect of your web presence resonates with the audience you are targeting. We collaborate to achieve exceptional results.
 </p>
                             <p className="text-white mb-6 flex items-center"><a className='flex items-center gap-5' href='/services'>
                                All SERVICES                          <svg width="160" height="14" viewBox="0 0 160 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M151.9 12.293L153.31 13.707L160 6.99997L153.31 0.292969L151.9 1.70697L156.182 5.99997H0V7.99997H156.182L151.9 12.293Z" fill="#ffffff"></path></svg> </a></p>
