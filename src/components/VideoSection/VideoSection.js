@@ -28,12 +28,12 @@ const VideoSection = () => {
           </h1>
 
           <div className="flex flex-col md:flex-row sm:flex-row gap-5">
-            <button className="servicebutton1  ">
-              <a href="/digital-marketing">Marketing/Social</a>
-            </button>
-            <button className="servicebutton">
-              <a href="/technology">Technology/Website</a>
-            </button>
+            <a href="/digital-marketing"><button className="servicebutton1  ">
+              Marketing/Social
+            </button></a>
+             <a href="/technology"><button className="servicebutton">
+             Technology/Website
+            </button></a>
           </div>
         </div>
       </div>
