@@ -1,11 +1,71 @@
 import blog1img from "../../../public/gimg1.jpg";
+import blog2img from "../../../public/digiblog.png"
 
 
 import logo from "../../../public/logo.svg";
 
 const posts = [
  
+ {
+    id: 2,
+    html: '<title> Exploring Digital Marketing in London with Glassfrog.</title><meta name="description" content="Grow your brand with London-based digital marketing solutions at Glassfrog Technologies that bring forth innovative ideas, analytics and modern tech strategies."/>',
+    title: "Digital Marketing Agency in London",
+    metadescription:
+      " Grow your brand with London-based digital marketing solutions at Glassfrog Technologies that bring forth innovative ideas, analytics and modern tech strategies. ",
 
+    href: "#",
+    description: `
+       
+Grassfrog, a digital marketing agency is at the forefront of modern innovation, redefining the market landscape with trending marketing solutions. Grassfrog uses technology as well as technology to create ideas that are not only flexible but also impactful. Apart from other marketing agencies, we are focused on delivering measurable results. Our digital marketing company provides modern and upfront approaches to marketing and turns ideals into real business. The intense commitment of Glassfrog is reflected in its strategically tailored plans for the clients that are hardwired to deliver on set targets and planned numbers. 
+</br></br>
+
+<h1>Why is digital marketing a necessity in today's world?</h1></br>
+In today’s world, having a strong online presence is a necessity. With nearly 5 billion people expected to use the internet by 2024 and the majority of people starting their online activities through search engines, it’s clear that businesses that focus on digital marketing need help. To look apart and stand out, companies need to act on several strategies, which include making sure that their website appears in search results, creating engaging content, doing some advertising, and using paid advertising. Most companies appreciate personalised content for them. Our SEO London Agency can help do this by connecting with their customers so they can get the desired results and more sales.
+</br></br>
+Mobile device usage is rapidly increasing, with approximately 55% of website traffic coming from mobile devices, so businesses need to optimise their mobile marketing efforts. E-commerce is growing rapidly. The numbers are expected to reach $6.3 trillion by 2024, and digital marketing is key to capitalising on this growth. Companies that use data-driven strategies can increase their ROI by 30% compared to traditional methods. Businesses can adapt to changes and take advantage of new opportunities by using analytics and automation.
+
+
+</br></br>
+        <Image src="/digiblog.png" alt='Image Description' width={100} height={100}/></br></br>
+
+<h2>What do Businesses in London crave?</h2></br></br>
+To thrive in London’s fast-paced and competitive environment, businesses need access to a range of services to support their operations. London is a thriving city with excellent business relations and frequent business exchanges. Businesses here need to be smart and use all the resources and skills to succeed in the big city.
+</br></br>
+Services provided by Glassfrog Technologies</br>
+At Glassfrog, we strive to combine business thinking with cutting-edge technology to deliver the best results for your business. Our approach allows us to deliver innovative solutions by combining AI with traditional business processes. By using AI we collect and analyze huge amounts of data to have a deeper understanding of the target audience, allowing us to create and conduct effective marketing strategies.
+</br></br>
+
+We use the power of social media to instantly connect with your audience. We will carefully plan relevant campaigns to increase your brand awareness and engagement. Let our team drive web traffic and bring change, making your business visible and sustainable. The pay per click campaign maximizes your investment by targeting your niche audience, engaging with their content, and following optimisation strategies to increase conversion rates. The SEO services can increase your website visibility and attract more customers. Let's make your online presence unique. We use email to communicate with customers and tell them about your product quality. Our shared email marketing campaigns encourage employees to follow through, whether it's making a purchase, signing up for a service, or communicating.
+</br></br>
+
+Conclusion</br>
+Businesses that have collaborated with Glassfrog Technologies in the past have witnessed 40% - 45% growth in their sales. This number reflects the proficiency of digital marketing strategies and plans that this agency renders for its clients. Additionally, the quality of growth adds to the disparity of marketing services that other agencies bring forth. A hike of 140% in organic traffic through intensive SEO techniques and keyword planning strategies has immensely contributed to the success of the agency in the virtual domain. Furthermore, adept advertisement planning has assisted enterprises in instantly growing their businesses by 120% - 150%. 
+</br></br>
+These statistics reveal the success of analytical and comprehensive digital marketing strategies that Glassfrog Technologies employs in order to fuel the growth of their clientele businesses. With continued diligence and proficiency, this digital marketing agency in london offers compelling solutions in the arena of digital marketing to businesses based in the city.  
+</br></br>
+Company Name- Glassfrog Technologies
+</br></br>
+E-mail-  support@glassfrog.design
+</br></br>
+UK Address- 27 OLD Gloucester Street, London, United Kingdon WC1N 3AX
+
+
+ `,
+    date: "July 231 2024",
+    datetime: "2024-07-31",
+    imageUrl: blog2img,
+
+    category: {
+      title: "digital Marketing",
+      href: "#",
+    },
+    author: {
+      name: "Glassfrog Technology",
+      role: "Comapany",
+      href: "#",
+      authorimageUrl: logo,
+    },
+  },
   {
     id: 1,
     html: '<title> Revolutionizing Digital Ads for Better Results</title><meta name="description" content=" Discover the future of digital advertising and learn how to achieve improved results and better outcomes for your campaigns."/>',
