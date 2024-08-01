@@ -37,7 +37,7 @@ const Bloglist = () => {
                             <Link key={post.id} href={`/${slugify(post.title)}`} passHref>
                                 <article className="flex max-w-xl flex-col items-start justify-between blogcard">
                                     <div>
-                                        <Image src={post.imageUrl} alt="" />
+                                        <Image src={post.imageUrl} className='h-[17rem]' alt="" />
                                     </div>
                                     <div className="flex items-center gap-x-4 text-xs">
                                         <time dateTime={post.datetime} className="text-gray-500">
