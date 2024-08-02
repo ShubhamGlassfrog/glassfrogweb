@@ -11,15 +11,16 @@ export default function RootLayout({ children }) {
       <head>
          <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16573743263"
+          src="https://www.googletagmanager.com/gtag/js?id=G-LTXJVZTED2"
         ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16573743263');
+               window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTXJVZTED2');
             `,
           }}
         ></script>
