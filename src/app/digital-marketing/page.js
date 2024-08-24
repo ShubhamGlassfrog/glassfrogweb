@@ -132,7 +132,8 @@ const page = () => {
             ]
           })
         }} />
-          <script
+        <script
+                    id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
