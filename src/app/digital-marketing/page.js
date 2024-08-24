@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import Ourwork from "@/components/Ourwork/Ourwork";
 import Need from '@/components/Need/Need';
+import Head from 'next/head';
 
 
 
@@ -132,6 +133,8 @@ const page = () => {
             ]
           })
         }} />
+      </head>
+      <body>
         <script
                     id="faq-schema"
         type="application/ld+json"
@@ -177,11 +180,7 @@ const page = () => {
             }
           `,
         }}
-      />
-        
-       
-       
-      </head>
+      /> 
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -304,6 +303,7 @@ Glassfrog is dedicated to entering the business and technology arenas. Our commi
           <Ourwork />
           <Need/>
           <Footer/>
+      </body>
       
       </>
   )
