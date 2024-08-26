@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 
     <html lang="en">
      
-<title>Blogs - Rantra Academy</title>
+<title>Blogs - Glassfrog Technologies</title>
 <meta name="description" content="Looking for more? Read our blogs and check the news updates to know more about the National Defence Academy"/>
 
 
