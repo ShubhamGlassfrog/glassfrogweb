@@ -107,50 +107,48 @@ const Page = () => {
           }} />
 
           <script id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: 
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What are the top services offered by digital marketing agencies in cities like London, and others?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "There are a variety of marketing services offered by digital marketing agencies in cities such as London, and others. Marketers often seek services such as Lead Generation, Pay Per Click Campaigns, Search Engine Optimization, and Social Network Advertising. These digital marketing services help businesses to increase their online engagement and outreach."
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "What are the top services offered by digital marketing agencies in cities like London, and others?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "There are a variety of marketing services offered by digital marketing agencies in cities such as London, and others. Marketers often seek services such as Lead Generation, Pay Per Click Campaigns, Search Engine Optimization, and Social Network Advertising. These digital marketing services help businesses to increase their online engagement and outreach."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How can an Ads Agency help me boost my business through digital marketing?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "A good ads agency would offer social media advertising, SEO & Marketing, and Google PPC Ads. These techniques in the domain of digital marketing will help businesses to approach the users online, based on the product audience and niche, through a customized and specific plan. Approaching the right audience on the right platform is a skill that an ads agency specializes in. Therefore, they shall help boost business by running campaigns on digital platforms."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What are the methods for a good lead generation campaign that a digital marketing agency uses?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "A customized and personalized social media advertising campaign fuels a good lead generation and conversion rate. Selecting the exact type of audience and estimating the best set of users for products and services will help filter out the consumers who are highly interested in purchase. This shall hike the quantity as well as the quality of the leads. A skilled and experienced digital marketing agency shall be the best resource to refer to in order to create a good lead generation campaign."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What are the features of the best search engine optimization agency for digital marketing of my business?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "A good SEO & Marketing agency would employ the best methods for Search Engine Optimization for your business. These methods will be widely distributed throughout arenas such as on-page SEO, off-page SEO, backlinks creation, and much more. An SEO agency would plan to grow the business and bring a hike in organic traffic within certain intervals of time. Therefore, the best search engine optimization agency would strategically engage in the digital marketing of your business."
+                    }
                   }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How can a Ads Agency help me boost my business through digital marketing?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A good ads agency would offer social media advertising, SEO & Marketing, and Google PPC Ads. These techniques in the domain of digital marketing will help businesses to approach the users online, based on the product audience and niche, through a customised and specific plan. Approaching the right audience on the right platform is a skill that an ads agency specialises in. Therefore, they shall help boosting business by running campaigns on digital platforms."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the methods for good lead generation campaign that a digital marketing agency uses?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A customised and personalised social media advertising campaign fuels a good lead generation and conversion rate. Selecting the exact type of audience and estimating the best set of users for products and services will help filter out the consumers who are highly interested in purchase. This shall hike the quantity as well as the quantity of the leads. A skilled and experienced digital marketing agency shall be the best resource to refer to in order to create a good lead generation campaign."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the features of the best search engine optimization agency for digital marketing of my business?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A good SEO & Marketing agency would employ the best methods for Search Engine Optimisation for your business. These methods will be widely distributed throughout arenas such as on page SEO, off page SEO, backlinks creation, and much more. An SEO agency would plan to grow the business and bring hike in organic traffic within certain intervals of time. Therefore, the best search engine optimization agency would strategically engage in the digital marketing of your business."
-                  }
-                }
-              ]
-            }
-          ,
-        }}
-      /> 
+                ]
+              })
+            }}
+          />
         </head>
 
         <Header />
@@ -164,7 +162,7 @@ const Page = () => {
                     <span className='glassfrog'>Marketing</span>
                   </h1>
                   <p className="text-white mb-6">
-                    Glassfrog is dedicated to entering the business and technology arenas. Our commitment extends to both creativity and marketing. We are transforming the industry by blending innovative technology and delivering the best solutions that break through the limitations of traditional systems. Using the power of artificial intelligence, we carefully analyze large amounts of data to uncover deeper insights about your target audience. This allows us to create personalised and relevant messages to maintain customer interest and satisfaction.
+                    Glassfrog is dedicated to entering the business and technology arenas. Our commitment extends to both creativity and marketing. We are transforming the industry by blending innovative technology and delivering the best solutions that break through the limitations of traditional systems. Using the power of artificial intelligence, we carefully analyze large amounts of data to uncover deeper insights about your target audience. This allows us to create personalized and relevant messages to maintain customer interest and satisfaction.
                   </p>
                 </div>
 
