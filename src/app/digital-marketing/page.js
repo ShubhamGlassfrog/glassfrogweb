@@ -133,9 +133,7 @@ const page = () => {
             ]
           })
         }} />
-      </head>
-      <body>
-        <script
+                <script
                     id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -181,6 +179,9 @@ const page = () => {
           `,
         }}
       /> 
+      </head>
+      <body>
+
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
