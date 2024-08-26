@@ -80,9 +80,38 @@ const page = () => {
             "inLanguage": "en-GB"
           })
         }} />
-
-        {/* Remove the duplicate FAQPage schema */}
-
+        
+        <script
+          id="breadcrumb-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Pay Per Click Ads",
+                  "item": "https://www.glassfrogtech.com/pay-per-click-ads"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Search Engine Optimisation",
+                  "item": "https://www.glassfrogtech.com/search-engine-optimisation"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Social Media Advertising",
+                  "item": "https://www.glassfrogtech.com/social-media-advertising"
+                }
+              ]
+            })
+          }}
+        />
+        
         <script
           id="faq-schema"
           type="application/ld+json"
@@ -102,18 +131,18 @@ const page = () => {
                   },
                   {
                     "@type": "Question",
-                    "name": "How can a Ads Agency help me boost my business through digital marketing?",
+                    "name": "How can an Ads Agency help me boost my business through digital marketing?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "A good ads agency would offer social media advertising, SEO & Marketing, and Google PPC Ads. These techniques in the domain of digital marketing will help businesses to approach the users online, based on the product audience and niche, through a customised and specific plan. Approaching the right audience on the right platform is a skill that an ads agency specialises in. Therefore, they shall help boosting business by running campaigns on digital platforms."
+                      "text": "A good ads agency would offer social media advertising, SEO & Marketing, and Google PPC Ads. These techniques in the domain of digital marketing will help businesses to approach the users online, based on the product audience and niche, through a customised and specific plan. Approaching the right audience on the right platform is a skill that an ads agency specialises in. Therefore, they shall help boost business by running campaigns on digital platforms."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "What are the methods for good lead generation campaign that a digital marketing agency uses?",
+                    "name": "What are the methods for a good lead generation campaign that a digital marketing agency uses?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "A customised and personalised social media advertising campaign fuels a good lead generation and conversion rate. Selecting the exact type of audience and estimating the best set of users for products and services will help filter out the consumers who are highly interested in purchase. This shall hike the quantity as well as the quantity of the leads. A skilled and experienced digital marketing agency shall be the best resource to refer to in order to create a good lead generation campaign."
+                      "text": "A customised and personalised social media advertising campaign fuels a good lead generation and conversion rate. Selecting the exact type of audience and estimating the best set of users for products and services will help filter out the consumers who are highly interested in purchase. This shall hike the quantity as well as the quality of the leads. A skilled and experienced digital marketing agency shall be the best resource to refer to in order to create a good lead generation campaign."
                     }
                   },
                   {
@@ -121,7 +150,7 @@ const page = () => {
                     "name": "What are the features of the best search engine optimization agency for digital marketing of my business?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "A good SEO & Marketing agency would employ the best methods for Search Engine Optimisation for your business. These methods will be widely distributed throughout arenas such as on page SEO, off page SEO, backlinks creation, and much more. An SEO agency would plan to grow the business and bring hike in organic traffic within certain intervals of time. Therefore, the best search engine optimization agency would strategically engage in the digital marketing of your business."
+                      "text": "A good SEO & Marketing agency would employ the best methods for Search Engine Optimisation for your business. These methods will be widely distributed throughout arenas such as on-page SEO, off-page SEO, backlinks creation, and much more. An SEO agency would plan to grow the business and bring a hike in organic traffic within certain intervals of time. Therefore, the best search engine optimization agency would strategically engage in the digital marketing of your business."
                     }
                   }
                 ]
@@ -136,8 +165,8 @@ const page = () => {
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10 ">
               {/* First Column */}
-              <div className="   w-full md:w-1/2 sm:w-1/2">
-                <h1 className="   we">Digital 
+              <div className="w-full md:w-1/2 sm:w-1/2">
+                <h1 className="we">Digital 
                   <span className='glassfrog'>Marketing</span>
                 </h1>
                 
@@ -155,7 +184,7 @@ const page = () => {
         </section>
         
         <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-screen-xl mx-auto  py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-screen-xl mx-auto py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row sm:flex-row gap-10">
               {/* First Column */}
               <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
@@ -174,7 +203,7 @@ const page = () => {
               </div>
               <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                 <ul className='flex flex-col gap-5'>
-                  <li className=' serli' ><a href='/social-media-advertising'> Social Media Advertising
+                  <li className=' serli'><a href='/social-media-advertising'> Social Media Advertising
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
