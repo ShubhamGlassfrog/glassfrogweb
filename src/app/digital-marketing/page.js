@@ -42,8 +42,7 @@ const Page = () => {
                     <span className='glassfrog'>Marketing</span>
                   </h1>
                   <p className="text-white mb-6">
-                    Glassfrog is dedicated to entering the business and technology arenas. Our commitment extends to both creativity and marketing. We are transforming the industry by blending innovative technology and delivering the best solutions that break through the limitations of traditional systems. Using the power of artificial intelligence, we carefully analyze large amounts of data to uncover deeper insights about your target audience. This allows us to create personalized and relevant messages to maintain customer interest and satisfaction.
-                  </p>
+The evolution of Digital Marketing has been demanding in the past years. Earlier, the marketing methods were not engaging and productive. Now, with the rise of the Internet, digital marketing is the modern form of marketing that watches consumer behavior, business growth, and global economies. Modern marketing uses different methods to reach more audiences with Search Engine Optimisation (SEO) for page ranking and social media marketing on platforms like Facebook, Instagram, LinkedIn, and Twitter. The future of marketing is Artificial Intelligence, machine learning, and Virtual Reality. Glassfrog Technologies is dedicated to transforming your brand on a personal level and strategizing properly for success using futuristic technology with our expertise for success.                   </p>
                 </div>
 
                 <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
@@ -67,8 +66,7 @@ const Page = () => {
                     MARKETING
                   </h2>
                   <p className='text-white mb-6 flex items-center'>
-                    Our team of digital marketing experts is skilled at using a data-driven approach to create innovative campaigns in PPC, social media and influencer marketing. Their approach involves continuous research and focuses on creating unique results, thus contributing to the business growth of our valued clients.
-                  </p>
+We are a team of experienced individuals who help your process of marketing quickly. We strategize in such a way that more audience and reach are targeted for your brand. We carry out different modes of marketing like Social Media Marketing, SEO, pay-per-click, and Email marketing. We ensure relationship-building and clear communication between our client and their audience. We practice new futuristic methods like paid advertising and influencer marketing to attract customers, get more sales, and build the brand.                  </p>
                   <p className="text-white mb-6 flex items-center">
                     <a className='flex items-center gap-5' href='/services'>
                       ALL SERVICES                          

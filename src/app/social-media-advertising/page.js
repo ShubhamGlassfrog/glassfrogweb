@@ -11,17 +11,17 @@ const page = () => {
     {
       title: "STRATEGIC PLANNING",
       description:
-        "We work as a trusted partner and an extension of your team, turning your goals into a clear plan. We build on what youve already achieved and find new ways to add creativity and drive success.",
+        "Social Media and Advertising are successful in setting clear goals in every domain like increasing brand awareness, deriving traffic, or boosting sales. We work as a trustworthy partner of yours, knowing your target audience and understanding your crucial role and interests. We create the best strategies of marketing by setting a budget wisely for different platforms and ads. We keep in record how much a business is willing to spend and set the budget accordingly.  Then we track the performance of your brand or business, which helps in refining your approach. We keep track of your click-through rates and ROI and convert them into real audiences. Gathering focus on engagement results in giving positive and best of results. ",
     },
     {
       title: "CONTENT MARKETING",
       description:
-        "We make content marketing simple and effective. We create engaging articles, videos, and social media posts that capture your audiences attention. We believe in working closely with you to understand your brand and goals and drive real results.",
+        "Our successful social media advertising strategy is to understand your target audience. We know their interests, their weak points, and where they spend most of their time online. We then create similar, engaging, valuable content like articles, engaging videos, social media ads, informative content, or eye-catching infographics. We consistently carry out the process of content calendars and post regularly for better engagement. We create content that adds value to your business like solving a problem, answering, or entertaining the audience. Our digital marketing team monitors your performance with the help of analytical tools and instantly makes changes in the strategies. We respond quickly to any queries or comments to ensure trust and engagement, leading to better results. ",
     },
     {
       title: "ADVERTISING",
       description:
-        "We make advertising easy and effective by designing eye-catching ads that grab attention and get your message across. Our team uses smart strategies to reach the right audience, helping your business grow. Let us handle your advertising so you can see real results and attract more customers.",
+        "Our successful advertising strategy includes setting clear goals. Setting clear goals to boost sales, increase brand awareness, and derive traffic for your business through setting clear goals is the most important first step. Our team of professional and trained individuals identifies your target audience, having the same interests as your brand followed by creating similar engaging content with messages to grab attention. Our ads agency sets an affordable budget for different platforms accordingly. Monitoring the ads performance is a very crucial part we take care of for the business to be successful. The last step is making changes if a problem occurs, followed by a quick response to the audience or customer to strengthen brand effectiveness on social media. ",
     },
   ];
 

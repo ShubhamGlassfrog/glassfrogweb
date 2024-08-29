@@ -11,17 +11,17 @@ const page = () => {
     {
       title: "On-Page SEO",
       description:
-        "We keep track of the right people seeing your website. We optimize your website in every way to make it more appealing to search engines such as Google. We will select the right keywords, refine titles and headings and make sure that your content is easily readable and understandable.",
+        "On-page SEO gives your website a type of makeover in a way that Google and other search engines catch the attention. Our specialized team optimizes all the web pages of your website so that they rank higher in the search results. We use the skill of creating engaging and creative content, using the correct keywords, and making sure your website is easy to navigate. In the technical part, we make sure the loading speed is good and optimize images. These details help your website SEO game stronger and better and more chances of appearing in top results. ",
     },
     {
       title: "Off-Page SEO",
       description:
-        "Off-page SEO is a powerful tool to promote your website beyond its pages. Off-page optimization builds the reputation and authority of your website across the Internet. Our team specializes in building the reputation and authority of a website across the Internet by writing quality articles and guest posts, engaging your audience through social media, and creating backlinks. This will help your website to climb higher on search engine results and attract more traffic. ",
+        "Off-page SEO is building your website outside your pages. We help your website get recognition by networking outside. We boost your site’s visibility and status using off-page SEO strategies. The main component of off-page SEO is link building. Our SEO team creates strong backlinks for your website that will take other reputed websites back to your site. Just creating backlinks won’t make much difference, so our other team creates your strong social media presence and gets positive reviews for you and different strategies. We build solid off-page SEO strategies to lead to higher rankings.",
     },
     {
       title: "Technical SEO",
       description:
-        "We make sure your website is running smoothly. We will optimize your website to ensure lightning-fast performance and an excellent user experience. This will make both search engines and visitors happy. This will allow search engines to rank your site higher and show what you have to offer.",
+        "This is an SEO technique that works behind the scenes to make your website run smoothly. This makes your website search engine-friendly and user-friendly. In technical SEO, our team optimizes the foundation and structure of the website. We ensure proper mobile-friendliness, improve site speed, fix the broken links, and set up proper URL structures. We make sure your website crawls and indexes your website which will ensure it appears above in search results. This will lead to getting more traffic, better visibility and higher rankings and make your website shine and attract more online customers.",
     },
   ];
 
@@ -42,8 +42,7 @@ const page = () => {
               
               <p className="text-white mb-6">
                
-We are SEO experts and can help your website rank in search engines. We specialize in finding content that will bring customers straight to your website like neon signs. We can not only get you where you want to go, but we can also improve your website navigation so you can easily find your way. We can also build a path between your site and other good sites, give you confidence and help you stand out in searches. Get more websites, more leads and ultimately more customers for your business. We constantly monitor and improve your SEO strategy to keep you one step ahead and dominate your online presence. Remove the blinders and start taking risks to get your website to the top of the search results.
-
+We are SEO experts and can help your website rank in search engines. We specialize in finding content that will bring customers straight to your website like neon signs. We can not only get you where you want to go, but we can also improve your website navigation so you can easily find your way. We can also build a path between your site and other good sites, give you confidence, and help you stand out in searches. Get more websites, more leads, and ultimately more customers for your business. We constantly monitor and improve your SEO strategy to keep you one step ahead and dominate your online presence. We remove the blinders and start taking risks to get your website to the top of the search results. Search engine optimization is a long-term service in which we build trust and credibility, boost your online presence, and make your brand or service grow sustainably. With our help grow your brand and generate more leads for you. 
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a

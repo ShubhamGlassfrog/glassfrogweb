@@ -11,17 +11,17 @@ const page = () => {
     {
       title: "Lead Generation",
       description:
-        "Generation of leads is finding potential customers for your business. We employ smart strategies to attract potential customers by creating engaging content, running targeted ads, and optimizing your website. Once we capture their contact information, we help you follow up and turn them into paying customers.",
+        "The lead generation through pay-per-click-ads attracts high-quality leads. Our best digital marketing agency in London creates PPC ads that attract the interest of potential clients only. We work on selecting the best keywords and making the best Ad copy, and we drive traffic to the landing pages that convert visitors to leads. We optimize your ad performance and get the best return on investment. We believe in returning you with genuine leads effectively. ",
     },
     {
       title: "Display Ads",
       description:
-        "We specialize in Displaying Ads, a powerful way to get your business noticed online. We create eye-catching ads of images, text or animations for websites across the internet, to grab the attention of potential clients while they browse the web.  We ensure that your message reaches the right people at the right time by analyzing their interests and behaviors.",
+        "We specialize in Displaying Ads, a powerful way to get your business noticed online. We create eye-catching ads of images, text, or animations for websites across the internet to grab the attention of potential clients while they browse the web. We ensure that your message reaches the right people at the right time by analyzing their interests and behaviors. Through continuous monitoring, we provide changes in ad campaigns to optimize results and maximize results. ",
     },
     {
       title: "Budget",
       description:
-        "Understanding the importance of budgeting for clients’ marketing needs is ensured by us. we work closely with you to determine your goals and objectives and then create a customized marketing plan that fits within your budget. We try to provide our services to meet your needs and help you achieve your marketing goals with the minimum budget possible.",
+        "The budget understanding between the client and company is very important for any service-providing company and the client. We carefully plan and look over the pay-per-click budget and try to spend carefully on the ads.  We connect with you to set a budget and then strategically allocate the funds to provide you with maximum return on your investment. We monitor your performance, ensure the budget is taken care of, and provide you with the best results without overspending. ",
     },
   ];
 
@@ -85,12 +85,7 @@ const page = () => {
               INTELLIGENCE
             </h2>
             <p className="text-slate-950 mb-6">
-              Our approach to businesses is very simple. We combine our passion
-              for technicalities with digital marketing to create a virtual
-              experience that drives engagement for you. Our services in Website
-              Design, Development, Advertising, Search Engine Optimisation,
-              Content Marketing, Social Media Management, and Graphic Design are
-              intricately loomed to suit your expectations.{" "}
+              Google Pay-Per-Click Advertising provides quick marketing and measurable results, and it is a powerful tool for our digital marketing agency. Our team is expertise in managing and creating Google PPC Campaigns to drive targeted traffic to your website. This method of digital marketing is cost-effective for us as you pay only when someone clicks on your ads, thus reaching potential customers. We plan the strategy according to your audience and the business goals. We create customized ads that resonate with your target audience. By compelling ad copy and designing eye-catching visuals, we make sure that your ads stand out. Our team continuously monitors and optimizes your campaigns to increase the ROI. Our PPC strategies take care of increasing website traffic, generating leads, or boosting sales for you in the best way. Our team of google pay-per-click advertising runs your ads on social media platforms, Google or Bing, and any time of day. 
             </p>
           </div>
           <div className="flex justify-center py-10  ">

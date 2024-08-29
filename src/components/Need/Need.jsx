@@ -104,10 +104,10 @@ const Need = () => {
             <span className="glassfrog">Connect with us!</span>
 
             <p className="text-white mb-6">
-              If you're interested in learning more about how we can assist you
-              in achieving your goals, feel free to respond to this message to
-              arrange a brief discussion about your requirements and any
-              challenges you may be encountering.
+              Let us know if you want to learn more about our services that will
+              help you in achieving your goals. We will arrange for a personal
+              discussion regarding the requirements and challenges in your
+              business after you fill in some details here.
             </p>
           </div>
 

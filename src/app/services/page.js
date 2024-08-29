@@ -21,19 +21,13 @@ const page = () => {
               
               
               <p className="text-white mb-6">
-                Glassfrog Technologies offers businesses comprehensive digital
-                and technical solutions. Our skilled and passionate team creates
-                websites tailored to your brand identity.<br></br>
-                <br></br>
-                We develop innovative and creative marketing strategies to drive
-                traffic, engagement, and leads across various channels like
-                Search Engine Optimization (SEO), Paid Advertising
-                (Pay-Per-Click - PPC), Social Media Marketing, Email Marketing
-                and Display Advertising.<br></br>
-                <br></br>
-                We focus on delivering results that resonate with your specific
-                brand and business goals and our focus is on the numbers which
-                play a crucial role in your business.
+                Glassfrog Technologies offers businesses comprehensive digital and technical solutions. Our skilled and passionate team creates websites tailored to your brand identity.
+<br></br>
+
+We develop innovative and creative marketing strategies to drive traffic, engagement, and leads across various channels like Paid Advertising Pay-Per-Click, Email Marketing, SEO, Social Media Marketing,  and Display Advertising.
+<br></br>
+Our focus is gathered for the purpose of providing tour desired results specific brand and business goals, and our focus is on the numbers that play a crucial role in your business.
+
               </p>
             </div>
 
@@ -60,19 +54,10 @@ const page = () => {
                 TECHNOLOGY
               </h2>
               <p className="text-white mb-6 flex items-center">
-                Our belief is to bring your visions to life. We combine
-                technical expertise with digital marketing to craft engaging
-                online experiences. Our result-driven approach is to design,
-                develop, and optimize your website to drive traffic, engagement,
-                and conversions. <br></br>
-                <br></br>
-                We provide a full range of services including website design &
-                development, advertising, SEO, content marketing, social media
-                management, and graphic design, all customized to your needs.
-                Our team prioritizes understanding your brand identity to ensure
-                every aspect of your online presence resonates with your target
-                audience. We work collaboratively to deliver exceptional
-                results.
+               This fast-moving digital world needs something less time-consuming and different, so instead of relying on the old methods of marketing technology took its place. Our marketing agency believes in bringing your visions to life. Our technical team is expertise in creating content that is engaging for your brand. We design, develop, and optimize your content to provide you with the best results, followed by optimizing your website to derive more traffic and conversion rates and increase engagement. 
+<br></br>
+
+Our digital marketing agency is different from other marketing agencies. Our web development and design services, content marketing, SEO Services, social media management, User Experience, data security and privacy, email marketing, and graphic design according to your needs. The technology redefines customer experiences, adapts new platforms, and innovates different cultures. Our team is best for businesses that want to thrive in this digital era and have to stay ahead of the trends which we stay updated.
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a className="flex items-center gap-5" href="/technology">
@@ -230,14 +215,7 @@ const page = () => {
                 MARKETING
               </h2>
               <p className="text-white mb-6 flex items-center">
-                Glassfrog explores marketing and technical excellence. We are
-                committed to both the creative and technical aspects of
-                marketing. By incorporating AI, we offer advanced marketing
-                solutions that wouldn't be possible with traditional methods.
-                With AI we analyze vast amounts of data to gain deep insights
-                into your target audience. We believe that personalized and
-                relevant marketing messages lead to improved customer engagement
-                and satisfaction.
+              Glassfrog is the best digital marketing agency when it comes to technology and marketing. We build connections with the audience through our marketing strategies and making genuine customers. We carry out strategies that include creativity, data, and technology. By including AI, we offer advanced solutions different from traditional methods. With AI, we analyze large amounts of data and gain the target audience. Our seo london agency makes sure that your brand gets its unique brand voice and visibility, resulting in more clicks, traffic, and conversions. 
               </p>
               <p className="text-white mb-6 flex items-center">
                 <a
@@ -347,6 +325,8 @@ const page = () => {
 
             {/* Second Column */}
           </div>
+           <p className="text-white mb-6 flex items-center">
+Marketing is making your brand stand out in the field with other businesses and brands. Glassfrog Technologies will ensure you get the best digital identity that matches your audience, giving you a unique identity to set you apart in the crowded online marketplace. We carry out the right marketing strategies and make your brand thrive.              </p>
         </div>
       </section>
       <Need />

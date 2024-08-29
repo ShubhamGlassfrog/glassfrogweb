@@ -12,25 +12,25 @@ const digital = () => {
       title: "Social Media Advertising",
       image: sma,
       description:
-        "Social media is the ultimate platform for real-time engagement with your target audience. We craft strategic campaigns that instantly get you seen, heard, and connected. Our team implement strategies to boost web traffic, engagement, and lead conversion rates.",
+        "Social media is the ultimate platform for real-time engagement with your target audience. Social media advertising tells us where the audience is spending most of the time on platforms like Facebook, Instagram, Twitter, and LinkedIn. We craft strategic campaigns that instantly get you seen, heard, and connected. Our social media advertising team brings engagement and attention that builds connections with audiences. We promote blogs, client success stories, and social media ads to carry out messages for the audience. Our team implements strategies to boost web traffic, engagement, and lead conversion rates. Building brand awareness, driving traffic, and growing your business through social media advertising is important for your business. ",
     },
     {
       title: "Pay Per Click Ads",
       image: ppc,
       description:
-        "Our marketing agency makes Pay-Per-Click ads easy and effective. We create ads that attract potential customers to your website when they search for products or services like yours. We ensure you get the best results for your money, helping you attract new customers fast.",
+        "Pay-Per-Click Campaign is a powerful tool for digital advertising. This is one of the most influential and cost-effective ways to reach potential clients, as you only pay when someone clicks on your ads. These ads are seen on social media platforms like Instagram, Facebook, etc., and Google or Bing, targeting users who are searching for similar services or products like yours. For marketing agencies, PPC ads provide immediate results and quick visibility. This is a bidding system in which you can bid on specific keywords bringing traffic tp website by putting it on top of searh results. Google PPC Advertising aims to reach a particular audience based on a specific audiences location and interest. ",
     },
     {
       title: "Search Engine Optimisation",
       image: seo,
       description:
-        "We specialise in SEO which will help your website show up higher in search results when people look for things related to your business. This will lead to more customers for you. We use smart techniques like choosing the right keywords, making your website easy to navigate, and getting other websites to link to yours. ",
+        "Search Engine Optimization is like the support of digital marketing. The responsibility of SEO is to make your website rank.  This is the process of gaining visibility and traffic by increasing the quality of online traffic. SEO Search Optimisation helps increase brand awareness and boost sales. SEO & Marketing are not just about ranking high on Google, it's more about deriving the right traffic to your website. Glassfrog Technologies Search Engine Optimization team carries out an effective strategy that includes analyzing, optimizing, and monitoring your website to ensure it performs the best. Our SEO team experts will help you get to the high ranks and achieve long-term success online.   ",
     },
     {
       title: "Email Marketing",
       image: emm,
       description:
-        "Email marketing is a super effective way to connect with your customers. We send out emails to people who are interested in your business, telling them about your latest products, promotions, or news. It's like having a direct line to your customers' inboxes. We create compelling email campaigns that delight the audience and encourage them to take action, whether it's making a purchase, subscribing to a service, or simply keeping in touch.",
+        "Email marketing is a part of marketing strategy, and it works significantly for a digital marketing agency like ours. This is a great way to build stronger connections with the audience. Unlike social media marketing, which is built to increase outreach and engagement, Email marketing allows for personalised communication. Our team sends personalized messages, special offers, and updates directly to the customers and makes them feel valued. Email marketing can drive traffic to your social media pages increasing your reach across multiple platforms. This digital world calls for better growth of business through email marketing. ",
     },
   ];
   return (
