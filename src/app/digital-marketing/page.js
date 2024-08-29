@@ -47,8 +47,14 @@ const Page = () => {
                 </div>
 
                 <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
-                  <Image src="/service.webp" alt="digital-marketing" width={1800} height={1800} />
-                </div>
+  <video
+    src="/service.mp4"
+    alt="services"
+    width="1800"
+    height="1800"
+    controls
+    className="rounded-lg shadow-lg"
+  />                </div>
               </div>
             </div>
           </section>
