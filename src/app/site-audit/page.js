@@ -1,9 +1,8 @@
 "use client";
-import Footer from '@/components/Footer/Footer';
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Header from '@/components/Header/Header';
+import { useEffect, useState } from "react";
 import axios from "axios";
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
 
 const Page = () => {
   const [formData, setFormData] = useState({
@@ -12,15 +11,24 @@ const Page = () => {
     phone: "",
     website: "",
   });
-
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  useEffect(() => {
+    // Load Razorpay script
+    const script = document.createElement("script");
+    script.src = "https://checkout.razorpay.com/v1/checkout.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const handleChange = (e) => {
     const { id, value } = e.target;
-
     if (id === "name") {
       if (/^[a-zA-Z\s]*$/.test(value)) {
         setFormData({ ...formData, [id]: value });
@@ -36,98 +44,78 @@ const Page = () => {
 
   const validate = () => {
     let tempErrors = {};
-    if (!formData.name) {
-      tempErrors.name = "Name is required";
-    } else if (!/^[a-zA-Z\s]*$/.test(formData.name)) {
-      tempErrors.name = "Name can only contain alphabets";
-    }
-
-    if (!formData.email) {
-      tempErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      tempErrors.email = "Email is invalid";
-    }
-
-    if (!formData.phone) {
-      tempErrors.phone = "Phone number is required";
-    } else if (!/^\d+$/.test(formData.phone)) {
-      tempErrors.phone = "Phone number can only contain numbers";
-    }
-
-    if (!formData.website) {
-      tempErrors.website = "Website URL is required";
-    }
-
+    if (!formData.name) tempErrors.name = "Name is required";
+    if (!formData.email) tempErrors.email = "Email is required";
+    if (!formData.phone) tempErrors.phone = "Phone number is required";
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
   };
 
+  const handleRazorpay = async (order) => {
+    const options = {
+      key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID, // Public key from Razorpay
+      amount: order.amount,
+      currency: order.currency,
+      name: "Glassfrog Technologies",
+      description: "Audit Site",
+      order_id: order.id,
+      handler: function (response) {
+        setSuccessMessage(
+          "Payment is successful, our team will send a report to your registered email ID."
+        );
+        setErrorMessage("");
+      },
+      prefill: {
+        name: formData.name,
+        email: formData.email,
+        contact: formData.phone,
+      },
+      theme: {
+        color: "#F37254",
+      },
+    };
+
+    const rzp = new window.Razorpay(options);
+    rzp.open();
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     if (validate()) {
       setIsSubmitting(true);
       try {
-        const response = await axios.post(
-          "https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/glassfrog",
-          formData
-        );
-        if (response.status === 200) {
-          setSuccessMessage("Message sent successfully!");
-          setErrorMessage("");
-          setFormData({
-            name: "",
-            email: "",
-            phone: "",
-            website: "",
-          });
-          gtag_report_conversion(); // Call the conversion tracking function
-        }
+        // Create the order via API route
+        const orderResponse = await axios.post("/api/razorpay", {
+          amount: 100, // amount in INR
+          currency: "INR",
+        });
+
+        const order = orderResponse.data;
+
+        // Open Razorpay payment gateway
+        await handleRazorpay(order);
+
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          website: "",
+        });
+        setIsSubmitting(false);
       } catch (error) {
-        setErrorMessage("Failed to send message. Please try again later.");
-        setSuccessMessage("");
-      } finally {
+        console.error("Error creating Razorpay order:", error);
+        setErrorMessage("Failed to create order. Please try again.");
         setIsSubmitting(false);
       }
     }
   };
 
-  // Add the conversion tracking function
-  const gtag_report_conversion = (url) => {
-    var callback = function () {
-      if (typeof (url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-      'send_to': 'AW-16525280496/bNLlCK6HmKUZEPCJ78c9',
-      'event_callback': callback
-    });
-    return false;
-  };
-
   return (
     <>
-     
-      <head>
-         <title>Extensive Site Audit in No Time, for Free, with Us!</title>
-<meta name="description" content="Analyse all the factors affecting the traffic of your website and visibility with a thorough, rapid, and expert Site Audit, for free at Glassfrog Technologies."/>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16525280496"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16525280496');
-            `,
-          }}
-        ></script>
-      </head>
       <Header />
       <div className="relative w-full min-h-screen overflow-hidden pt-20">
+        {/* Background Image */}
         <img
           className="absolute top-0 left-0 w-full h-full object-cover"
           src="/siteaudit.png"
@@ -135,19 +123,20 @@ const Page = () => {
         />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-70 px-4 pt-10">
           <div className="container relative flex flex-col md:flex-row items-center justify-center h-full gap-8">
-            <div className='w-full md:w-1/2'>
-              <h1 className="text-white text-3xl md:text-4xl font-bold mb-4">
+            <div className="w-full md:w-1/2">
+              <h1 className="text-white text-3xl md:text-4xl font-bold mb-10">
                 THRIVING BUSINESSES WITH TECHNICAL EXCELLENCE
               </h1>
-            </div>
-            <div className='w-full md:w-1/2'>
-              <h3 className='text-white text-2xl md:text-3xl font-bold mb-2'>
+              <h3 className="text-[#ed2998] text-2xl md:text-3xl font-bold mb-2">
                 How are your websites really performing?
               </h3>
-              <p className='text-white mb-4'>
-                Get an extensive audit finished within a few minutes for free. No strings attached.
+              <p className="text-white mb-4">
+              Get an extensive audit finished within a few minutes for <br /> <span className="font-bold">Rs. 100</span>. No hidden charges. The audit report will be delivered to your registered email. Enjoy a complimentary consultation at no extra cost.
               </p>
+            </div>
+            <div className="w-full md:w-1/2">
               <form onSubmit={handleSubmit} className="space-y-6 w-full">
+                {/* Form Fields */}
                 <div>
                   <label
                     htmlFor="name"
@@ -168,6 +157,7 @@ const Page = () => {
                     <p className="text-red-500 text-sm">{errors.name}</p>
                   )}
                 </div>
+
                 <div>
                   <label
                     htmlFor="email"
@@ -188,6 +178,7 @@ const Page = () => {
                     <p className="text-red-500 text-sm">{errors.email}</p>
                   )}
                 </div>
+
                 <div>
                   <label
                     htmlFor="phone"
@@ -208,6 +199,7 @@ const Page = () => {
                     <p className="text-red-500 text-sm">{errors.phone}</p>
                   )}
                 </div>
+
                 <div>
                   <label
                     htmlFor="website"
@@ -228,10 +220,10 @@ const Page = () => {
                     <p className="text-red-500 text-sm">{errors.website}</p>
                   )}
                 </div>
+
                 <button
                   type="submit"
                   className="audit text-white p-3 rounded-lg flex items-center justify-center w-full md:w-auto"
-                  onClick={() => gtag_report_conversion()}
                 >
                   {isSubmitting ? (
                     <svg
