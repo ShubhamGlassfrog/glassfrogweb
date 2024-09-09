@@ -67,12 +67,12 @@ const Header = () => {
                 >
                   Site Audit
                 </Link>
-                <Link
+                {/* <Link
                   href="/blogs"
                   className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white"
                 >
                   Blogs
-                </Link>
+                </Link> */}
                 <div className="relative group">
                   <button className="text-white hover:text-gray-300">
                     Services
