@@ -26,8 +26,8 @@ const page = () => {
   return (
       <>
       <head>
-        <title>Mobile App Development</title>
-<meta name="description" content="We boost your product with innovative mobile applications and skilled mobile app development. Experience top mobile apps created by advanced app development."/>
+        <title> Mobile Application and App Development with Glassfrog </title>
+<meta name="description" content="Mobile App Development strategies and services for your business by Glassfrog Technologies, a leading app development and Web Development agency in town."/>
       </head>
           <Header />
           <section className="bg-slate-950 py-16 ">

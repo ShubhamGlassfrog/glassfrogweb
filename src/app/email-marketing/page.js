@@ -28,8 +28,8 @@ const page = () => {
   return (
     <>
       <head>
-        <title>Best emailing service in UK | Top Email Marketing</title>
-<meta name="description" content="Do email marketing with our e mail marketing service. We use software that allows users to create and customise campaigns, collect data, and send emails."/>
+        <title> Best Emailing Marketing Services | E Mail Marketing</title>
+<meta name="description" content="Email Marketing is a leading marketing service in digital marketing. Connect with Glassfrog Technologies to set up the best emailing service for your business. "/>
       </head>
 
 

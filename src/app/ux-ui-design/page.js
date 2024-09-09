@@ -26,8 +26,8 @@ const page = () => {
   return (
       <>
        <head>
-        <title>UX Design and UX User Interface Services in UK</title>
-<meta name="description" content="We expand your product with expert UX design and a straightforward user interface. We guarantee a smooth Design and UX interface."/>
+        <title>User Interface Design and UX Design services for Websites</title>
+<meta name="description" content="UX Design and User Interface services for the website of your business by Glassfrog Technologies UI design and UX strategies for a good website look and feel."/>
       </head>
           <Header />
           <section className="bg-slate-950 py-16 ">

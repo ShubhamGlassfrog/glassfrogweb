@@ -4,8 +4,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export const metadata = {
-  title: "Blogs - Rantra Academy",
-  description:"Looking for more? Read our blogs and check the news updates to know more about the National Defence Academy"
+  title: "Glassfrog Technologies - Blogs, Information, News & More",
+  description:"Learn about Website Development, Digital Marketing Agencies, Marketing Strategies, Lead Generation, Ads Agency, or more on our Blogs and Knowledge Base. "
 };
 
 export default function RootLayout({ children }) {
@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
 
     <html lang="en">
      
-<title>Blogs - Glassfrog Technologies</title>
-<meta name="description" content="Looking for more? Read our blogs and check the news updates to know more about the National Defence Academy"/>
+<title>Glassfrog Technologies - Blogs, Information, News & More</title>
+<meta name="description" content="Learn about Website Development, Digital Marketing Agencies, Marketing Strategies, Lead Generation, Ads Agency, or more on our Blogs and Knowledge Base. "/>
 
 
 <meta property="og:url" content="https://www.rantraacademy.com/blogs"/>

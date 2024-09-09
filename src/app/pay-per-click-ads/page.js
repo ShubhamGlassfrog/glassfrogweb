@@ -28,8 +28,8 @@ const page = () => {
   return (
     <>
        <head>
-        <title>Effortless Google PPC Advertising | Pay Per Click Campaign</title>
-<meta name="description" content="We work on pay per click campaign. Google PPC ads appear in search results. We provide Google pay per click advertising and Google PPC advertising."/>
+        <title>Pay Per Click Campaign - Google Pay Per Click Advertising</title>
+<meta name="description" content="Google PPC Ads will help you grow with a good pay per click campaign. Connect with us for Google Pay Per Click Advertising and experience quick engagement. "/>
       </head>
       <Header />
       <section className="bg-slate-950 py-16 ">

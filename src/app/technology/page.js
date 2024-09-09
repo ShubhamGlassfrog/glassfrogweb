@@ -11,8 +11,8 @@ const page = () => {
   return (
       <>
       <head>
-         <title>Best Technical Services for Your Website in London</title>
-<meta name="description" content="Check out Technical Services like AI Applications, Website Development, UI & IX Design, and man more to elevate your Business’s website with Glassfrog, in UK."/></head>
+         <title>Technical Website Design London: We Develop Website</title>
+<meta name="description" content=" Glassfrog Technologies, based in London, offers your business the power of intelligent technical solutions in website development, design, and so much more. "/></head>
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
