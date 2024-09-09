@@ -16,7 +16,7 @@ const Page = () => {
 
   return (
       <>
-        <Head> {/* Use Head from next/head */}
+        <head> {/* Use Head from next/head */}
           <title>Digital Marketing Agency London - Digital Ads Agency UK</title>
           <meta name="description" content=" Digital marketing and advertising agency in London that is also an SEO London Agency specializing in Lead Generation, Advertising, Website Creation, and more. "/>
           <meta property="og:url" content="https://www.glassfrogtech.com/digital-marketing"/>
@@ -30,7 +30,7 @@ const Page = () => {
           <meta name="twitter:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>
           <meta name="twitter:description" content="Looking for Digital Marketing Solutions that communicate your Brand Story to your clients? Connect with Glassfrog, top Digital Marketing Agency in London!"/>
           <meta name="twitter:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75" />
-        </Head>
+        </head>
 
         <Header />
         <main>
