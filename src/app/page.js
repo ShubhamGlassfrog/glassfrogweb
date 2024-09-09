@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <head>
-         <title>  Glassfrog Technologies | Your Technical and Digital Partner  </title>
-<meta name="description" content="   Your go-to Digital Marketing Agency in UK for expert solutions in Web and Mobile Application, AI App, Social Media Ads, UX Design, SEO,Marketing, & more! 
+         <title> Get Started with Glassfrog: Website, Marketing, & More  </title>
+<meta name="description" content="   Digital Marketing Agency based in London that specializes in website design for company, and digital marketing advertising companies for your business.  
  "/>
         <link rel="canonical" href="https://www.glassfrogtech.com/" />
         <meta property="og:url" content="https://www.glassfrogtech.com/" />

@@ -28,8 +28,8 @@ const page = () => {
   return (
     <>
       <head>
-        <title>Best Social Media Ads for Stellar Social Network Advertising</title>
-<meta name="description" content="We work on Social media ads for social network advertising to target users. Know about Social media and advertising. Boost with social media advertising."/>
+        <title>Social Media and Advertising | Social Network Advertising</title>
+<meta name="description" content="Grow your business’s engagement and sales with Social Network Marketing that increases your outreach through Social Media Advertising offered by Glassfrog. "/>
       </head>
       <Header />
       <section className="bg-slate-950 py-16 ">

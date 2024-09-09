@@ -26,8 +26,8 @@ const page = () => {
   return (
       <>
       <head>
-        <title>Website Application Development Services | Web Application</title>
-<meta name="description" content="Using web applications we boost your business with web application development. Enhance functionality with website applications and website application development."/>
+        <title>Website Application and Web Application Development </title>
+<meta name="description" content="Website application development for your business and web application development services for your business by Glassfrog Technologies, web application agency. "/>
       </head>
           <Header />
           <section className="bg-slate-950 py-16 ">

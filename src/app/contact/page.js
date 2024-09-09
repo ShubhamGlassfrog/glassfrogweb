@@ -10,7 +10,11 @@ import Need from '@/components/Need/Need';
 const page = () => {
   return (
       <>
-      
+          <head>
+              <title>Contact Us: Glassfrog Technologies </title>
+<meta name="description" content="Contact Us now at Glassfrog London and India and drop in your queries. Mail us at support@glassfrog.design or call Us at +91 9084712335 or +91 9084712325.  "/>
+
+      </head>
           <Header />
           <section className="bg-slate-950 py-16 ">
                 <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

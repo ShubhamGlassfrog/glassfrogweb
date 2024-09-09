@@ -11,8 +11,8 @@ const page = () => {
     return (
         <>
             <head>
-        <title>Best Digital Marketing Services: About Us, Read Here</title>
-<meta name="description" content="Expand your business with Digital Marketing and Technical Expertise based in London, UK. Click here to learn more about us and our services in all the domains."/>
+        <title>About Us - Glassfrog Technologies</title>
+<meta name="description" content="Glassfrog offers specialised solutions in Website Development, Mobile Application, Digital Marketing, SEO, SMM, and more. Learn everything about us here."/>
       </head>
             <Header />
 

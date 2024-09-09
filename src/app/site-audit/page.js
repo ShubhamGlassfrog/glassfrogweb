@@ -113,6 +113,25 @@ const Page = () => {
 
   return (
     <>
+     
+      <head>
+         <title>Site Audit - Glassfrog Technologies</title>
+<meta name="description" content=" Best search engine optimization agency and digital marketing ad agency in London, Glassfrog Technologies for Site Audit and get a comprehensive analysis."/>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16525280496"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16525280496');
+            `,
+          }}
+        ></script>
+      </head>
       <Header />
       <div className="relative w-full min-h-screen overflow-hidden pt-20">
         {/* Background Image */}

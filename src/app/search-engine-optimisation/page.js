@@ -28,8 +28,8 @@ const page = () => {
   return (
     <>
        <head>
-        <title>SEO Agency | Next Generation SEO & Marketing Company</title>
-<meta name="description" content="Our SEO Search Engine Optimization will work wonders for your site. Get a search optimization service. SEO and Marketing for better ranking and customers"/>
+        <title>SEO London Agency - Best Search Engine Optimization Agency </title>
+<meta name="description" content="Search Engine Optimization SEO & Marketing strategies by Glassfrog Technologies will help your business grow with SEO search optimization strategies. "/>
       </head>
       <Header />
       <section className="bg-slate-950 py-16 ">
