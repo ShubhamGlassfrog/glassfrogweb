@@ -101,8 +101,8 @@ const Footer = () => {
                 <ul className="text-gray-500  font-medium">
                   <li className="mb-4">
                     <p>
-                      <b>United Kingdon :-</b> ​27 OLD Gloucester Street,
-                      London, United Kingdon WC1N 3AX
+                      <b>United Kingdom :-</b> ​27 OLD Gloucester Street,
+                      London, United Kingdom WC1N 3AX
                     </p>
                   </li>
                   <li className="mb-4">
