@@ -102,9 +102,9 @@ With time, the digital marketing industry induced the sustaining passion for tec
                             <h1 className='glassfrog'>IT'S GOING</h1>
                             <p className="text-white mb-6">
                             
-Presently, Glassfrog Technologies works in two directions. The first and foremost is Website Development and Design. With the growing employability of Artificial intelligence, the team has developed their adaptability to come up with very innovative solutions to integrate AI to produce promising results. <br></br><br></br>
+Presently, Glassfrog Technologies Private Limited Technologies works in two directions. The first and foremost is Website Development and Design. With the growing employability of Artificial intelligence, the team has developed their adaptability to come up with very innovative solutions to integrate AI to produce promising results. <br></br><br></br>
 
-The second and very creative side of Glassfrog deals with the Virtual Marketing domain. The marketing team deals with Social Media Management, Marketing, Search Engine Optimisation, and Advertising, and works in the Graphic Design arena. One of the notable things about the marketing team is the ability to understand and personalise the strategies according to the suitability of the trends and the brand identities. This significant understanding has been a pivotal point in the sustained growth of the company. 
+The second and very creative side of Glassfrog Technologies Private Limited deals with the Virtual Marketing domain. The marketing team deals with Social Media Management, Marketing, Search Engine Optimisation, and Advertising, and works in the Graphic Design arena. One of the notable things about the marketing team is the ability to understand and personalise the strategies according to the suitability of the trends and the brand identities. This significant understanding has been a pivotal point in the sustained growth of the company. 
    
                             </p>
 

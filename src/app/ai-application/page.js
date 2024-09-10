@@ -14,7 +14,7 @@ const page = () => {
   },
   {
     title: 'Natural Language Processing',
-    description: "Employing Natural Language Processing NLP in variety of systems is an arena that the team at Glassfrog has conquered. Our understanding of such languages is vast and updated which results in our proficiency",
+    description: "Employing Natural Language Processing NLP in variety of systems is an arena that the team at Glassfrog Technologies Private Limited has conquered. Our understanding of such languages is vast and updated which results in our proficiency",
   },
   {
     title: 'Machine Learning',
