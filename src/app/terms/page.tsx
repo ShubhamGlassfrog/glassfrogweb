@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
         <>
         <Header/>
         <div className='bg-black h-16'></div>
-        <div className="bg-white p-28 justify-center items-center w-full">
+        <div className="bg-white p-4 md:p-28 justify-center items-center w-full">
             <div className="w-full">
                 <h5 className="text-2xl font-bold playfair"><strong>TERMS AND CONDITIONS</strong></h5>
             </div>

@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
         <>
         <Header/>
         <div className='bg-black h-16'></div>
-        <div className="p-36 bg-white justify-center items-center w-full">
+        <div className="p-4 md:p-36 bg-white justify-center items-center w-full">
             <div className="w-full">
                 <h5 className="text-2xl font-bold playfair"><strong>Privacy Policy</strong></h5>
             </div>

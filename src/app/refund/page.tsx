@@ -7,7 +7,7 @@ const RefundPolicy = () => {
         <>
         <Header/>
         <div className='bg-black h-16'></div>
-        <div className="bg-white justify-center items-center w-full p-28">
+        <div className="bg-white justify-center items-center w-full p-4 md:p-28">
             <div className="w-full">
                 <h5 className="text-2xl font-bold playfair"><strong>Refund Policy</strong></h5>
             </div>
