@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const Page = () => {
   const [formData, setFormData] = useState({

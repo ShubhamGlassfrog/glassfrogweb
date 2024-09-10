@@ -1,11 +1,11 @@
 'use client'
 import Head from 'next/head'; // Import the Head component from next/head
-import Footer from '@/components/Footer/Footer'
-import Header from '@/components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
-import Ourwork from "@/components/Ourwork/Ourwork";
-import Need from '@/components/Need/Need';
+import Ourwork from "../../components/Ourwork/Ourwork";
+import Need from '../../components/Need/Need';
 
 const Page = () => {
   const [isClient, setIsClient] = useState(false);

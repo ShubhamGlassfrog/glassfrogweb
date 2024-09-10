@@ -1,9 +1,9 @@
 "use client"
-import Footer from '@/components/Footer/Footer'
-import Header from '@/components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Need from '@/components/Need/Need';
+import Need from '../../components/Need/Need';
 
 
 const page = () => {

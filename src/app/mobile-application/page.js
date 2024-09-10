@@ -1,10 +1,10 @@
-import Footer from '@/components/Footer/Footer'
-import Header from '@/components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 import React from 'react'
 import Image from 'next/image';
-import Ourwork from "@/components/Ourwork/Ourwork";
-import Need from '@/components/Need/Need';
-import Tech from '@/components/techservice/tech';
+import Ourwork from "../../components/Ourwork/Ourwork";
+import Need from '../../components/Need/Need';
+import Tech from '../../components/techservice/tech';
 
 
 const page = () => {

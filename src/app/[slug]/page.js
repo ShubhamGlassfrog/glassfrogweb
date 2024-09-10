@@ -6,10 +6,10 @@ import posts from '../data/posts';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { slugify } from '@/utils';
+import { slugify } from '../../utils';
 import parse from 'html-react-parser';
-import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 
 

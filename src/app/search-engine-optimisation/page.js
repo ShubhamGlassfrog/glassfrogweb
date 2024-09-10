@@ -1,10 +1,10 @@
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 import React from "react";
 import Image from "next/image";
-import Ourwork from "@/components/Ourwork/Ourwork";
-import Need from "@/components/Need/Need";
-import Digital from "@/components/digiservice/digital";
+import Ourwork from "../../components/Ourwork/Ourwork";
+import Need from "../../components/Need/Need";
+import Digital from "../../components/digiservice/digital";
 
 const page = () => {
   const cardsData = [
