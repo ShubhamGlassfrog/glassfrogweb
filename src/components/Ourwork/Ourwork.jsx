@@ -50,17 +50,18 @@ export default function App() {
         <div className="container relative flex flex-col  justify-center h-full bg-slate-950">
           <h5 className="text-white owhead font-bold mb-4">OUR PORTFOLIO</h5>
           <p className="text-white  pb-5">
-            We are one of the best digital marketing agency in London. We
-            believe in keeping no blank spaces between the brands and audiences.
-            Take your brand towards success with creativity and our thoughts! We
-            don't just shoot arrows into the darkness. We are committed to doing
-            innovative business. We use data to understand your ideal customers,
-            their needs, and online behaviour. But knowledge is only the first
-            component. We then express our creativity and organise events that
-            speak directly to them, encouraging true connection. Think about
-            blog posts that people will want to read. We produce helpful,
-            informative, and entertaining content that stops scrolling and
-            creates confusion in your target audience.
+            We are one of the best digital marketing agency in London(Glassfrog
+            Technologies Private limited). We believe in keeping no blank spaces
+            between the brands and audiences. Take your brand towards success
+            with creativity and our thoughts! We don't just shoot arrows into
+            the darkness. We are committed to doing innovative business. We use
+            data to understand your ideal customers, their needs, and online
+            behaviour. But knowledge is only the first component. We then
+            express our creativity and organise events that speak directly to
+            them, encouraging true connection. Think about blog posts that
+            people will want to read. We produce helpful, informative, and
+            entertaining content that stops scrolling and creates confusion in
+            your target audience.
           </p>
         </div>
       </div>

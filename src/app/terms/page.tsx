@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
         <>
         <Header/>
         <div className='bg-black h-16'></div>
-        <div className="bg-white p-28 justify-center items-center w-full">
+        <div className="bg-white p-4 md:p-28 justify-center items-center w-full">
             <div className="w-full">
                 <h5 className="text-2xl font-bold playfair"><strong>TERMS AND CONDITIONS</strong></h5>
             </div>
@@ -18,7 +18,7 @@ const TermsAndConditions = () => {
                         <img src="./4436481.png" className="inline-block mr-2 h-5" alt="icon" />
                         <strong>GENERAL</strong>
                         <p className="worksans mt-2">
-                            GLASSFROG TECHNOLOGIES PRIVATE LIMITED, on behalf of itself and its affiliates/group companies under the brand Glassfrog (Glassfrog), is the author and publisher of the internet resource www.Glassfrog.in and the mobile application ‘Glassfrog’ (together, Website). The Term Glassfrog shall include GLASSFROG TECHNOLOGIES PRIVATE LIMITED, the web portal Glassfrog.in and the Mobile Application Glassfrog.
+                            Glassfrog Technologies Private Limited, on behalf of itself and its affiliates/group companies under the brand Glassfrog (Glassfrog), is the author and publisher of the internet resource www.Glassfrog.in and the mobile application ‘Glassfrog’ (together, Website). The Term Glassfrog shall include Glassfrog Technologies Private Limited, the web portal Glassfrog.in and the Mobile Application Glassfrog.
                         </p>
                     </li>
                     <li className="worksans mb-4">
@@ -26,7 +26,7 @@ const TermsAndConditions = () => {
                         <strong>Basic Definitions</strong>
                         <ul className="list-disc list-inside mt-2">
                             <li className="worksans">
-                                <strong>a.</strong> GLASSFROG TECHNOLOGIES PRIVATE LIMITED, on behalf of itself and its affiliates/group companies under the brand Glassfrog shall hereinafter be called as Glassfrog.
+                                <strong>a.</strong> Glassfrog Technologies Private Limited, on behalf of itself and its affiliates/group companies under the brand Glassfrog shall hereinafter be called as Glassfrog.
                             </li>
                             <li className="worksans">
                                 <strong>b.</strong> <strong>Buddy:</strong> Any person or entity entering into a contract with Glassfrog for the Buddy Program created by Glassfrog. Thereby agreeing to all terms and conditions set hereforth.
@@ -102,7 +102,7 @@ const TermsAndConditions = () => {
                 </ol>
                 <p></p>
             </div>
-            <p className="worksans text-center">Issued By: GLASSFROG TECHNOLOGIES PRIVATE LIMITED</p>
+            <p className="worksans text-center">Issued By: Glassfrog Technologies Private Limited</p>
         </div>
         <Footer/>
         </>
