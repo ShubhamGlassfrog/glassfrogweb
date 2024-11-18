@@ -16,9 +16,11 @@ const Letsgo = () => {
                 Give us a quick call or send an email for your queries. Fill in
                 the details and we’ll be in touch.
               </p>
+              <a href="/contact">
               <button className="enquire hover:text-white hover:bg-[#ed2998]">
                 Enquire Now!
               </button>
+                </a>
             </div>
 
             {/* Second Column */}
