@@ -1,22 +1,85 @@
 'use client'
-import Head from 'next/head'; // Import the Head component from next/head
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
-import React, { useEffect, useState } from 'react'
-import Image from 'next/image';
-import Ourwork from "../../components/Ourwork/Ourwork";
+
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Ourwork from '../../components/Ourwork/Ourwork';
 import Need from '../../components/Need/Need';
 
 const Page = () => {
   const [isClient, setIsClient] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    website: "",
+  });
+  const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    if (id === "name") {
+      if (/^[a-zA-Z\s]*$/.test(value)) {
+        setFormData({ ...formData, [id]: value });
+      }
+    } else if (id === "phone") {
+      if (/^\d*$/.test(value)) {
+        setFormData({ ...formData, [id]: value });
+      }
+    } else {
+      setFormData({ ...formData, [id]: value });
+    }
+  };
+
+  const validate = () => {
+    let tempErrors = {};
+    if (!formData.name) tempErrors.name = "Name is required";
+    if (!formData.email) tempErrors.email = "Email is required";
+    if (!formData.phone) tempErrors.phone = "Phone number is required";
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (validate()) {
+      setIsSubmitting(true);
+      try {
+        // Send form data to the backend API route for emailing
+        const response = await axios.post('/api/sendEmail', formData);
+
+        // Assuming the API response contains a success message
+        setSuccessMessage("Form submitted successfully!");
+        setErrorMessage("");
+        
+        // Reset the form
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          website: "",
+        });
+        setIsSubmitting(false);
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        setErrorMessage("Failed to submit the form. Please try again.");
+        setIsSubmitting(false);
+      }
+    }
+  };
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
   return (
-      <>
-        <head> {/* Use Head from next/head */}
+    <>
+      <head> {/* Use Head from next/head */}
           <title>Digital Marketing Agency London - Digital Ads Agency UK</title>
           <meta name="description" content=" Digital marketing and advertising agency in London that is also an SEO London Agency specializing in Lead Generation, Advertising, Website Creation, and more. "/>
           <meta property="og:url" content="https://www.glassfrogtech.com/digital-marketing"/>
@@ -32,35 +95,99 @@ const Page = () => {
           <meta name="twitter:image" content="https://www.glassfrogtech.com/_next/image?url=%2Fservice.webp&w=1920&q=75" />
         </head>
 
-        <Header />
-        <main>
-          <section className="bg-slate-950 py-16">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
-                <div className="w-full md:w-1/2 sm:w-1/2">
-                  <h1 className="we">Digital 
-                    <span className='glassfrog'>Marketing</span>
-                  </h1>
-                  <p className="text-white mb-6">
-The evolution of Digital Marketing has been demanding in the past years. Earlier, the marketing methods were not engaging and productive. Now, with the rise of the Internet, digital marketing is the modern form of marketing that watches consumer behavior, business growth, and global economies. Modern marketing uses different methods to reach more audiences with Search Engine Optimisation (SEO) for page ranking and social media marketing on platforms like Facebook, Instagram, LinkedIn, and Twitter. The future of marketing is Artificial Intelligence, machine learning, and Virtual Reality. Glassfrog Technologies is dedicated to transforming your brand on a personal level and strategizing properly for success using futuristic technology with our expertise for success.                   </p>
-                </div>
+      <Header />
+      <main>
+        <section className="bg-slate-950 py-16">
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
+              <div className="w-full md:w-1/2 sm:w-1/2">
+                <h1 className="we">Best Digital Marketing Agency 
+                 
+                </h1>
+                <p className="text-white mb-6">
+With the rise of the Internet, digital marketing is the modern form of marketing that watches consumer behavior, business growth, and global economies. It is all about reaching more audiences with Search Engine Optimisation and Social Media Marketing strategies. Glassfrog Technologies transforms your brand on a personal level by strategizing for success, using these methods, eventually contributing to your business growth.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2">
+                <form onSubmit={handleSubmit} className="space-y-6 w-full">
+                  {/* Form Fields */}
+                  <div>
+                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-white">Your Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                      placeholder="John Doe"
+                      required
+                    />
+                    {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
+                  </div>
 
-                <div className="flex space-y-8 justify-center gap-16 pt-14 items-center w-full md:w-1/2 sm:w-1/2">
-  <video
-    src="/service.mp4"
-    alt="services"
-    width="1800"
-    height="1800"
-    controls
-    className="rounded-lg shadow-lg"
-  />                </div>
+                  <div>
+                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Your Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                      placeholder="name@example.com"
+                      required
+                    />
+                    {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+                  </div>
+
+                  <div>
+                    <label htmlFor="phone" className="block mb-2 text-sm font-medium text-white">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                      placeholder="1234567890"
+                      required
+                    />
+                    {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+                  </div>
+
+                  <div>
+                    <label htmlFor="website" className="block mb-2 text-sm font-medium text-white">Website URL</label>
+                    <input
+                      type="text"
+                      id="website"
+                      value={formData.website}
+                      onChange={handleChange}
+                      className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                      placeholder="www.example.com"
+                      required
+                    />
+                    {errors.website && <p className="text-red-500 text-sm">{errors.website}</p>}
+                  </div>
+<p className='text-white'>Get the free audit of my site</p>
+                  <button type="submit" className="audit text-white p-3 rounded-lg flex items-center justify-center w-full md:w-auto">
+                    {isSubmitting ? (
+                      <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.963 7.963 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                    ) : (
+                      "Lets start"
+                    )}
+                  </button>
+
+                  {successMessage && <p className="text-green-500 text-sm mt-2">{successMessage}</p>}
+                  {errorMessage && <p className="text-red-500 text-sm mt-2">{errorMessage}</p>}
+                </form>
               </div>
             </div>
-          </section>
-          
-          <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
+          </div>
+        </section>
+ <section className="bg-slate-950 py-16 pt-32 px-4 sm:px-6 lg:px-8">
             <div className="max-w-screen-xl mx-auto py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
-              <div className="flex flex-col md:flex-row sm:flex-row gap-10">
+              <div className="flex flex-col md:flex-row sm:flex-row gap-10 items-center">
                 <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                   <h2 className="about font-extrabold text-white mb-4">
                     MARKETING
@@ -105,12 +232,11 @@ We are a team of experienced individuals who help your process of marketing quic
             </div>
           </section>
 
-          <Ourwork />
-          <Need/>
-        </main>
-        <Footer/>
-
-        {isClient && (
+        <Ourwork />
+        <Need />
+      </main>
+      <Footer />
+      {isClient && (
           <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{
               __html: JSON.stringify({
@@ -240,8 +366,9 @@ We are a team of experienced individuals who help your process of marketing quic
             />
           </>
         )}
-      </>
-  )
+
+    </>
+  );
 }
 
-export default Page
+export default Page;
