@@ -17,9 +17,9 @@ export default async function handler(req, res) {
     const mailOptions = {
       from: process.env.EMAIL_USER, // Sender email
       to: 'amit_bajaj@glassfrog.design', // Recipient email (replace with actual recipient)
-      subject: 'New Form Submission',
+      subject: 'Glassfrog Site Audit New Form Submission',
       text: `
-        You have a new form submission:
+        You have a new form submission for site audit:
 
         Name: ${name}
         Email: ${email}
