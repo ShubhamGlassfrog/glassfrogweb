@@ -101,11 +101,11 @@ const Page = () => {
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row sm:flex-col items-center gap-10">
               <div className="w-full md:w-1/2 sm:w-1/2">
-                <h1 className="we">Best Digital Marketing Agency 
+                <h1 className="we">Digital Marketing, Simplified!  
                  
                 </h1>
                 <p className="text-white mb-6">
-With the rise of the Internet, digital marketing is the modern form of marketing that watches consumer behavior, business growth, and global economies. It is all about reaching more audiences with Search Engine Optimisation and Social Media Marketing strategies. Glassfrog Technologies transforms your brand on a personal level by strategizing for success, using these methods, eventually contributing to your business growth.
+                  Do you know what can help your business grow dynamically? Digital Marketing Solutions. As complicated as it might sound, it is not that difficult when your business joins hands with an experienced digital marketing agency. Glassfrog Technologies offers digital marketing services personalized to your business model and helps you thrive as a brand. We are your marketing companions every step of the way, bridging the gap between ambitions and reality! 
                 </p>
               </div>
               <div className="w-full md:w-1/2">
@@ -190,10 +190,11 @@ With the rise of the Internet, digital marketing is the modern form of marketing
               <div className="flex flex-col md:flex-row sm:flex-row gap-10 items-center">
                 <div className="flex flex-col w-full md:w-1/2 sm:w-1/2">
                   <h2 className="about font-extrabold text-white mb-4">
-                    MARKETING
+                    Digital Marketing Services tailored to your needs 
                   </h2>
                   <p className='text-white mb-6 flex items-center'>
-We are a team of experienced individuals who help your process of marketing quickly. We strategize in such a way that more audience and reach are targeted for your brand. We carry out different modes of marketing like Social Media Marketing, SEO, pay-per-click, and Email marketing. We ensure relationship-building and clear communication between our client and their audience. We practice new futuristic methods like paid advertising and influencer marketing to attract customers, get more sales, and build the brand.                  </p>
+Our process is simple: Understand, Strategize, and Execute. We start by analyzing your business to understand what exactly it needs to transform into a brand. The next step is strategizing suitable plans integrating various marketing services that will assure results. The last step in this process is executing the plans with perfection. This simple method, specifically customized to your branding needs, has delivered results, and we can help you achieve your outreach and engagement goals. 
+                </p>
                   <p className="text-white mb-6 flex items-center">
                     <a className='flex items-center gap-5' href='/services'>
                       ALL SERVICES                          
@@ -231,7 +232,221 @@ We are a team of experienced individuals who help your process of marketing quic
               </div>
             </div>
           </section>
+<section className="bg-white py-16 px-4">
+      <div className="max-w-7xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-3xl font-bold text-gray-800">
+         Why Glassfrog is your go-to Digital Marketing Fella? 
+        </h2>
+        <p className="text-lg text-[#ed2998] mt-2">
+          Boost Your Revenue Growth Rate and Achieve Online Success
+        </p>
+      </div>
 
+      <div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        {/* Left Side - Text */}
+        <div>
+          <p className="text-gray-700 text-lg">
+           There are many reasons why you can choose a digital marketing agency in order to grow digitally. But Glassfrog holds the strength to help you leave an impression. On digital platforms, the competition is highly clustered. Making an impact is all that you need to stand out. Our strategies and plans focus on helping you differentiate. 
+          </p>
+          <p className="text-gray-700 text-lg mt-4">
+           To maximize your client engagement and increase the retention rate, we invest our expertise and experience. We have helped our clients grow their business by almost 43% in the initial months of partnership. Our data-driven processes and real-time business understanding benefit your purpose of relying on a digital marketing agency. Here's how we ease your digital marketing journey:
+          </p>
+        </div>
+
+        {/* Right Side - Image */}
+        <div className="flex justify-center">
+           <video
+    src="/service.mp4"
+    alt="services"
+    width="1200"
+    height="1200"
+    controls
+    className="rounded-lg shadow-lg"
+  />   
+        </div>
+      </div>
+
+      {/* Services Section */}
+      <div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Service 1 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+             Analytical Approach
+            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+            The prime approach that we follow is to analyze and strategize. We understand the needs of your targeted audience and, accordingly, strategize. This helps your business to fit the parameters of your customers' requirements. Thus building your brand image as a consumer-friendly brand.
+          </p>
+        </div>
+
+        {/* Service 2 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+              Expertise and Experience
+            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+            As a premium digital marketing agency, we have assisted many clients in achieving their business goals. We bring expertise and experience to the table. Be it backlinking or the latest Instagram trends, we have mastered them all.
+          </p>
+        </div>
+
+        {/* Service 3 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+Custom Strategies            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+            Every business is different. Your product and business goals might not be the same as your competitors, and we understand that. Therefore, we stick to your prime goals while building the perfect brand strategy. This helps your business stand out.
+          </p>
+        </div>
+          </div>
+          <div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Service 1 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+Targeted marketing            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+           To generate increased engagement and outreach, we follow the approach of targeted marketing. This method will help your business reach out to an addressable set of users. Therefore, your marketing results improve and become cost-effective.
+          </p>
+        </div>
+
+        {/* Service 2 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+Quick Mitigations            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+            While handling marketing campaigns and dealing with challenges, large-scale impacts are likely. Hence, your marketing strategies must be prepared with mitigation plans. We always have a backup strategy such that you never need a backup marketing agency!
+          </p>
+        </div>
+
+        {/* Service 3 */}
+        <div className="p-6 bg-gray-50 rounded-lg shadow">
+          <div className="flex items-center space-x-4">
+            {/* Icon */}
+            <span className="text-[#ed2998] rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 16l-4-4m0 0l4-4m-4 4h16"
+                />
+              </svg>
+            </span>
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-800">
+Assured ROI            </h3>
+          </div>
+          <p className="text-gray-600 mt-4">
+            A marketing strategy that starts paying for itself is often termed a successful one. Our marketing campaigns are not only cost-effective but long-lasting. They help your business gain long-term benefits, eventually leading to an exceptional return on investment.
+          </p>
+        </div>
+      </div>
+    </section>
         <Ourwork />
         <Need />
       </main>
