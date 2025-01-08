@@ -295,7 +295,7 @@ Our process is simple: Understand, Strategize, and Execute. We start by analyzin
             </h3>
           </div>
           <p className="text-gray-600 mt-4">
-            The prime approach that we follow is to analyze and strategize. We understand the needs of your targeted audience and, accordingly, strategize. This helps your business to fit the parameters of your customers' requirements. Thus building your brand image as a consumer-friendly brand.
+            The prime approach that we follow is to analyze and strategize. We understand the needs of your targeted audience &, accordingly, strategize. This helps your business to fit the parameters of your customers' requirements. Thus building your brand image as a consumer-friendly brand.
           </p>
         </div>
 
