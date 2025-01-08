@@ -8,8 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-
-
 p {
   font-size: 1.2rem;
 }
@@ -18,14 +16,16 @@ p {
   width: 100%;
   max-width: 1216px !important;
   padding: 1rem;
-
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -68,7 +68,7 @@ body {
   }
 
   .glassfrog {
-    font-size: 55px !important;
+    font-size: 44px !important;
     display: block !important;
     white-space: nowrap !important;
     color: #ffffff !important;
@@ -76,7 +76,7 @@ body {
   }
 
   .we {
-    font-size: 72px !important;
+    font-size: 66px !important;
     -webkit-text-stroke: 2px #fff;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
     font-weight: 900;
@@ -86,8 +86,6 @@ body {
 .vhead {
   font-size: 4rem;
 }
-
-
 
 .owhead {
   font-size: 3rem;
@@ -107,7 +105,7 @@ body {
   border-radius: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-top: 20px;
 }
 
@@ -120,7 +118,7 @@ body {
   border-radius: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-top: 20px;
 }
 
@@ -167,7 +165,6 @@ body {
 }
 
 .swiper-pagination-bullet {
-
   background: #a1a1aa !important;
 }
 
@@ -254,14 +251,13 @@ body {
   place-items: center;
   overflow: hidden;
   box-shadow: 0px 0 70px 93px rgb(2 6 23);
-
 }
 
 .slider::before,
 .slider::after {
   position: absolute;
   /* background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
-  content: '';
+  content: "";
   height: 100%;
   width: 25%;
   z-index: 2;
@@ -306,7 +302,7 @@ body {
 }
 
 .slide:hover {
-  transform: scale(0.8)
+  transform: scale(0.8);
 }
 
 @keyframes scroll {
@@ -331,9 +327,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .posttitle {
-      font-size: 1.8rem !important;
-      line-height: 39px !important;
-    }
+    font-size: 1.8rem !important;
+    line-height: 39px !important;
+  }
   .slide-track {
     width: calc(80px * 20);
   }
@@ -380,12 +376,10 @@ body {
 }
 
 .we {
-
   font-size: 85px;
   -webkit-text-stroke: 2px #fff;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   font-weight: 900;
-
 }
 
 .ready {
@@ -397,7 +391,7 @@ body {
 }
 
 .glassfrog {
-  font-size: 58px !important;
+  font-size: 44px !important;
   display: block !important;
   white-space: nowrap !important;
   color: #ffffff !important;
@@ -413,7 +407,7 @@ body {
   border-radius: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-top: 20px;
 }
 .audit {
@@ -426,20 +420,20 @@ body {
   border-radius: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-top: 20px;
 }
 
 .enquire:hover {
   background-color: #ed2998;
   color: #ffffff;
-    border: 2px solid #ed2998;
+  border: 2px solid #ed2998;
 }
-.lines{
+.lines {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
-.serli{
+.serli {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 10px;
   color: #ffffff;
@@ -450,19 +444,19 @@ body {
   padding-bottom: 10px;
   color: #ed2998;
 }
-.sa{
+.sa {
   color: white;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 5.4rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.4rem;
 }
-.shead{
+.shead {
   font-size: 3rem;
 }
 .card {
   position: relative;
   width: 409px;
-    /* height: 300px; */
+  /* height: 300px; */
   background-color: #f2f2f2;
   border-radius: 10px;
   display: flex;
@@ -527,17 +521,17 @@ body {
   color: white;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-      font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .serli a svg {
   margin-left: 0.5rem;
   transition: transform 0.3s ease-in-out;
-      font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .serli a:hover svg {
-  transform: translateX(0.50rem);
+  transform: translateX(0.5rem);
 }
 
 .serli:hover a {
@@ -547,18 +541,19 @@ body {
   transform: translateX(0.5rem);
   /* Adjust the value as needed */
 }
-.cardimg{
-height: -webkit-fill-available;
-  width: -webkit-fill-available;}
-    .group:hover .group-hover\:block {
-      display: block;
-    }
-  
-    .group:hover .group-hover\:visible {
-      visibility: visible;
-    }
+.cardimg {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+.group:hover .group-hover\:block {
+  display: block;
+}
 
-    .posttitle{
-      font-size: 3rem;
-        line-height: 60px;
-    }
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
+.posttitle {
+  font-size: 3rem;
+  line-height: 60px;
+}

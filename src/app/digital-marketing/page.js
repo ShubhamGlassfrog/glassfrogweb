@@ -80,8 +80,8 @@ const Page = () => {
   return (
     <>
       <head> {/* Use Head from next/head */}
-          <title>Digital Marketing Agency London - Digital Ads Agency UK</title>
-          <meta name="description" content=" Digital marketing and advertising agency in London that is also an SEO London Agency specializing in Lead Generation, Advertising, Website Creation, and more. "/>
+          <title>Digital Marketing Agency | Internet Marketing Services</title>
+          <meta name="description" content=" Best B2C and B2B Digital Marketing Agency in USA with expert search engine optimization, advertising, and social media marketing services for businesses."/>
           <meta property="og:url" content="https://www.glassfrogtech.com/digital-marketing"/>
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="Expert Digital Marketing Agency in London & Ads Agency"/>
