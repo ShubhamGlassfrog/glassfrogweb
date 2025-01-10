@@ -22,6 +22,26 @@ export default function RootLayout({ children }) {
             `,
           }}
         ></script>
+        <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-16697522955/QPaLCJu354AaEIv2_5k-',
+                'value': 1.0,
+                'currency': 'INR',
+                'event_callback': callback
+            });
+            return false;
+          }
+        `,
+      }}
+    ></script>
 
         {/* Microsoft Clarity Script */}
         <script
