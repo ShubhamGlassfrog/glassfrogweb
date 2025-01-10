@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
-  
+
   "dependencies": {
     "@tabler/icons-react": "^3.5.0",
     "axios": "^1.7.2",
