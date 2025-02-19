@@ -98,7 +98,7 @@ const Need = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row sm:flex-col gap-10">
           {/* First Column */}
-          <div className="w-full md:w-1/2 sm:w-1/2">
+          {/* <div className="w-full md:w-1/2 sm:w-1/2">
             <h3 className="we">Looking for more</h3>
             <br></br>
             <span className="glassfrog">Connect with us!</span>
@@ -109,6 +109,20 @@ const Need = () => {
               discussion regarding the requirements and challenges in your
               business after you fill in some details here.
             </p>
+          </div> */}
+          <div className=" w-full md:w-1/2 sm:w-1/2 mt-14">
+            <h1 className="we">
+              GET IN <span className="glassfrog">TOUCH</span>
+            </h1>
+
+            <p className="text-white mb-6">
+              We execute effective strategies that drive traffic, engagement and
+              lead conversion across the web: from websites, organic search,
+              paid media and social advertising to email marketing and display
+              campaigns.{" "}
+            </p>
+
+            <span className="glassfrog">Connect with us!</span>
           </div>
 
           {/* Second Column */}
@@ -127,7 +141,6 @@ const Need = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                  placeholder="John Doe"
                   required
                 />
                 {errors.name && (
@@ -147,7 +160,6 @@ const Need = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                  placeholder="name@flowbite.com"
                   required
                 />
                 {errors.email && (
@@ -167,7 +179,6 @@ const Need = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                  placeholder="+1234567890"
                   required
                 />
                 {errors.phone && (
@@ -179,7 +190,7 @@ const Need = () => {
                   htmlFor="company"
                   className="block mb-2 text-sm font-medium text-white"
                 >
-                  Company Name
+                  Business Name
                 </label>
                 <input
                   type="text"
@@ -187,7 +198,6 @@ const Need = () => {
                   value={formData.company}
                   onChange={handleChange}
                   className="shadow-sm bg-white border border-white text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                  placeholder="Company Inc."
                   required
                 />
                 {errors.company && (
@@ -200,7 +210,7 @@ const Need = () => {
                   htmlFor="message"
                   className="block mb-2 text-sm font-medium text-white"
                 >
-                  Your Message
+                  Your Query
                 </label>
                 <textarea
                   id="message"
@@ -208,7 +218,6 @@ const Need = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="block p-2.5 w-full text-sm text-black bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
-                  placeholder="Leave a comment..."
                   required
                 />
                 {errors.message && (
@@ -241,7 +250,7 @@ const Need = () => {
                     ></path>
                   </svg>
                 ) : (
-                  "Send Message"
+                  "Contact Us"
                 )}
               </button>
               {successMessage && (
