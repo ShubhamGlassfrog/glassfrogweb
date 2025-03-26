@@ -9,7 +9,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-         <script
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WF9FTCFBSD"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WF9FTCFBSD');
+            `,
+          }}
+        />
+         {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-LTXJVZTED2"
         ></script>
@@ -23,7 +37,7 @@ export default function RootLayout({ children }) {
   gtag('config', 'G-LTXJVZTED2');
             `,
           }}
-        ></script>
+        ></script> */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
